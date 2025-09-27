@@ -1,0 +1,1351 @@
+2025-09-27 14:52:08:INFO:====== WebDriver manager ======
+2025-09-27 14:52:09:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 14:52:10:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 14:52:10:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 14:52:14:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:52:14:INFO:Clicking Sign In
+2025-09-27 14:52:14:INFO:Login successful
+2025-09-27 14:52:17:INFO:Navigated to OTC page
+2025-09-27 14:52:19:INFO:Page Heading is: Output Type Config
+2025-09-27 14:52:19:INFO:OTC Heading verified successfully
+2025-09-27 14:52:19:INFO:Table Heading is: List Of Output Type Config
+2025-09-27 14:52:19:INFO:OTC Table verified successfully
+2025-09-27 14:52:19:INFO:Text of Add OTC button is: Add Output Type Config
+2025-09-27 14:52:19:INFO:Add OTC button verified successfully
+2025-09-27 14:52:19:INFO:Logout successfully
+2025-09-27 14:52:19:INFO:Starting test_verify_table_columns
+2025-09-27 14:52:20:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:52:21:INFO:Clicking Sign In
+2025-09-27 14:52:21:INFO:Login successful
+2025-09-27 14:52:23:INFO:Navigated to OTC page
+2025-09-27 14:52:25:INFO:Checking column 'Sl.No': Expected 'Sl.No', Got 'Sl.No'
+2025-09-27 14:52:25:INFO:Checking column 'Output Type': Expected 'Output Type', Got 'Output Type'
+2025-09-27 14:52:25:INFO:Checking column 'Output Type Name': Expected 'Output Type Name', Got 'Output Type Name'
+2025-09-27 14:52:25:INFO:Checking column 'Created By': Expected 'Created By', Got 'Created By'
+2025-09-27 14:52:25:INFO:Checking column 'Created Date': Expected 'Created Date', Got 'Created Date'
+2025-09-27 14:52:25:INFO:Checking column 'Modified By': Expected 'Modified By', Got 'Modified By'
+2025-09-27 14:52:25:INFO:Checking column 'Modified Date': Expected 'Modified Date', Got 'Modified Date'
+2025-09-27 14:52:25:INFO:Checking column 'Status': Expected 'Status', Got 'Status'
+2025-09-27 14:52:25:INFO:Checking column 'Active/DeActive': Expected 'Active/DeActive', Got 'Active/DeActive'
+2025-09-27 14:52:25:INFO:Checking column 'Option': Expected 'Option', Got 'Option'
+2025-09-27 14:52:25:INFO:All expected columns are present in the OTC table
+2025-09-27 14:52:25:INFO:Logout successfully
+2025-09-27 14:52:28:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:52:28:INFO:Clicking Sign In
+2025-09-27 14:52:28:INFO:Login successful
+2025-09-27 14:52:30:INFO:Navigated to OTC page
+2025-09-27 14:52:32:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-27 14:52:32:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:52:32:INFO:'Add Output Type Config' popup displayed
+2025-09-27 14:52:33:INFO:Popup contains heading, Type dropdown, Type Name field, and Add button
+2025-09-27 14:52:33:INFO:Selected output type: Gun
+2025-09-27 14:52:33:INFO:Entered output type name: e6YG
+2025-09-27 14:52:33:INFO:Current Time after add is: 27/09/2025 02:52:33 PM
+2025-09-27 14:52:33:INFO:Clicked the add OTC button
+2025-09-27 14:52:34:INFO:OTC success message is: Add Output Type Config successfully
+2025-09-27 14:52:34:INFO:Clicked the 'OK' button successfully
+2025-09-27 14:52:37:INFO:Found added OTC entry: Output Type 'Gun', Output Type Name  'e6YG', Created By outdidsuperadmin@gmail.com, Created Date  27/09/2025 02:52:33 PM, Modified By : -, Modified Date : -, Status : Active 
+2025-09-27 14:52:37:INFO:Created date 27/09/2025 02:52:33 PM and current date 27/09/2025 02:52:33 PM are the same
+2025-09-27 14:52:37:INFO:OTC entry verified successfully in the table
+2025-09-27 14:52:37:INFO:Logout successfully
+2025-09-27 14:52:39:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:52:39:INFO:Clicking Sign In
+2025-09-27 14:52:39:INFO:Login successful
+2025-09-27 14:52:41:INFO:Navigated to OTC page
+2025-09-27 14:52:43:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:52:43:INFO:Verified dropdown options: ['Select Type', 'Gun', 'Socket']
+2025-09-27 14:52:43:INFO:Running test case: Select valid option 'Gun' from Type dropdown
+2025-09-27 14:52:44:INFO:Successfully selected 'Gun' as expected
+2025-09-27 14:52:46:INFO:Running test case: Select valid option 'Select Type' from Type dropdown
+2025-09-27 14:52:46:INFO:Successfully selected 'Select Type' as expected
+2025-09-27 14:52:48:INFO:Running test case: Select valid option 'Socket' from Type dropdown
+2025-09-27 14:52:48:INFO:Successfully selected 'Socket' as expected
+2025-09-27 14:52:50:INFO:Running test case: Attempt to select invalid option 'Connector' (not in dropdown)
+2025-09-27 14:52:50:INFO:Correctly failed to select 'Connector' as it is not in the dropdown
+2025-09-27 14:52:50:INFO:All test cases for Type dropdown completed successfully
+2025-09-27 14:52:50:INFO:Logout successfully
+2025-09-27 14:52:52:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:52:52:INFO:Clicking Sign In
+2025-09-27 14:52:52:INFO:Login successful
+2025-09-27 14:52:54:INFO:Navigated to OTC page
+2025-09-27 14:52:56:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:52:56:INFO:Selected output type: Gun
+2025-09-27 14:52:56:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-27 14:52:56:INFO:Cleared Output Type Name field
+2025-09-27 14:52:57:INFO:Entered input: '466575645757'
+2025-09-27 14:52:57:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-27 14:52:57:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-27 14:52:57:INFO:Cleared Output Type Name field
+2025-09-27 14:52:57:INFO:Entered input: '4665756abcde'
+2025-09-27 14:52:57:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-27 14:52:57:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-27 14:52:57:INFO:Cleared Output Type Name field
+2025-09-27 14:52:58:INFO:Entered input: 'abcdefgh1234'
+2025-09-27 14:52:58:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-27 14:52:58:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-27 14:52:58:INFO:Cleared Output Type Name field
+2025-09-27 14:52:58:INFO:Entered input: '#$%%1234'
+2025-09-27 14:52:58:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-27 14:52:58:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-27 14:52:58:INFO:Cleared Output Type Name field
+2025-09-27 14:52:58:INFO:Entered input: 'abcd&*()'
+2025-09-27 14:52:58:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-27 14:52:58:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-27 14:52:58:INFO:Cleared Output Type Name field
+2025-09-27 14:52:58:INFO:Entered input: '%d'
+2025-09-27 14:52:58:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-27 14:52:58:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-27 14:52:58:INFO:Cleared Output Type Name field
+2025-09-27 14:52:58:INFO:Entered input: 'ac354kd45k9085'
+2025-09-27 14:52:58:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-27 14:52:58:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-27 14:52:58:INFO:Cleared Output Type Name field
+2025-09-27 14:52:58:INFO:Entered input: ''
+2025-09-27 14:52:58:INFO:Verified field value: '' matches expected ''
+2025-09-27 14:52:58:INFO:All test cases for Output Type Name field completed successfully
+2025-09-27 14:52:59:INFO:Logout successfully
+2025-09-27 14:53:00:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:53:00:INFO:Clicking Sign In
+2025-09-27 14:53:00:INFO:Login successful
+2025-09-27 14:53:02:INFO:Navigated to OTC page
+2025-09-27 14:53:06:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:53:06:INFO:Testing Type: 'Gun', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-27 14:53:06:INFO:Cleared Output Type Name field
+2025-09-27 14:53:07:INFO:Selected Type: 'Gun'
+2025-09-27 14:53:07:INFO:Clicked 'Add' button
+2025-09-27 14:53:07:INFO:Verified error message: 'Please fill out this field.'
+2025-09-27 14:53:07:INFO:Testing Type: '', Type Name: 'abc', Expected error: 'Please select an item in the list.'
+2025-09-27 14:53:07:INFO:Cleared Output Type Name field
+2025-09-27 14:53:07:INFO:Selected placeholder 'Select Type'
+2025-09-27 14:53:07:INFO:Entered Output Type Name: 'abc'
+2025-09-27 14:53:07:INFO:Clicked 'Add' button
+2025-09-27 14:53:07:INFO:Verified error message: 'Please select an item in the list.'
+2025-09-27 14:53:07:INFO:Testing Type: '', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-27 14:53:07:INFO:Cleared Output Type Name field
+2025-09-27 14:53:07:INFO:Selected placeholder 'Select Type'
+2025-09-27 14:53:07:INFO:Clicked 'Add' button
+2025-09-27 14:53:07:INFO:Verified error message: 'Please fill out this field.'
+2025-09-27 14:53:07:INFO:All test cases for Add button error validation completed successfully
+2025-09-27 14:53:08:INFO:Logout successfully
+2025-09-27 14:53:09:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:53:09:INFO:Clicking Sign In
+2025-09-27 14:53:09:INFO:Login successful
+2025-09-27 14:53:11:INFO:Navigated to OTC page
+2025-09-27 14:53:14:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:54:05:ERROR:Success message 'Add Output Type Config successfully' not found or incorrect: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 14:54:05:ERROR:Screenshot saved at: ./screenshots\add_otc_failure_2025-09-27_14-54-04.png
+2025-09-27 14:54:05:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 14:54:05:ERROR:Screenshot saved at: ./screenshots\test_add_btn_error_failure_2025-09-27_14-54-05.png
+2025-09-27 14:54:06:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:54:06:INFO:Clicking Sign In
+2025-09-27 14:54:06:INFO:Login successful
+2025-09-27 14:54:09:INFO:Navigated to OTC page
+2025-09-27 14:54:11:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:54:14:INFO:Successfully clicked close icon
+2025-09-27 14:54:14:INFO:Logout successfully
+2025-09-27 14:54:15:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:54:16:INFO:Clicking Sign In
+2025-09-27 14:54:16:INFO:Login successful
+2025-09-27 14:54:18:INFO:Navigated to OTC page
+2025-09-27 14:54:20:INFO:Successfully clicked 'Edit OTC' button
+2025-09-27 14:54:23:INFO:Successfully clicked close icon
+2025-09-27 14:54:23:INFO:Logout successfully
+2025-09-27 14:54:25:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:54:25:INFO:Clicking Sign In
+2025-09-27 14:54:25:INFO:Login successful
+2025-09-27 14:54:27:INFO:Navigated to OTC page
+2025-09-27 14:54:29:INFO:Successfully clicked 'Edit OTC' button
+2025-09-27 14:54:29:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-27 14:54:29:INFO:Cleared Output Type Name field
+2025-09-27 14:54:30:INFO:Entered input: '466575645757'
+2025-09-27 14:54:30:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-27 14:54:30:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-27 14:54:30:INFO:Cleared Output Type Name field
+2025-09-27 14:54:30:INFO:Entered input: '4665756abcde'
+2025-09-27 14:54:30:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-27 14:54:30:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-27 14:54:30:INFO:Cleared Output Type Name field
+2025-09-27 14:54:30:INFO:Entered input: 'abcdefgh1234'
+2025-09-27 14:54:30:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-27 14:54:30:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-27 14:54:30:INFO:Cleared Output Type Name field
+2025-09-27 14:54:31:INFO:Entered input: '#$%%1234'
+2025-09-27 14:54:31:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-27 14:54:31:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-27 14:54:31:INFO:Cleared Output Type Name field
+2025-09-27 14:54:31:INFO:Entered input: 'abcd&*()'
+2025-09-27 14:54:31:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-27 14:54:31:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-27 14:54:31:INFO:Cleared Output Type Name field
+2025-09-27 14:54:31:INFO:Entered input: '%d'
+2025-09-27 14:54:31:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-27 14:54:31:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-27 14:54:31:INFO:Cleared Output Type Name field
+2025-09-27 14:54:31:INFO:Entered input: 'ac354kd45k9085'
+2025-09-27 14:54:31:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-27 14:54:31:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-27 14:54:31:INFO:Cleared Output Type Name field
+2025-09-27 14:54:31:INFO:Entered input: ''
+2025-09-27 14:54:31:INFO:Verified field value: '' matches expected ''
+2025-09-27 14:54:31:INFO:All test cases for Output Type Name field completed successfully
+2025-09-27 14:54:31:INFO:Logout successfully
+2025-09-27 14:54:33:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:54:33:INFO:Clicking Sign In
+2025-09-27 14:54:33:INFO:Login successful
+2025-09-27 14:54:35:INFO:Navigated to OTC page
+2025-09-27 14:54:37:INFO:Successfully clicked 'Edit OTC' button
+2025-09-27 14:54:37:INFO:Verified that 'Type' field is read-only
+2025-09-27 14:54:37:INFO:Verified that 'Update' button is disabled
+2025-09-27 14:54:37:INFO:Verified that 'Type Name' field is editable
+2025-09-27 14:54:37:INFO:Logout successfully
+2025-09-27 14:54:39:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:54:39:INFO:Clicking Sign In
+2025-09-27 14:54:39:INFO:Login successful
+2025-09-27 14:54:41:INFO:Navigated to OTC page
+2025-09-27 14:54:47:INFO:Table has 33 rows
+2025-09-27 14:54:47:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'fDiQUZcBxNg', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 02:49:07 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-27 14:54:47:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 14:54:49:INFO:Entered new output type name: e6YG
+2025-09-27 14:54:49:INFO:Current Time after add is: 27/09/2025 02:54:49 PM
+2025-09-27 14:54:49:INFO:Clicked the Update button
+2025-09-27 14:55:42:ERROR:Success message 'Update Output Type Config successfully' not found or incorrect: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 14:55:42:ERROR:Screenshot saved at: ./screenshots\add_otc_failure_2025-09-27_14-55-41.png
+2025-09-27 14:55:42:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 14:55:42:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_14-55-42.png
+2025-09-27 14:55:43:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:57:53:INFO:====== WebDriver manager ======
+2025-09-27 14:57:54:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 14:57:54:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 14:57:55:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 14:57:59:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:57:59:INFO:Clicking Sign In
+2025-09-27 14:57:59:INFO:Login successful
+2025-09-27 14:58:02:INFO:Navigated to OTC page
+2025-09-27 14:58:04:INFO:Page Heading is: Output Type Config
+2025-09-27 14:58:04:INFO:OTC Heading verified successfully
+2025-09-27 14:58:04:INFO:Table Heading is: List Of Output Type Config
+2025-09-27 14:58:04:INFO:OTC Table verified successfully
+2025-09-27 14:58:04:INFO:Text of Add OTC button is: Add Output Type Config
+2025-09-27 14:58:04:INFO:Add OTC button verified successfully
+2025-09-27 14:58:04:INFO:Logout successfully
+2025-09-27 14:58:04:INFO:Starting test_verify_table_columns
+2025-09-27 14:58:05:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:58:05:INFO:Clicking Sign In
+2025-09-27 14:58:05:INFO:Login successful
+2025-09-27 14:58:07:INFO:Navigated to OTC page
+2025-09-27 14:58:09:INFO:Checking column 'Sl.No': Expected 'Sl.No', Got 'Sl.No'
+2025-09-27 14:58:09:INFO:Checking column 'Output Type': Expected 'Output Type', Got 'Output Type'
+2025-09-27 14:58:09:INFO:Checking column 'Output Type Name': Expected 'Output Type Name', Got 'Output Type Name'
+2025-09-27 14:58:09:INFO:Checking column 'Created By': Expected 'Created By', Got 'Created By'
+2025-09-27 14:58:09:INFO:Checking column 'Created Date': Expected 'Created Date', Got 'Created Date'
+2025-09-27 14:58:09:INFO:Checking column 'Modified By': Expected 'Modified By', Got 'Modified By'
+2025-09-27 14:58:09:INFO:Checking column 'Modified Date': Expected 'Modified Date', Got 'Modified Date'
+2025-09-27 14:58:09:INFO:Checking column 'Status': Expected 'Status', Got 'Status'
+2025-09-27 14:58:09:INFO:Checking column 'Active/DeActive': Expected 'Active/DeActive', Got 'Active/DeActive'
+2025-09-27 14:58:09:INFO:Checking column 'Option': Expected 'Option', Got 'Option'
+2025-09-27 14:58:09:INFO:All expected columns are present in the OTC table
+2025-09-27 14:58:10:INFO:Logout successfully
+2025-09-27 14:58:11:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:58:11:INFO:Clicking Sign In
+2025-09-27 14:58:11:INFO:Login successful
+2025-09-27 14:58:13:INFO:Navigated to OTC page
+2025-09-27 14:58:15:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-27 14:58:16:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:58:16:INFO:'Add Output Type Config' popup displayed
+2025-09-27 14:58:16:INFO:Popup contains heading, Type dropdown, Type Name field, and Add button
+2025-09-27 14:58:16:INFO:Selected output type: Socket
+2025-09-27 14:58:16:INFO:Entered output type name: Ad1
+2025-09-27 14:58:16:INFO:Current Time after add is: 27/09/2025 02:58:16 PM
+2025-09-27 14:58:16:INFO:Clicked the add OTC button
+2025-09-27 14:58:17:INFO:OTC success message is: Add Output Type Config successfully
+2025-09-27 14:58:17:INFO:Clicked the 'OK' button successfully
+2025-09-27 14:58:21:INFO:Found added OTC entry: Output Type 'Socket', Output Type Name  'Ad1', Created By outdidsuperadmin@gmail.com, Created Date  27/09/2025 02:58:16 PM, Modified By : -, Modified Date : -, Status : Active 
+2025-09-27 14:58:21:INFO:Created date 27/09/2025 02:58:16 PM and current date 27/09/2025 02:58:16 PM are the same
+2025-09-27 14:58:21:INFO:OTC entry verified successfully in the table
+2025-09-27 14:58:21:INFO:Logout successfully
+2025-09-27 14:58:23:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:58:23:INFO:Clicking Sign In
+2025-09-27 14:58:23:INFO:Login successful
+2025-09-27 14:58:25:INFO:Navigated to OTC page
+2025-09-27 14:58:27:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:58:27:INFO:Verified dropdown options: ['Select Type', 'Gun', 'Socket']
+2025-09-27 14:58:27:INFO:Running test case: Select valid option 'Gun' from Type dropdown
+2025-09-27 14:58:27:INFO:Successfully selected 'Gun' as expected
+2025-09-27 14:58:29:INFO:Running test case: Select valid option 'Select Type' from Type dropdown
+2025-09-27 14:58:30:INFO:Successfully selected 'Select Type' as expected
+2025-09-27 14:58:32:INFO:Running test case: Select valid option 'Socket' from Type dropdown
+2025-09-27 14:58:32:INFO:Successfully selected 'Socket' as expected
+2025-09-27 14:58:34:INFO:Running test case: Attempt to select invalid option 'Connector' (not in dropdown)
+2025-09-27 14:58:34:INFO:Correctly failed to select 'Connector' as it is not in the dropdown
+2025-09-27 14:58:34:INFO:All test cases for Type dropdown completed successfully
+2025-09-27 14:58:34:INFO:Logout successfully
+2025-09-27 14:58:35:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:58:36:INFO:Clicking Sign In
+2025-09-27 14:58:36:INFO:Login successful
+2025-09-27 14:58:38:INFO:Navigated to OTC page
+2025-09-27 14:58:40:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:58:40:INFO:Selected output type: Socket
+2025-09-27 14:58:40:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-27 14:58:40:INFO:Cleared Output Type Name field
+2025-09-27 14:58:41:INFO:Entered input: '466575645757'
+2025-09-27 14:58:41:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-27 14:58:41:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-27 14:58:41:INFO:Cleared Output Type Name field
+2025-09-27 14:58:41:INFO:Entered input: '4665756abcde'
+2025-09-27 14:58:41:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-27 14:58:41:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-27 14:58:41:INFO:Cleared Output Type Name field
+2025-09-27 14:58:41:INFO:Entered input: 'abcdefgh1234'
+2025-09-27 14:58:41:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-27 14:58:41:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-27 14:58:41:INFO:Cleared Output Type Name field
+2025-09-27 14:58:41:INFO:Entered input: '#$%%1234'
+2025-09-27 14:58:41:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-27 14:58:41:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-27 14:58:42:INFO:Cleared Output Type Name field
+2025-09-27 14:58:42:INFO:Entered input: 'abcd&*()'
+2025-09-27 14:58:42:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-27 14:58:42:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-27 14:58:42:INFO:Cleared Output Type Name field
+2025-09-27 14:58:42:INFO:Entered input: '%d'
+2025-09-27 14:58:42:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-27 14:58:42:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-27 14:58:42:INFO:Cleared Output Type Name field
+2025-09-27 14:58:42:INFO:Entered input: 'ac354kd45k9085'
+2025-09-27 14:58:42:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-27 14:58:42:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-27 14:58:42:INFO:Cleared Output Type Name field
+2025-09-27 14:58:42:INFO:Entered input: ''
+2025-09-27 14:58:42:INFO:Verified field value: '' matches expected ''
+2025-09-27 14:58:42:INFO:All test cases for Output Type Name field completed successfully
+2025-09-27 14:58:42:INFO:Logout successfully
+2025-09-27 14:58:43:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:58:44:INFO:Clicking Sign In
+2025-09-27 14:58:44:INFO:Login successful
+2025-09-27 14:58:46:INFO:Navigated to OTC page
+2025-09-27 14:58:50:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:58:50:INFO:Testing Type: 'Gun', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-27 14:58:50:INFO:Cleared Output Type Name field
+2025-09-27 14:58:50:INFO:Selected Type: 'Gun'
+2025-09-27 14:58:50:INFO:Clicked 'Add' button
+2025-09-27 14:58:50:INFO:Verified error message: 'Please fill out this field.'
+2025-09-27 14:58:50:INFO:Testing Type: '', Type Name: 'abc', Expected error: 'Please select an item in the list.'
+2025-09-27 14:58:50:INFO:Cleared Output Type Name field
+2025-09-27 14:58:51:INFO:Selected placeholder 'Select Type'
+2025-09-27 14:58:51:INFO:Entered Output Type Name: 'abc'
+2025-09-27 14:58:51:INFO:Clicked 'Add' button
+2025-09-27 14:58:51:INFO:Verified error message: 'Please select an item in the list.'
+2025-09-27 14:58:51:INFO:Testing Type: '', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-27 14:58:51:INFO:Cleared Output Type Name field
+2025-09-27 14:58:51:INFO:Selected placeholder 'Select Type'
+2025-09-27 14:58:51:INFO:Clicked 'Add' button
+2025-09-27 14:58:51:INFO:Verified error message: 'Please fill out this field.'
+2025-09-27 14:58:51:INFO:All test cases for Add button error validation completed successfully
+2025-09-27 14:58:51:INFO:Logout successfully
+2025-09-27 14:58:53:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:58:54:INFO:Clicking Sign In
+2025-09-27 14:58:54:INFO:Login successful
+2025-09-27 14:58:56:INFO:Navigated to OTC page
+2025-09-27 14:58:58:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:58:59:INFO:OTC error message is: Output type already exists
+2025-09-27 14:58:59:INFO:Clicked the 'OK' button successfully
+2025-09-27 14:58:59:INFO:Logout successfully
+2025-09-27 14:59:01:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:59:01:INFO:Clicking Sign In
+2025-09-27 14:59:01:INFO:Login successful
+2025-09-27 14:59:03:INFO:Navigated to OTC page
+2025-09-27 14:59:05:INFO:Successfully clicked 'Add OTC' button
+2025-09-27 14:59:08:INFO:Successfully clicked close icon
+2025-09-27 14:59:09:INFO:Logout successfully
+2025-09-27 14:59:10:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:59:10:INFO:Clicking Sign In
+2025-09-27 14:59:10:INFO:Login successful
+2025-09-27 14:59:12:INFO:Navigated to OTC page
+2025-09-27 14:59:14:INFO:Successfully clicked 'Edit OTC' button
+2025-09-27 14:59:18:INFO:Successfully clicked close icon
+2025-09-27 14:59:18:INFO:Logout successfully
+2025-09-27 14:59:19:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:59:19:INFO:Clicking Sign In
+2025-09-27 14:59:19:INFO:Login successful
+2025-09-27 14:59:21:INFO:Navigated to OTC page
+2025-09-27 14:59:24:INFO:Successfully clicked 'Edit OTC' button
+2025-09-27 14:59:24:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-27 14:59:24:INFO:Cleared Output Type Name field
+2025-09-27 14:59:24:INFO:Entered input: '466575645757'
+2025-09-27 14:59:24:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-27 14:59:24:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-27 14:59:24:INFO:Cleared Output Type Name field
+2025-09-27 14:59:24:INFO:Entered input: '4665756abcde'
+2025-09-27 14:59:24:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-27 14:59:24:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-27 14:59:24:INFO:Cleared Output Type Name field
+2025-09-27 14:59:25:INFO:Entered input: 'abcdefgh1234'
+2025-09-27 14:59:25:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-27 14:59:25:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-27 14:59:25:INFO:Cleared Output Type Name field
+2025-09-27 14:59:25:INFO:Entered input: '#$%%1234'
+2025-09-27 14:59:25:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-27 14:59:25:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-27 14:59:25:INFO:Cleared Output Type Name field
+2025-09-27 14:59:25:INFO:Entered input: 'abcd&*()'
+2025-09-27 14:59:25:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-27 14:59:25:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-27 14:59:25:INFO:Cleared Output Type Name field
+2025-09-27 14:59:25:INFO:Entered input: '%d'
+2025-09-27 14:59:25:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-27 14:59:25:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-27 14:59:25:INFO:Cleared Output Type Name field
+2025-09-27 14:59:26:INFO:Entered input: 'ac354kd45k9085'
+2025-09-27 14:59:26:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-27 14:59:26:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-27 14:59:26:INFO:Cleared Output Type Name field
+2025-09-27 14:59:26:INFO:Entered input: ''
+2025-09-27 14:59:26:INFO:Verified field value: '' matches expected ''
+2025-09-27 14:59:26:INFO:All test cases for Output Type Name field completed successfully
+2025-09-27 14:59:26:INFO:Logout successfully
+2025-09-27 14:59:28:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:59:28:INFO:Clicking Sign In
+2025-09-27 14:59:28:INFO:Login successful
+2025-09-27 14:59:30:INFO:Navigated to OTC page
+2025-09-27 14:59:32:INFO:Successfully clicked 'Edit OTC' button
+2025-09-27 14:59:32:INFO:Verified that 'Type' field is read-only
+2025-09-27 14:59:32:INFO:Verified that 'Update' button is disabled
+2025-09-27 14:59:32:INFO:Verified that 'Type Name' field is editable
+2025-09-27 14:59:33:INFO:Logout successfully
+2025-09-27 14:59:34:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 14:59:34:INFO:Clicking Sign In
+2025-09-27 14:59:34:INFO:Login successful
+2025-09-27 14:59:36:INFO:Navigated to OTC page
+2025-09-27 14:59:42:INFO:Table has 34 rows
+2025-09-27 14:59:42:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'fDiQUZcBxNg', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 02:49:07 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-27 14:59:42:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 14:59:44:INFO:Entered new output type name: Ad1
+2025-09-27 14:59:44:INFO:Current Time after add is: 27/09/2025 02:59:44 PM
+2025-09-27 14:59:44:INFO:Clicked the Update button
+2025-09-27 15:00:37:ERROR:Success message 'Update Output Type Config successfully' not found or incorrect: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:00:37:ERROR:Screenshot saved at: ./screenshots\add_otc_failure_2025-09-27_15-00-37.png
+2025-09-27 15:00:37:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:00:37:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_15-00-37.png
+2025-09-27 15:00:38:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:00:45:INFO:Clicking Sign In
+2025-09-27 15:00:45:INFO:Login successful
+2025-09-27 15:00:47:INFO:Navigated to OTC page
+2025-09-27 15:00:52:INFO:Table has 34 rows
+2025-09-27 15:00:52:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'fDiQUZcBxNg', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 02:49:07 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-27 15:00:52:INFO:Old status of 7th row: Active
+2025-09-27 15:00:52:INFO:Current Time after add is: 27/09/2025 03:00:52 PM
+2025-09-27 15:00:52:INFO:Deactivate successfully
+2025-09-27 15:00:53:INFO:Clicked the 'OK' button successfully
+2025-09-27 15:01:09:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'fDiQUZcBxNg', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:00:52 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:01:09:INFO:Updated date 27/09/2025 03:00:52 PM and current date after clicking the radio button  27/09/2025 03:00:52 PM are the same
+2025-09-27 15:01:09:INFO:Modified Date updated successfully: 27/09/2025 03:00:52 PM
+2025-09-27 15:01:09:INFO:Status updated successfully: DeActive
+2025-09-27 15:01:09:INFO:Radio button status updated successfully: Active
+2025-09-27 15:01:09:INFO:OTC entry verified successfully after updated the status
+2025-09-27 15:01:10:INFO:Logout successfully
+2025-09-27 15:04:26:INFO:====== WebDriver manager ======
+2025-09-27 15:04:27:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:04:28:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:04:28:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:04:32:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:04:32:INFO:Clicking Sign In
+2025-09-27 15:04:32:INFO:Login successful
+2025-09-27 15:04:34:INFO:Navigated to OTC page
+2025-09-27 15:04:40:INFO:Table has 34 rows
+2025-09-27 15:04:40:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'fDiQUZcBxNg', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:00:52 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:04:40:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:04:42:INFO:Entered new output type name: vRbPQJUj
+2025-09-27 15:04:42:INFO:Current Time after add is: 27/09/2025 03:04:42 PM
+2025-09-27 15:04:42:INFO:Clicked the Update button
+2025-09-27 15:04:44:INFO:OTC success message is: Update Output Type Config successfully
+2025-09-27 15:04:45:INFO:Clicked the 'OK' button successfully
+2025-09-27 15:04:50:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'vRbPQJUj', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:04:43 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:04:50:INFO:Edited date 27/09/2025 03:04:43 PM and current date after edit 27/09/2025 03:04:42 PM differ by 1.0 seconds, which is within the 5-second threshold.
+2025-09-27 15:04:50:INFO:Modified Date updated successfully: 27/09/2025 03:04:43 PM
+2025-09-27 15:04:50:INFO:OTC entry verified successfully after edit
+2025-09-27 15:04:51:INFO:Logout successfully
+2025-09-27 15:04:58:INFO:====== WebDriver manager ======
+2025-09-27 15:04:59:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:05:00:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:05:00:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:05:07:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:05:08:INFO:Clicking Sign In
+2025-09-27 15:05:08:INFO:Login successful
+2025-09-27 15:05:10:INFO:Navigated to OTC page
+2025-09-27 15:05:16:INFO:Table has 34 rows
+2025-09-27 15:05:16:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'vRbPQJUj', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:04:43 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:05:17:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:05:21:INFO:Entered new output type name: xnok1
+2025-09-27 15:05:21:INFO:Current Time after add is: 27/09/2025 03:05:21 PM
+2025-09-27 15:05:21:INFO:Clicked the Update button
+2025-09-27 15:05:23:INFO:OTC success message is: Update Output Type Config successfully
+2025-09-27 15:05:23:INFO:Clicked the 'OK' button successfully
+2025-09-27 15:05:29:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'xnok1', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:05:21 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:05:29:INFO:Edited date 27/09/2025 03:05:21 PM and current date after edit  27/09/2025 03:05:21 PM are the same
+2025-09-27 15:05:29:INFO:Modified Date updated successfully: 27/09/2025 03:05:21 PM
+2025-09-27 15:05:29:INFO:OTC entry verified successfully after edit
+2025-09-27 15:05:29:INFO:Logout successfully
+2025-09-27 15:05:49:INFO:====== WebDriver manager ======
+2025-09-27 15:05:50:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:05:50:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:05:51:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:05:59:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:05:59:INFO:Clicking Sign In
+2025-09-27 15:05:59:INFO:Login successful
+2025-09-27 15:06:01:INFO:Navigated to OTC page
+2025-09-27 15:06:07:INFO:Table has 34 rows
+2025-09-27 15:06:07:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'xnok1', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:05:21 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:06:08:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:06:11:INFO:Entered new output type name: wQ
+2025-09-27 15:06:11:INFO:Current Time after add is: 27/09/2025 03:06:11 PM
+2025-09-27 15:06:11:INFO:Clicked the Update button
+2025-09-27 15:06:13:INFO:OTC success message is: Update Output Type Config successfully
+2025-09-27 15:06:14:INFO:Clicked the 'OK' button successfully
+2025-09-27 15:06:19:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'wQ', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:06:12 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:06:19:INFO:Edited date 27/09/2025 03:06:12 PM and current date after edit 27/09/2025 03:06:11 PM differ by 1.0 seconds, which is within the 5-second threshold.
+2025-09-27 15:06:19:INFO:Modified Date updated successfully: 27/09/2025 03:06:12 PM
+2025-09-27 15:06:19:INFO:OTC entry verified successfully after edit
+2025-09-27 15:06:19:INFO:Logout successfully
+2025-09-27 15:10:33:INFO:====== WebDriver manager ======
+2025-09-27 15:10:34:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:10:35:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:10:35:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:10:39:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:11:00:INFO:====== WebDriver manager ======
+2025-09-27 15:11:01:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:11:02:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:11:02:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:11:06:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:11:06:INFO:Clicking Sign In
+2025-09-27 15:11:06:INFO:Login successful
+2025-09-27 15:11:08:INFO:Navigated to OTC page
+2025-09-27 15:11:15:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/bc1f5ccdb196f62035f670b28a8e7c54/element/f.32240E004F23D462408CBC76B0BD5883.d.7E4A4FE2D60544BF3F574B1E5E849D19.e.301/text
+2025-09-27 15:11:19:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000243F69C3250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bc1f5ccdb196f62035f670b28a8e7c54/element/f.32240E004F23D462408CBC76B0BD5883.d.7E4A4FE2D60544BF3F574B1E5E849D19.e.301/text
+2025-09-27 15:11:23:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000243F69C34D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bc1f5ccdb196f62035f670b28a8e7c54/element/f.32240E004F23D462408CBC76B0BD5883.d.7E4A4FE2D60544BF3F574B1E5E849D19.e.301/text
+2025-09-27 15:11:32:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000243F69163F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bc1f5ccdb196f62035f670b28a8e7c54/screenshot
+2025-09-27 15:11:36:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000243F69BD250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bc1f5ccdb196f62035f670b28a8e7c54/screenshot
+2025-09-27 15:11:40:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000243F693AAD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bc1f5ccdb196f62035f670b28a8e7c54/screenshot
+2025-09-27 15:11:49:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000243F693BF00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bc1f5ccdb196f62035f670b28a8e7c54
+2025-09-27 15:11:53:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000243F8438050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bc1f5ccdb196f62035f670b28a8e7c54
+2025-09-27 15:11:57:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000243F8438380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bc1f5ccdb196f62035f670b28a8e7c54
+2025-09-27 15:14:38:INFO:====== WebDriver manager ======
+2025-09-27 15:14:39:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:14:40:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:14:40:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:14:44:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:14:44:INFO:Clicking Sign In
+2025-09-27 15:14:44:INFO:Login successful
+2025-09-27 15:14:53:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BFD2F13750>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bdae759c50e35f2d4ac50f7a9b902671
+2025-09-27 15:14:57:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BFD2F13ED0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bdae759c50e35f2d4ac50f7a9b902671
+2025-09-27 15:15:01:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BFD297B6F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bdae759c50e35f2d4ac50f7a9b902671
+2025-09-27 15:15:08:INFO:====== WebDriver manager ======
+2025-09-27 15:15:09:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:15:09:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:15:10:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:15:23:INFO:====== WebDriver manager ======
+2025-09-27 15:15:24:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:15:24:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:15:25:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:15:28:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:15:29:INFO:Clicking Sign In
+2025-09-27 15:15:29:INFO:Login successful
+2025-09-27 15:15:31:INFO:Navigated to OTC page
+2025-09-27 15:15:36:INFO:Table has 34 rows
+2025-09-27 15:15:36:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'wQ', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:06:12 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:15:37:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:15:39:INFO:Entered new output type name: B
+2025-09-27 15:15:39:INFO:Current Time after add is: 27/09/2025 03:15:39 PM
+2025-09-27 15:15:39:INFO:Clicked the Update button
+2025-09-27 15:15:41:INFO:OTC success message is: Update Output Type Config successfully
+2025-09-27 15:15:41:INFO:Clicked the 'OK' button successfully
+2025-09-27 15:15:47:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'B', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:15:39 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:15:47:INFO:Edited date 27/09/2025 03:15:39 PM and current date after edit  27/09/2025 03:15:39 PM are the same
+2025-09-27 15:15:47:INFO:Modified Date updated successfully: 27/09/2025 03:15:39 PM
+2025-09-27 15:15:47:INFO:OTC entry verified successfully after edit
+2025-09-27 15:15:47:INFO:Logout successfully
+2025-09-27 15:15:49:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:15:49:INFO:Clicking Sign In
+2025-09-27 15:15:49:INFO:Login successful
+2025-09-27 15:15:51:INFO:Navigated to OTC page
+2025-09-27 15:15:57:INFO:Table has 34 rows
+2025-09-27 15:15:57:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'B', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:15:39 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:15:57:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:15:59:INFO:Entered new output type name: B
+2025-09-27 15:15:59:INFO:Current Time after add is: 27/09/2025 03:15:59 PM
+2025-09-27 15:15:59:INFO:Clicked the Update button
+2025-09-27 15:16:51:ERROR:Success message 'Update Output Type Config successfully' not found or incorrect: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:16:51:ERROR:Screenshot saved at: ./screenshots\add_otc_failure_2025-09-27_15-16-51.png
+2025-09-27 15:16:52:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:16:52:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_15-16-51.png
+2025-09-27 15:16:53:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:17:00:INFO:Clicking Sign In
+2025-09-27 15:17:00:INFO:Login successful
+2025-09-27 15:17:02:INFO:Navigated to OTC page
+2025-09-27 15:17:08:INFO:Table has 34 rows
+2025-09-27 15:17:08:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'B', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:15:39 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:17:08:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:17:10:INFO:Entered new output type name: B
+2025-09-27 15:17:10:INFO:Current Time after add is: 27/09/2025 03:17:10 PM
+2025-09-27 15:17:10:INFO:Clicked the Update button
+2025-09-27 15:18:03:ERROR:Success message 'Update Output Type Config successfully' not found or incorrect: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:18:03:ERROR:Screenshot saved at: ./screenshots\add_otc_failure_2025-09-27_15-18-03.png
+2025-09-27 15:18:03:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:18:03:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_15-18-03.png
+2025-09-27 15:18:04:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:18:09:INFO:Clicking Sign In
+2025-09-27 15:18:09:INFO:Login successful
+2025-09-27 15:18:11:INFO:Navigated to OTC page
+2025-09-27 15:18:17:INFO:Table has 34 rows
+2025-09-27 15:18:17:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'B', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:15:39 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:18:17:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:18:19:INFO:Entered new output type name: B
+2025-09-27 15:18:19:INFO:Current Time after add is: 27/09/2025 03:18:19 PM
+2025-09-27 15:18:19:INFO:Clicked the Update button
+2025-09-27 15:19:12:ERROR:Success message 'Update Output Type Config successfully' not found or incorrect: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:19:12:ERROR:Screenshot saved at: ./screenshots\add_otc_failure_2025-09-27_15-19-12.png
+2025-09-27 15:19:12:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:19:12:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_15-19-12.png
+2025-09-27 15:19:13:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:19:17:INFO:Clicking Sign In
+2025-09-27 15:19:17:INFO:Login successful
+2025-09-27 15:19:19:INFO:Navigated to OTC page
+2025-09-27 15:19:26:INFO:Table has 34 rows
+2025-09-27 15:19:26:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'B', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:15:39 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:19:26:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:19:28:INFO:Entered new output type name: B
+2025-09-27 15:19:28:INFO:Current Time after add is: 27/09/2025 03:19:28 PM
+2025-09-27 15:19:28:INFO:Clicked the Update button
+2025-09-27 15:34:49:INFO:====== WebDriver manager ======
+2025-09-27 15:34:50:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:34:50:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:34:51:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:34:54:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:34:55:INFO:Clicking Sign In
+2025-09-27 15:34:55:INFO:Login successful
+2025-09-27 15:34:58:INFO:Navigated to OTC page
+2025-09-27 15:35:04:INFO:Table has 34 rows
+2025-09-27 15:35:04:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'B', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:15:39 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:35:04:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:35:07:INFO:Entered new output type name: gnhtrGYeus1F
+2025-09-27 15:35:07:INFO:Current Time after add is: 27/09/2025 03:35:07 PM
+2025-09-27 15:35:07:INFO:Clicked the Update button
+2025-09-27 15:35:33:INFO:====== WebDriver manager ======
+2025-09-27 15:35:34:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:35:35:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:35:35:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:35:43:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:35:43:INFO:Clicking Sign In
+2025-09-27 15:35:43:INFO:Login successful
+2025-09-27 15:35:45:INFO:Navigated to OTC page
+2025-09-27 15:35:52:INFO:Table has 34 rows
+2025-09-27 15:35:52:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'gnhtrGYeus1F', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:35:07 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:35:53:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:35:56:INFO:Entered new output type name: ipL2
+2025-09-27 15:35:56:INFO:Current Time after add is: 27/09/2025 03:35:56 PM
+2025-09-27 15:35:56:INFO:Clicked the Update button
+2025-09-27 15:36:49:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:36:49:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_15-36-48.png
+2025-09-27 15:36:50:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:36:57:INFO:Clicking Sign In
+2025-09-27 15:36:57:INFO:Login successful
+2025-09-27 15:36:59:INFO:Navigated to OTC page
+2025-09-27 15:37:05:INFO:Table has 34 rows
+2025-09-27 15:37:05:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'ipL2', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:35:56 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:37:05:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:37:08:INFO:Entered new output type name: ipL2
+2025-09-27 15:37:08:INFO:Current Time after add is: 27/09/2025 03:37:08 PM
+2025-09-27 15:37:08:INFO:Clicked the Update button
+2025-09-27 15:38:00:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:38:00:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_15-38-00.png
+2025-09-27 15:38:02:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:38:06:INFO:Clicking Sign In
+2025-09-27 15:38:06:INFO:Login successful
+2025-09-27 15:38:08:INFO:Navigated to OTC page
+2025-09-27 15:38:14:INFO:Table has 34 rows
+2025-09-27 15:38:14:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'ipL2', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:35:56 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:38:15:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:38:17:INFO:Entered new output type name: ipL2
+2025-09-27 15:38:17:INFO:Current Time after add is: 27/09/2025 03:38:17 PM
+2025-09-27 15:38:17:INFO:Clicked the Update button
+2025-09-27 15:39:27:INFO:====== WebDriver manager ======
+2025-09-27 15:39:28:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:39:29:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:39:30:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:39:37:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:39:38:INFO:Clicking Sign In
+2025-09-27 15:39:38:INFO:Login successful
+2025-09-27 15:39:40:INFO:Navigated to OTC page
+2025-09-27 15:39:46:INFO:Table has 34 rows
+2025-09-27 15:39:46:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'ipL2', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:35:56 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:39:47:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:39:51:INFO:Entered new output type name: XLjhomtL5C
+2025-09-27 15:39:51:INFO:Current Time after add is: 27/09/2025 03:39:51 PM
+2025-09-27 15:39:51:INFO:Clicked the Update button
+2025-09-27 15:40:44:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:40:44:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_15-40-44.png
+2025-09-27 15:43:24:INFO:====== WebDriver manager ======
+2025-09-27 15:43:25:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:43:25:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:43:26:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:43:29:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:43:30:INFO:Clicking Sign In
+2025-09-27 15:43:30:INFO:Login successful
+2025-09-27 15:43:32:INFO:Navigated to OTC page
+2025-09-27 15:43:38:INFO:Table has 34 rows
+2025-09-27 15:43:38:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'XLjhomtL5C', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:39:51 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:43:38:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:43:40:INFO:Entered new output type name: oUgtf2TxgD9w
+2025-09-27 15:43:41:INFO:Current Time after add is: 27/09/2025 03:43:41 PM
+2025-09-27 15:43:41:INFO:Clicked the Update button
+2025-09-27 15:43:43:INFO:OTC success message is: Update Output Type Config successfully
+2025-09-27 15:43:43:INFO:Clicked the 'OK' button successfully
+2025-09-27 15:43:48:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'oUgtf2TxgD9w', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:43:41 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:43:48:INFO:Edited date 27/09/2025 03:43:41 PM and current date after edit  27/09/2025 03:43:41 PM are the same
+2025-09-27 15:43:48:INFO:Modified Date updated successfully: 27/09/2025 03:43:41 PM
+2025-09-27 15:43:48:INFO:OTC entry verified successfully after edit
+2025-09-27 15:43:49:INFO:Logout successfully
+2025-09-27 15:44:14:INFO:====== WebDriver manager ======
+2025-09-27 15:44:15:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:44:16:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:44:16:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:44:21:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:44:22:INFO:Clicking Sign In
+2025-09-27 15:44:22:INFO:Login successful
+2025-09-27 15:44:24:INFO:Navigated to OTC page
+2025-09-27 15:44:30:INFO:Table has 34 rows
+2025-09-27 15:44:30:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'oUgtf2TxgD9w', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:43:41 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:44:30:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:44:33:INFO:Entered new output type name: oz
+2025-09-27 15:44:33:INFO:Current Time after add is: 27/09/2025 03:44:33 PM
+2025-09-27 15:44:33:INFO:Clicked the Update button
+2025-09-27 15:44:35:INFO:OTC success message is: Update Output Type Config successfully
+2025-09-27 15:44:35:INFO:Clicked the 'OK' button successfully
+2025-09-27 15:44:41:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'oz', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:44:33 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:44:41:INFO:Edited date 27/09/2025 03:44:33 PM and current date after edit  27/09/2025 03:44:33 PM are the same
+2025-09-27 15:44:41:INFO:Modified Date updated successfully: 27/09/2025 03:44:33 PM
+2025-09-27 15:44:41:INFO:OTC entry verified successfully after edit
+2025-09-27 15:44:42:INFO:Logout successfully
+2025-09-27 15:44:43:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:44:43:INFO:Clicking Sign In
+2025-09-27 15:44:43:INFO:Login successful
+2025-09-27 15:44:45:INFO:Navigated to OTC page
+2025-09-27 15:44:51:INFO:Table has 34 rows
+2025-09-27 15:44:51:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'oz', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:44:33 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:44:51:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:44:54:INFO:Entered new output type name: oz
+2025-09-27 15:44:54:INFO:Current Time after add is: 27/09/2025 03:44:54 PM
+2025-09-27 15:44:54:INFO:Clicked the Update button
+2025-09-27 15:45:46:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:45:46:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_15-45-46.png
+2025-09-27 15:45:48:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:54:11:INFO:====== WebDriver manager ======
+2025-09-27 15:54:12:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:54:13:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 15:54:13:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 15:54:17:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:54:18:INFO:Clicking Sign In
+2025-09-27 15:54:18:INFO:Login successful
+2025-09-27 15:54:20:INFO:Navigated to OTC page
+2025-09-27 15:54:26:INFO:Table has 34 rows
+2025-09-27 15:54:26:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'oz', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:44:33 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:54:26:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:54:29:INFO:Entered Output Type Name: hX0ZFNwZ9
+2025-09-27 15:54:29:INFO:Clicked the Update button
+2025-09-27 15:55:22:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:55:22:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_15-55-21.png
+2025-09-27 15:55:27:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 15:55:32:INFO:Clicking Sign In
+2025-09-27 15:55:32:INFO:Login successful
+2025-09-27 15:55:34:INFO:Navigated to OTC page
+2025-09-27 15:55:40:INFO:Table has 34 rows
+2025-09-27 15:55:40:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'hX0ZFNwZ9', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:54:29 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 15:55:40:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 15:55:42:INFO:Entered Output Type Name: hX0ZFNwZ9
+2025-09-27 15:55:42:INFO:Clicked the Update button
+2025-09-27 15:56:35:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 15:56:35:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_15-56-35.png
+2025-09-27 16:06:37:INFO:====== WebDriver manager ======
+2025-09-27 16:06:38:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 16:06:38:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 16:06:39:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 16:06:42:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 16:06:42:INFO:Clicking Sign In
+2025-09-27 16:06:42:INFO:Login successful
+2025-09-27 16:06:44:INFO:Navigated to OTC page
+2025-09-27 16:06:50:INFO:Table has 34 rows
+2025-09-27 16:06:50:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'hX0ZFNwZ9', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 03:54:29 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 16:06:50:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 16:06:53:INFO:Entered Output Type Name: jplr7
+2025-09-27 16:06:53:INFO:Clicked the Update button
+2025-09-27 16:06:55:INFO:OTC error message is: Update Output Type Config successfully
+2025-09-27 16:06:55:ERROR:Test failed: Expected OTC error message 'Output type already exists', but got 'Update Output Type Config successfully'
+assert 'Update Outpu... successfully' == 'Output type already exists'
+  
+  [0m[91m- Output type already exists[39;49;00m[90m[39;49;00m
+  [92m+ Update Output Type Config successfully[39;49;00m[90m[39;49;00m
+2025-09-27 16:06:55:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_16-06-55.png
+2025-09-27 16:06:57:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 16:07:14:INFO:Clicking Sign In
+2025-09-27 16:07:14:INFO:Login successful
+2025-09-27 16:07:16:INFO:Navigated to OTC page
+2025-09-27 16:07:21:INFO:Table has 34 rows
+2025-09-27 16:07:21:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'jplr7', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 04:06:53 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 16:07:22:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 16:07:24:INFO:Entered Output Type Name: jplr7
+2025-09-27 16:07:24:INFO:Clicked the Update button
+2025-09-27 16:08:17:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 16:08:17:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_16-08-16.png
+2025-09-27 16:09:25:INFO:====== WebDriver manager ======
+2025-09-27 16:09:26:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 16:09:26:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 16:09:27:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 16:09:35:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 16:09:35:INFO:Clicking Sign In
+2025-09-27 16:09:35:INFO:Login successful
+2025-09-27 16:09:37:INFO:Navigated to OTC page
+2025-09-27 16:09:43:INFO:Table has 34 rows
+2025-09-27 16:09:43:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'jplr7', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 04:06:53 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 16:09:43:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 16:09:46:INFO:Entered Output Type Name: k
+2025-09-27 16:09:46:INFO:Clicked the Update button
+2025-09-27 16:09:48:INFO:OTC error message is: Update Output Type Config successfully
+2025-09-27 16:09:48:ERROR:Test failed: Expected OTC error message 'Output type already exists', but got 'Update Output Type Config successfully'
+assert 'Update Outpu... successfully' == 'Output type already exists'
+  
+  [0m[91m- Output type already exists[39;49;00m[90m[39;49;00m
+  [92m+ Update Output Type Config successfully[39;49;00m[90m[39;49;00m
+2025-09-27 16:09:48:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_16-09-48.png
+2025-09-27 16:11:49:INFO:====== WebDriver manager ======
+2025-09-27 16:11:50:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 16:11:50:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 16:11:51:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 16:11:54:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 16:11:55:INFO:Clicking Sign In
+2025-09-27 16:11:55:INFO:Login successful
+2025-09-27 16:11:58:INFO:Navigated to OTC page
+2025-09-27 16:12:05:INFO:Table has 34 rows
+2025-09-27 16:12:05:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'k', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 04:09:46 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 16:12:05:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 16:12:07:INFO:Entered Output Type Name: zGYI7InyYD
+2025-09-27 16:12:07:INFO:Clicked the Update button
+2025-09-27 16:12:10:INFO:OTC error message is: Update Output Type Config successfully
+2025-09-27 16:12:10:INFO:Clicked the 'OK' button successfully
+2025-09-27 16:12:13:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'zGYI7InyYD', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 04:12:08 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 16:12:13:ERROR:Verification failed: name 'current_time_after_edit' is not defined
+2025-09-27 16:12:13:ERROR:Screenshot saved at: ./screenshots\verify_otc_edit_failure_2025-09-27_16-12-13.png
+2025-09-27 16:12:15:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 16:12:31:INFO:Clicking Sign In
+2025-09-27 16:12:31:INFO:Login successful
+2025-09-27 16:16:22:INFO:====== WebDriver manager ======
+2025-09-27 16:16:23:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 16:16:23:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-27 16:16:24:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-27 16:16:27:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 16:16:27:INFO:Clicking Sign In
+2025-09-27 16:16:27:INFO:Login successful
+2025-09-27 16:16:30:INFO:Navigated to OTC page
+2025-09-27 16:16:36:INFO:Table has 34 rows
+2025-09-27 16:16:36:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'zGYI7InyYD', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 04:12:08 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 16:16:36:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 16:16:38:INFO:Entered Output Type Name: 6p2D
+2025-09-27 16:16:39:INFO:Current Time after add is: 27/09/2025 04:16:39 PM
+2025-09-27 16:16:39:INFO:Clicked the Update button
+2025-09-27 16:16:41:INFO:OTC error message is: Update Output Type Config successfully
+2025-09-27 16:16:41:INFO:Clicked the 'OK' button successfully
+2025-09-27 16:16:45:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': '6p2D', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 04:16:39 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 16:16:45:INFO:Edited date 27/09/2025 04:16:39 PM and current date after edit  27/09/2025 04:16:39 PM are the same
+2025-09-27 16:16:45:INFO:Modified Date updated successfully: 27/09/2025 04:16:39 PM
+2025-09-27 16:16:45:INFO:OTC entry verified successfully after edit
+2025-09-27 16:16:45:INFO:Logout successfully
+2025-09-27 16:16:46:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-27 16:16:46:INFO:Clicking Sign In
+2025-09-27 16:16:46:INFO:Login successful
+2025-09-27 16:16:48:INFO:Navigated to OTC page
+2025-09-27 16:16:54:INFO:Table has 34 rows
+2025-09-27 16:16:54:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': '6p2D', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 04:16:39 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-27 16:16:55:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-27 16:16:57:INFO:Entered Output Type Name: 6p2D
+2025-09-27 16:16:57:INFO:Current Time after add is: 27/09/2025 04:16:57 PM
+2025-09-27 16:16:57:INFO:Clicked the Update button
+2025-09-27 16:17:49:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xeac333+65459]
+	GetHandleVerifier [0x0xeac374+65524]
+	(No symbol) [0x0xccd973]
+	(No symbol) [0x0xd176e7]
+	(No symbol) [0x0xd17a8b]
+	(No symbol) [0x0xd5dea2]
+	(No symbol) [0x0xd39e44]
+	(No symbol) [0x0xd5b606]
+	(No symbol) [0x0xd39bf6]
+	(No symbol) [0x0xd0b38e]
+	(No symbol) [0x0xd0c274]
+	GetHandleVerifier [0x0x112eda3+2697763]
+	GetHandleVerifier [0x0x1129ec7+2677575]
+	GetHandleVerifier [0x0xed4194+228884]
+	GetHandleVerifier [0x0xec49f8+165496]
+	GetHandleVerifier [0x0xecb18d+192013]
+	GetHandleVerifier [0x0xeb47d8+99416]
+	GetHandleVerifier [0x0xeb4972+99826]
+	GetHandleVerifier [0x0xe9ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-27 16:17:49:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_16-17-49.png

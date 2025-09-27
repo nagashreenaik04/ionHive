@@ -1,0 +1,8 @@
+
+selenium
+pytest
+pytest-html
+pip install webdriver-manager
+pyyaml
+allure-pytest
+pytest-repeat --> it is used to execute the same test script into mulitple times i.e., --count=5
