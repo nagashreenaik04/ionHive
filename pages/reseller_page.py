@@ -18,6 +18,20 @@ class ResellerPage(BasePage):
     reseller_email = (By.XPATH, '//input[@placeholder="email"]')
     reseller_address = (By.XPATH, '//input[@placeholder="Address"]')
 
+    # logout locator
+    logout_drpdwn = (By.XPATH, '//*[@id="root"]/div/nav/div[2]/ul/li[2]')
+    logout_btn = (By.XPATH, "(//i[@class='ti-power-off text-primary'])[2]")
+
+    # Messages
+    reseller_success_msg = (By.XPATH, '//h2[text()="Reseller added successfully"]')
+    reseller_error1_msg = (By.XPATH, '//h2[text()="Error"]')
+        #(By.XPATH, '//div[text() ="Email ID and Reseller Name already exists"]')
+    '//div[text() ="Reseller Name already exists"]'
+    '//div[text() ="Email ID already exists"]'
+    '(//h2[text()="Error"]/following::div)[1]'
+
+
+
     def __init__(self, driver):
         super().__init__(driver)
 
