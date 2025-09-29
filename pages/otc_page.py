@@ -10,7 +10,7 @@ class OTCPage(BasePage):
     otc_page = (By.XPATH, '//h3[text()="Output Type Config"]')
     otc_list_table = (By.XPATH, '//h4[text()="List Of Output Type Config"]')
     addOTC_btn = (By.XPATH, '//button[text()="Add Output Type Config"]')
-    ABC = ()
+
 
     #list of OTC table
     sino_clb = (By.XPATH, '//th[text()="Sl.No"]')

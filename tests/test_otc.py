@@ -704,6 +704,10 @@ class TestOTC:
     def test_edit_otc(self, driver):
         otc_page, screenshot_util = self.setup_otc_test(driver)
 
+        edit_output_typename = self.fake.lexify(text='????????????',
+                                                letters='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')[
+                               :random.randint(1, 12)]
+
         try:
             # Get table data
             table_data = otc_page.get_table_data()
@@ -745,13 +749,14 @@ class TestOTC:
             success = False
 
             for attempt in range(max_attempts):
+
+
                 if attempt > 0:
                     # generate a new unique name for retry
-                    self.outputTypeName = f"OTC_{random.randint(1000, 9999)}"
-                    self.logger.warning(f"Retrying with new Output Type Name: {self.outputTypeName}")
+                    self.logger.warning(f"Retrying with new Output Type Name: {edit_output_typename}")
 
-                otc_page.enter_edit_output_type_name(self.outputTypeName)
-                self.logger.info(f"Entered Output Type Name: {self.outputTypeName}")
+                otc_page.enter_edit_output_type_name(edit_output_typename)
+                self.logger.info(f"Entered Output Type Name: {edit_output_typename}")
 
                 otc_page.click_update_btn()
                 # Log after the update with the exact time
@@ -790,42 +795,6 @@ class TestOTC:
             if not success:
                 raise AssertionError("Failed to update OTC after maximum retries")
 
-            """
-            for attempt in range(max_attempts):
-                if attempt > 0:
-                    # Generate a new unique output type name if retrying
-                    self.outputTypeName = self.outputTypeName + str(random.randint(100, 999))
-                    self.logger.warning(f"Retrying with new Output Type Name: {self.outputTypeName}")
-
-                otc_page.enter_edit_output_type_name(self.outputTypeName)
-                self.logger.info(f"Entered new output type name: {self.outputTypeName}")
-                otc_page.click_update_btn()
-                # Log after the update with the exact time
-                current_time = datetime.now()
-                current_time_after_edit = current_time.strftime("%d/%m/%Y %I:%M:%S %p")
-                self.logger.info(f"Current Time after add is: {current_time_after_edit}")
-                self.logger.info("Clicked the Update button")
-                time.sleep(2)
-
-                if otc_page.get_edit_otc_success_msg() == self.expected_edit_otc_success_msg:
-                    self.logger.info(f"OTC success message is: {otc_page.get_edit_otc_success_msg()}")
-                    otc_page.click_ok_btn()
-                    self.logger.info("Clicked the 'OK' button successfully")
-                    time.sleep(2)
-                    success = True
-                    break  # stop loop after success
-                elif otc_page.get_otc_error_msg() == self.expected_otc_error_msg:
-                    self.logger.info(f"OTC error message is: {otc_page.get_otc_error_msg()}")
-                    otc_page.click_ok_btn()
-                    self.logger.info("Clicked the 'OK' button successfully")
-                else:
-                    # Locate the 'Update' button and verify it is disabled
-                    update_button = otc_page.get_update_btn_not_clickable()
-                    assert update_button.get_attribute("disabled") == "true", "Update button is not disabled"
-                    self.logger.info("Verified that 'Update' button is disabled")
-                """
-
-
         except Exception as e:
             screenshot_path = screenshot_util.capture_screenshot("test_type_name_field_failure")
             self.logger.error(f"Test failed: {str(e)}")
@@ -848,8 +817,8 @@ class TestOTC:
             assert seventh_row_after['Output Type'] == old_output_type, "Output Type should not change"
             assert seventh_row_after['Created By'] == old_created_by, "Created By should not change"
             assert seventh_row_after['Created Date'] == old_created_date, "Created Date should not change"
-            assert seventh_row_after['Output Type Name'] == self.outputTypeName, \
-                f"Expected updated Output Type Name '{self.outputTypeName}', but got '{seventh_row_after['Output Type Name']}'"
+            assert seventh_row_after['Output Type Name'] == edit_output_typename, \
+                f"Expected updated Output Type Name '{edit_output_typename}', but got '{seventh_row_after['Output Type Name']}'"
 
             # Modified Date compare with current_time_after_updated
             # Check if the difference between the current time after edit and created date after edit is greater than 5 seconds
@@ -892,7 +861,8 @@ class TestOTC:
         self.logger.info("Logout successfully")
 
     @pytest.mark.retes
-    def test_deactivateAndActivate_otc(self, driver):
+    @pytest.mark.parametrize("run", [1, 2])
+    def test_deactivateAndActivate_otc(self, driver, run):
         otc_page, screenshot_util = self.setup_otc_test(driver)
 
         try:

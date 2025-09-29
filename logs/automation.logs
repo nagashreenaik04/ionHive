@@ -1349,3 +1349,1654 @@ Stacktrace:
 	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
 
 2025-09-27 16:17:49:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-27_16-17-49.png
+2025-09-29 10:00:40:INFO:====== WebDriver manager ======
+2025-09-29 10:00:41:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 10:00:42:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 10:00:42:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 10:00:44:INFO:WebDriver version 140.0.7339.207 selected
+2025-09-29 10:00:44:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-09-29 10:00:44:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-09-29 10:00:45:INFO:Driver downloading response is 200
+2025-09-29 10:00:46:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 10:00:49:INFO:Driver has been saved in cache [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207]
+2025-09-29 10:00:56:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:00:57:INFO:Clicking Sign In
+2025-09-29 10:00:57:INFO:Login successful
+2025-09-29 10:00:59:INFO:Navigated to OTC page
+2025-09-29 10:01:09:INFO:Table has 34 rows
+2025-09-29 10:01:09:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'fDiQUZcBxN', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '27/09/2025 04:20:18 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 10:01:09:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-29 10:01:12:INFO:Entered Output Type Name: OTcm6RR
+2025-09-29 10:01:12:INFO:Current Time after add is: 29/09/2025 10:01:12 AM
+2025-09-29 10:01:12:INFO:Clicked the Update button
+2025-09-29 10:01:14:INFO:OTC error message is: Update Output Type Config successfully
+2025-09-29 10:01:14:INFO:Clicked the 'OK' button successfully
+2025-09-29 10:01:22:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'OTcm6RR', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 10:01:09 AM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 10:01:22:INFO:Edited date 29/09/2025 10:01:09 AM and current date after edit 29/09/2025 10:01:12 AM differ by 3.0 seconds, which is within the 5-second threshold.
+2025-09-29 10:01:22:INFO:Modified Date updated successfully: 29/09/2025 10:01:09 AM
+2025-09-29 10:01:22:INFO:OTC entry verified successfully after edit
+2025-09-29 10:01:23:INFO:Logout successfully
+2025-09-29 10:03:18:INFO:====== WebDriver manager ======
+2025-09-29 10:03:20:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 10:03:21:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 10:03:21:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 10:03:30:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:03:30:INFO:Clicking Sign In
+2025-09-29 10:03:30:INFO:Login successful
+2025-09-29 10:03:32:INFO:Navigated to OTC page
+2025-09-29 10:03:34:INFO:Page Heading is: Output Type Config
+2025-09-29 10:03:34:INFO:OTC Heading verified successfully
+2025-09-29 10:03:35:INFO:Table Heading is: List Of Output Type Config
+2025-09-29 10:03:35:INFO:OTC Table verified successfully
+2025-09-29 10:03:35:INFO:Text of Add OTC button is: Add Output Type Config
+2025-09-29 10:03:35:INFO:Add OTC button verified successfully
+2025-09-29 10:03:35:INFO:Logout successfully
+2025-09-29 10:03:35:INFO:Starting test_verify_table_columns
+2025-09-29 10:03:37:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:03:37:INFO:Clicking Sign In
+2025-09-29 10:03:37:INFO:Login successful
+2025-09-29 10:03:39:INFO:Navigated to OTC page
+2025-09-29 10:03:41:INFO:Checking column 'Sl.No': Expected 'Sl.No', Got 'Sl.No'
+2025-09-29 10:03:41:INFO:Checking column 'Output Type': Expected 'Output Type', Got 'Output Type'
+2025-09-29 10:03:41:INFO:Checking column 'Output Type Name': Expected 'Output Type Name', Got 'Output Type Name'
+2025-09-29 10:03:41:INFO:Checking column 'Created By': Expected 'Created By', Got 'Created By'
+2025-09-29 10:03:41:INFO:Checking column 'Created Date': Expected 'Created Date', Got 'Created Date'
+2025-09-29 10:03:41:INFO:Checking column 'Modified By': Expected 'Modified By', Got 'Modified By'
+2025-09-29 10:03:41:INFO:Checking column 'Modified Date': Expected 'Modified Date', Got 'Modified Date'
+2025-09-29 10:03:41:INFO:Checking column 'Status': Expected 'Status', Got 'Status'
+2025-09-29 10:03:41:INFO:Checking column 'Active/DeActive': Expected 'Active/DeActive', Got 'Active/DeActive'
+2025-09-29 10:03:41:INFO:Checking column 'Option': Expected 'Option', Got 'Option'
+2025-09-29 10:03:41:INFO:All expected columns are present in the OTC table
+2025-09-29 10:03:42:INFO:Logout successfully
+2025-09-29 10:03:46:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:03:46:INFO:Clicking Sign In
+2025-09-29 10:03:46:INFO:Login successful
+2025-09-29 10:03:48:INFO:Navigated to OTC page
+2025-09-29 10:03:50:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 10:03:50:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:03:50:INFO:'Add Output Type Config' popup displayed
+2025-09-29 10:03:51:INFO:Popup contains heading, Type dropdown, Type Name field, and Add button
+2025-09-29 10:03:51:INFO:Selected output type: Gun
+2025-09-29 10:03:51:INFO:Entered output type name: pCJ2hG
+2025-09-29 10:03:51:INFO:Current Time after add is: 29/09/2025 10:03:51 AM
+2025-09-29 10:03:51:INFO:Clicked the add OTC button
+2025-09-29 10:03:52:INFO:OTC success message is: Add Output Type Config successfully
+2025-09-29 10:03:52:INFO:Clicked the 'OK' button successfully
+2025-09-29 10:03:58:INFO:Found added OTC entry: Output Type 'Gun', Output Type Name  'pCJ2hG', Created By outdidsuperadmin@gmail.com, Created Date  29/09/2025 10:03:49 AM, Modified By : -, Modified Date : -, Status : Active 
+2025-09-29 10:03:58:INFO:Created date 29/09/2025 10:03:49 AM and current date 29/09/2025 10:03:51 AM differ by 2.0 seconds, which is within the 5-second threshold.
+2025-09-29 10:03:58:INFO:OTC entry verified successfully in the table
+2025-09-29 10:03:58:INFO:Logout successfully
+2025-09-29 10:04:02:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:04:03:INFO:Clicking Sign In
+2025-09-29 10:04:03:INFO:Login successful
+2025-09-29 10:04:05:INFO:Navigated to OTC page
+2025-09-29 10:04:07:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:04:07:INFO:Verified dropdown options: ['Select Type', 'Gun', 'Socket']
+2025-09-29 10:04:07:INFO:Running test case: Select valid option 'Gun' from Type dropdown
+2025-09-29 10:04:07:INFO:Successfully selected 'Gun' as expected
+2025-09-29 10:04:09:INFO:Running test case: Select valid option 'Select Type' from Type dropdown
+2025-09-29 10:04:10:INFO:Successfully selected 'Select Type' as expected
+2025-09-29 10:04:12:INFO:Running test case: Select valid option 'Socket' from Type dropdown
+2025-09-29 10:04:12:INFO:Successfully selected 'Socket' as expected
+2025-09-29 10:04:14:INFO:Running test case: Attempt to select invalid option 'Connector' (not in dropdown)
+2025-09-29 10:04:14:INFO:Correctly failed to select 'Connector' as it is not in the dropdown
+2025-09-29 10:04:14:INFO:All test cases for Type dropdown completed successfully
+2025-09-29 10:04:14:INFO:Logout successfully
+2025-09-29 10:04:16:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:04:16:INFO:Clicking Sign In
+2025-09-29 10:04:16:INFO:Login successful
+2025-09-29 10:04:18:INFO:Navigated to OTC page
+2025-09-29 10:04:20:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:04:20:INFO:Selected output type: Gun
+2025-09-29 10:04:20:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 10:04:21:INFO:Cleared Output Type Name field
+2025-09-29 10:04:21:INFO:Entered input: '466575645757'
+2025-09-29 10:04:21:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 10:04:21:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 10:04:21:INFO:Cleared Output Type Name field
+2025-09-29 10:04:22:INFO:Entered input: '4665756abcde'
+2025-09-29 10:04:22:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 10:04:22:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 10:04:22:INFO:Cleared Output Type Name field
+2025-09-29 10:04:22:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 10:04:22:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 10:04:22:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 10:04:22:INFO:Cleared Output Type Name field
+2025-09-29 10:04:22:INFO:Entered input: '#$%%1234'
+2025-09-29 10:04:22:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 10:04:22:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 10:04:22:INFO:Cleared Output Type Name field
+2025-09-29 10:04:23:INFO:Entered input: 'abcd&*()'
+2025-09-29 10:04:23:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 10:04:23:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 10:04:23:INFO:Cleared Output Type Name field
+2025-09-29 10:04:24:INFO:Entered input: '%d'
+2025-09-29 10:04:24:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 10:04:24:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 10:04:24:INFO:Cleared Output Type Name field
+2025-09-29 10:04:24:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 10:04:24:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 10:04:24:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 10:04:24:INFO:Cleared Output Type Name field
+2025-09-29 10:04:25:INFO:Entered input: ''
+2025-09-29 10:04:25:INFO:Verified field value: '' matches expected ''
+2025-09-29 10:04:25:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 10:04:25:INFO:Logout successfully
+2025-09-29 10:04:26:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:04:26:INFO:Clicking Sign In
+2025-09-29 10:04:26:INFO:Login successful
+2025-09-29 10:04:29:INFO:Navigated to OTC page
+2025-09-29 10:04:33:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:04:33:INFO:Testing Type: 'Gun', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 10:04:33:INFO:Cleared Output Type Name field
+2025-09-29 10:04:33:INFO:Selected Type: 'Gun'
+2025-09-29 10:04:33:INFO:Clicked 'Add' button
+2025-09-29 10:04:33:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 10:04:33:INFO:Testing Type: '', Type Name: 'abc', Expected error: 'Please select an item in the list.'
+2025-09-29 10:04:33:INFO:Cleared Output Type Name field
+2025-09-29 10:04:34:INFO:Selected placeholder 'Select Type'
+2025-09-29 10:04:34:INFO:Entered Output Type Name: 'abc'
+2025-09-29 10:04:34:INFO:Clicked 'Add' button
+2025-09-29 10:04:34:INFO:Verified error message: 'Please select an item in the list.'
+2025-09-29 10:04:34:INFO:Testing Type: '', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 10:04:34:INFO:Cleared Output Type Name field
+2025-09-29 10:04:34:INFO:Selected placeholder 'Select Type'
+2025-09-29 10:04:34:INFO:Clicked 'Add' button
+2025-09-29 10:04:34:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 10:04:34:INFO:All test cases for Add button error validation completed successfully
+2025-09-29 10:04:35:INFO:Logout successfully
+2025-09-29 10:04:36:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:04:36:INFO:Clicking Sign In
+2025-09-29 10:04:36:INFO:Login successful
+2025-09-29 10:04:38:INFO:Navigated to OTC page
+2025-09-29 10:04:40:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:04:42:INFO:OTC error message is: Output type already exists
+2025-09-29 10:04:42:INFO:Clicked the 'OK' button successfully
+2025-09-29 10:04:42:INFO:Logout successfully
+2025-09-29 10:04:44:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:04:44:INFO:Clicking Sign In
+2025-09-29 10:04:44:INFO:Login successful
+2025-09-29 10:04:46:INFO:Navigated to OTC page
+2025-09-29 10:04:49:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:04:52:INFO:Successfully clicked close icon
+2025-09-29 10:04:52:INFO:Logout successfully
+2025-09-29 10:04:53:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:04:54:INFO:Clicking Sign In
+2025-09-29 10:04:54:INFO:Login successful
+2025-09-29 10:04:56:INFO:Navigated to OTC page
+2025-09-29 10:04:58:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 10:05:01:INFO:Successfully clicked close icon
+2025-09-29 10:05:02:INFO:Logout successfully
+2025-09-29 10:05:04:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:05:04:INFO:Clicking Sign In
+2025-09-29 10:05:04:INFO:Login successful
+2025-09-29 10:05:06:INFO:Navigated to OTC page
+2025-09-29 10:05:08:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 10:05:08:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 10:05:09:INFO:Cleared Output Type Name field
+2025-09-29 10:05:09:INFO:Entered input: '466575645757'
+2025-09-29 10:05:09:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 10:05:09:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 10:05:09:INFO:Cleared Output Type Name field
+2025-09-29 10:05:10:INFO:Entered input: '4665756abcde'
+2025-09-29 10:05:10:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 10:05:10:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 10:05:10:INFO:Cleared Output Type Name field
+2025-09-29 10:05:10:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 10:05:10:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 10:05:10:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 10:05:10:INFO:Cleared Output Type Name field
+2025-09-29 10:05:10:INFO:Entered input: '#$%%1234'
+2025-09-29 10:05:10:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 10:05:10:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 10:05:10:INFO:Cleared Output Type Name field
+2025-09-29 10:05:11:INFO:Entered input: 'abcd&*()'
+2025-09-29 10:05:11:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 10:05:11:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 10:05:11:INFO:Cleared Output Type Name field
+2025-09-29 10:05:11:INFO:Entered input: '%d'
+2025-09-29 10:05:11:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 10:05:11:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 10:05:11:INFO:Cleared Output Type Name field
+2025-09-29 10:05:11:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 10:05:11:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 10:05:11:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 10:05:11:INFO:Cleared Output Type Name field
+2025-09-29 10:05:11:INFO:Entered input: ''
+2025-09-29 10:05:12:INFO:Verified field value: '' matches expected ''
+2025-09-29 10:05:12:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 10:05:12:INFO:Logout successfully
+2025-09-29 10:05:13:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:05:14:INFO:Clicking Sign In
+2025-09-29 10:05:14:INFO:Login successful
+2025-09-29 10:05:16:INFO:Navigated to OTC page
+2025-09-29 10:05:18:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 10:05:19:INFO:Verified that 'Type' field is read-only
+2025-09-29 10:05:19:INFO:Verified that 'Update' button is disabled
+2025-09-29 10:05:19:INFO:Verified that 'Type Name' field is editable
+2025-09-29 10:05:19:INFO:Logout successfully
+2025-09-29 10:05:20:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:05:21:INFO:Clicking Sign In
+2025-09-29 10:05:21:INFO:Login successful
+2025-09-29 10:05:23:INFO:Navigated to OTC page
+2025-09-29 10:05:35:INFO:Table has 35 rows
+2025-09-29 10:05:35:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'OTcm6RR', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 10:01:09 AM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 10:05:36:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-29 10:05:38:INFO:Entered Output Type Name: pCJ2hG
+2025-09-29 10:05:38:INFO:Current Time after add is: 29/09/2025 10:05:38 AM
+2025-09-29 10:05:38:INFO:Clicked the Update button
+2025-09-29 10:06:31:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x66c333+65459]
+	GetHandleVerifier [0x0x66c374+65524]
+	(No symbol) [0x0x48d973]
+	(No symbol) [0x0x4d76e7]
+	(No symbol) [0x0x4d7a8b]
+	(No symbol) [0x0x51dea2]
+	(No symbol) [0x0x4f9e44]
+	(No symbol) [0x0x51b606]
+	(No symbol) [0x0x4f9bf6]
+	(No symbol) [0x0x4cb38e]
+	(No symbol) [0x0x4cc274]
+	GetHandleVerifier [0x0x8eeda3+2697763]
+	GetHandleVerifier [0x0x8e9ec7+2677575]
+	GetHandleVerifier [0x0x694194+228884]
+	GetHandleVerifier [0x0x6849f8+165496]
+	GetHandleVerifier [0x0x68b18d+192013]
+	GetHandleVerifier [0x0x6747d8+99416]
+	GetHandleVerifier [0x0x674972+99826]
+	GetHandleVerifier [0x0x65ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-29 10:06:31:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-29_10-06-31.png
+2025-09-29 10:06:34:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:06:34:INFO:Clicking Sign In
+2025-09-29 10:06:34:INFO:Login successful
+2025-09-29 10:06:36:INFO:Navigated to OTC page
+2025-09-29 10:06:50:INFO:Table has 35 rows
+2025-09-29 10:06:50:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'OTcm6RR', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 10:01:09 AM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 10:06:50:INFO:Old status of 7th row: DeActive
+2025-09-29 10:06:50:INFO:Current Time after add is: 29/09/2025 10:06:50 AM
+2025-09-29 10:06:50:INFO:Activated successfully
+2025-09-29 10:06:51:INFO:Clicked the 'OK' button successfully
+2025-09-29 10:07:16:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'OTcm6RR', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 10:06:47 AM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 10:07:16:INFO:Updated date 29/09/2025 10:06:47 AM and current date after edit 29/09/2025 10:06:50 AM differ by 3.0 seconds, which is within the 5-second threshold.
+2025-09-29 10:07:16:INFO:Modified Date updated successfully: 29/09/2025 10:06:47 AM
+2025-09-29 10:07:16:INFO:Status updated successfully: Active
+2025-09-29 10:07:16:INFO:Radio button status updated successfully: DeActive
+2025-09-29 10:07:16:INFO:OTC entry verified successfully after updated the status
+2025-09-29 10:07:16:INFO:Logout successfully
+2025-09-29 10:07:30:INFO:====== WebDriver manager ======
+2025-09-29 10:07:31:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 10:07:31:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 10:07:32:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 10:07:37:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:07:38:INFO:Clicking Sign In
+2025-09-29 10:07:38:INFO:Login successful
+2025-09-29 10:07:40:INFO:Navigated to OTC page
+2025-09-29 10:07:42:INFO:Page Heading is: Output Type Config
+2025-09-29 10:07:42:INFO:OTC Heading verified successfully
+2025-09-29 10:07:42:INFO:Table Heading is: List Of Output Type Config
+2025-09-29 10:07:42:INFO:OTC Table verified successfully
+2025-09-29 10:07:42:INFO:Text of Add OTC button is: Add Output Type Config
+2025-09-29 10:07:42:INFO:Add OTC button verified successfully
+2025-09-29 10:07:42:INFO:Logout successfully
+2025-09-29 10:07:42:INFO:Starting test_verify_table_columns
+2025-09-29 10:07:51:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:07:51:INFO:Clicking Sign In
+2025-09-29 10:07:51:INFO:Login successful
+2025-09-29 10:07:53:INFO:Navigated to OTC page
+2025-09-29 10:07:55:INFO:Checking column 'Sl.No': Expected 'Sl.No', Got 'Sl.No'
+2025-09-29 10:07:55:INFO:Checking column 'Output Type': Expected 'Output Type', Got 'Output Type'
+2025-09-29 10:07:55:INFO:Checking column 'Output Type Name': Expected 'Output Type Name', Got 'Output Type Name'
+2025-09-29 10:07:55:INFO:Checking column 'Created By': Expected 'Created By', Got 'Created By'
+2025-09-29 10:07:55:INFO:Checking column 'Created Date': Expected 'Created Date', Got 'Created Date'
+2025-09-29 10:07:55:INFO:Checking column 'Modified By': Expected 'Modified By', Got 'Modified By'
+2025-09-29 10:07:55:INFO:Checking column 'Modified Date': Expected 'Modified Date', Got 'Modified Date'
+2025-09-29 10:07:55:INFO:Checking column 'Status': Expected 'Status', Got 'Status'
+2025-09-29 10:07:55:INFO:Checking column 'Active/DeActive': Expected 'Active/DeActive', Got 'Active/DeActive'
+2025-09-29 10:07:55:INFO:Checking column 'Option': Expected 'Option', Got 'Option'
+2025-09-29 10:07:55:INFO:All expected columns are present in the OTC table
+2025-09-29 10:07:56:INFO:Logout successfully
+2025-09-29 10:08:02:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:08:02:INFO:Clicking Sign In
+2025-09-29 10:08:02:INFO:Login successful
+2025-09-29 10:08:04:INFO:Navigated to OTC page
+2025-09-29 10:08:06:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 10:08:07:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:08:07:INFO:'Add Output Type Config' popup displayed
+2025-09-29 10:08:07:INFO:Popup contains heading, Type dropdown, Type Name field, and Add button
+2025-09-29 10:08:07:INFO:Selected output type: Gun
+2025-09-29 10:08:07:INFO:Entered output type name: Mfq
+2025-09-29 10:08:08:INFO:Current Time after add is: 29/09/2025 10:08:08 AM
+2025-09-29 10:08:08:INFO:Clicked the add OTC button
+2025-09-29 10:08:08:INFO:OTC success message is: Add Output Type Config successfully
+2025-09-29 10:08:08:INFO:Clicked the 'OK' button successfully
+2025-09-29 10:08:18:INFO:Found added OTC entry: Output Type 'Gun', Output Type Name  'Mfq', Created By outdidsuperadmin@gmail.com, Created Date  29/09/2025 10:08:05 AM, Modified By : -, Modified Date : -, Status : Active 
+2025-09-29 10:08:18:INFO:Created date 29/09/2025 10:08:05 AM and current date 29/09/2025 10:08:08 AM differ by 3.0 seconds, which is within the 5-second threshold.
+2025-09-29 10:08:18:INFO:OTC entry verified successfully in the table
+2025-09-29 10:08:19:INFO:Logout successfully
+2025-09-29 10:08:24:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:08:24:INFO:Clicking Sign In
+2025-09-29 10:08:24:INFO:Login successful
+2025-09-29 10:08:26:INFO:Navigated to OTC page
+2025-09-29 10:08:29:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:08:29:INFO:Verified dropdown options: ['Select Type', 'Gun', 'Socket']
+2025-09-29 10:08:29:INFO:Running test case: Select valid option 'Gun' from Type dropdown
+2025-09-29 10:08:29:INFO:Successfully selected 'Gun' as expected
+2025-09-29 10:08:31:INFO:Running test case: Select valid option 'Select Type' from Type dropdown
+2025-09-29 10:08:31:INFO:Successfully selected 'Select Type' as expected
+2025-09-29 10:08:33:INFO:Running test case: Select valid option 'Socket' from Type dropdown
+2025-09-29 10:08:34:INFO:Successfully selected 'Socket' as expected
+2025-09-29 10:08:36:INFO:Running test case: Attempt to select invalid option 'Connector' (not in dropdown)
+2025-09-29 10:08:36:INFO:Correctly failed to select 'Connector' as it is not in the dropdown
+2025-09-29 10:08:36:INFO:All test cases for Type dropdown completed successfully
+2025-09-29 10:08:36:INFO:Logout successfully
+2025-09-29 10:08:38:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:08:38:INFO:Clicking Sign In
+2025-09-29 10:08:38:INFO:Login successful
+2025-09-29 10:08:40:INFO:Navigated to OTC page
+2025-09-29 10:08:43:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:08:43:INFO:Selected output type: Gun
+2025-09-29 10:08:43:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 10:08:43:INFO:Cleared Output Type Name field
+2025-09-29 10:08:43:INFO:Entered input: '466575645757'
+2025-09-29 10:08:43:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 10:08:43:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 10:08:43:INFO:Cleared Output Type Name field
+2025-09-29 10:08:43:INFO:Entered input: '4665756abcde'
+2025-09-29 10:08:44:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 10:08:44:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 10:08:44:INFO:Cleared Output Type Name field
+2025-09-29 10:08:44:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 10:08:44:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 10:08:44:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 10:08:44:INFO:Cleared Output Type Name field
+2025-09-29 10:08:44:INFO:Entered input: '#$%%1234'
+2025-09-29 10:08:44:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 10:08:44:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 10:08:44:INFO:Cleared Output Type Name field
+2025-09-29 10:08:45:INFO:Entered input: 'abcd&*()'
+2025-09-29 10:08:45:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 10:08:45:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 10:08:45:INFO:Cleared Output Type Name field
+2025-09-29 10:08:45:INFO:Entered input: '%d'
+2025-09-29 10:08:45:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 10:08:45:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 10:08:45:INFO:Cleared Output Type Name field
+2025-09-29 10:08:45:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 10:08:45:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 10:08:45:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 10:08:45:INFO:Cleared Output Type Name field
+2025-09-29 10:08:46:INFO:Entered input: ''
+2025-09-29 10:08:46:INFO:Verified field value: '' matches expected ''
+2025-09-29 10:08:46:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 10:08:46:INFO:Logout successfully
+2025-09-29 10:08:47:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:08:47:INFO:Clicking Sign In
+2025-09-29 10:08:47:INFO:Login successful
+2025-09-29 10:08:49:INFO:Navigated to OTC page
+2025-09-29 10:08:54:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:08:54:INFO:Testing Type: 'Gun', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 10:08:54:INFO:Cleared Output Type Name field
+2025-09-29 10:08:54:INFO:Selected Type: 'Gun'
+2025-09-29 10:08:54:INFO:Clicked 'Add' button
+2025-09-29 10:08:54:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 10:08:54:INFO:Testing Type: '', Type Name: 'abc', Expected error: 'Please select an item in the list.'
+2025-09-29 10:08:54:INFO:Cleared Output Type Name field
+2025-09-29 10:08:55:INFO:Selected placeholder 'Select Type'
+2025-09-29 10:08:55:INFO:Entered Output Type Name: 'abc'
+2025-09-29 10:08:55:INFO:Clicked 'Add' button
+2025-09-29 10:08:55:INFO:Verified error message: 'Please select an item in the list.'
+2025-09-29 10:08:55:INFO:Testing Type: '', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 10:08:55:INFO:Cleared Output Type Name field
+2025-09-29 10:08:55:INFO:Selected placeholder 'Select Type'
+2025-09-29 10:08:55:INFO:Clicked 'Add' button
+2025-09-29 10:08:55:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 10:08:55:INFO:All test cases for Add button error validation completed successfully
+2025-09-29 10:08:56:INFO:Logout successfully
+2025-09-29 10:08:57:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:08:57:INFO:Clicking Sign In
+2025-09-29 10:08:57:INFO:Login successful
+2025-09-29 10:09:00:INFO:Navigated to OTC page
+2025-09-29 10:09:02:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:09:03:INFO:OTC error message is: Output type already exists
+2025-09-29 10:09:03:INFO:Clicked the 'OK' button successfully
+2025-09-29 10:09:04:INFO:Logout successfully
+2025-09-29 10:09:05:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:09:06:INFO:Clicking Sign In
+2025-09-29 10:09:06:INFO:Login successful
+2025-09-29 10:09:08:INFO:Navigated to OTC page
+2025-09-29 10:09:10:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 10:09:14:INFO:Successfully clicked close icon
+2025-09-29 10:09:14:INFO:Logout successfully
+2025-09-29 10:09:15:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:09:16:INFO:Clicking Sign In
+2025-09-29 10:09:16:INFO:Login successful
+2025-09-29 10:09:18:INFO:Navigated to OTC page
+2025-09-29 10:09:20:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 10:09:24:INFO:Successfully clicked close icon
+2025-09-29 10:09:24:INFO:Logout successfully
+2025-09-29 10:09:26:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:09:26:INFO:Clicking Sign In
+2025-09-29 10:09:26:INFO:Login successful
+2025-09-29 10:09:28:INFO:Navigated to OTC page
+2025-09-29 10:09:31:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 10:09:31:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 10:09:31:INFO:Cleared Output Type Name field
+2025-09-29 10:09:32:INFO:Entered input: '466575645757'
+2025-09-29 10:09:32:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 10:09:32:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 10:09:32:INFO:Cleared Output Type Name field
+2025-09-29 10:09:32:INFO:Entered input: '4665756abcde'
+2025-09-29 10:09:32:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 10:09:32:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 10:09:32:INFO:Cleared Output Type Name field
+2025-09-29 10:09:33:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 10:09:33:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 10:09:33:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 10:09:33:INFO:Cleared Output Type Name field
+2025-09-29 10:09:33:INFO:Entered input: '#$%%1234'
+2025-09-29 10:09:33:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 10:09:33:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 10:09:33:INFO:Cleared Output Type Name field
+2025-09-29 10:09:33:INFO:Entered input: 'abcd&*()'
+2025-09-29 10:09:33:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 10:09:33:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 10:09:33:INFO:Cleared Output Type Name field
+2025-09-29 10:09:34:INFO:Entered input: '%d'
+2025-09-29 10:09:34:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 10:09:34:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 10:09:34:INFO:Cleared Output Type Name field
+2025-09-29 10:09:34:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 10:09:34:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 10:09:34:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 10:09:34:INFO:Cleared Output Type Name field
+2025-09-29 10:09:34:INFO:Entered input: ''
+2025-09-29 10:09:34:INFO:Verified field value: '' matches expected ''
+2025-09-29 10:09:34:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 10:09:35:INFO:Logout successfully
+2025-09-29 10:09:36:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:09:36:INFO:Clicking Sign In
+2025-09-29 10:09:36:INFO:Login successful
+2025-09-29 10:09:39:INFO:Navigated to OTC page
+2025-09-29 10:09:41:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 10:09:41:INFO:Verified that 'Type' field is read-only
+2025-09-29 10:09:41:INFO:Verified that 'Update' button is disabled
+2025-09-29 10:09:41:INFO:Verified that 'Type Name' field is editable
+2025-09-29 10:09:41:INFO:Logout successfully
+2025-09-29 10:09:43:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:09:43:INFO:Clicking Sign In
+2025-09-29 10:09:43:INFO:Login successful
+2025-09-29 10:09:46:INFO:Navigated to OTC page
+2025-09-29 10:09:59:INFO:Table has 36 rows
+2025-09-29 10:09:59:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'OTcm6RR', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 10:06:47 AM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 10:09:59:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-29 10:10:02:INFO:Entered Output Type Name: Mfq
+2025-09-29 10:10:02:INFO:Current Time after add is: 29/09/2025 10:10:02 AM
+2025-09-29 10:10:02:INFO:Clicked the Update button
+2025-09-29 10:10:54:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x66c333+65459]
+	GetHandleVerifier [0x0x66c374+65524]
+	(No symbol) [0x0x48d973]
+	(No symbol) [0x0x4d76e7]
+	(No symbol) [0x0x4d7a8b]
+	(No symbol) [0x0x51dea2]
+	(No symbol) [0x0x4f9e44]
+	(No symbol) [0x0x51b606]
+	(No symbol) [0x0x4f9bf6]
+	(No symbol) [0x0x4cb38e]
+	(No symbol) [0x0x4cc274]
+	GetHandleVerifier [0x0x8eeda3+2697763]
+	GetHandleVerifier [0x0x8e9ec7+2677575]
+	GetHandleVerifier [0x0x694194+228884]
+	GetHandleVerifier [0x0x6849f8+165496]
+	GetHandleVerifier [0x0x68b18d+192013]
+	GetHandleVerifier [0x0x6747d8+99416]
+	GetHandleVerifier [0x0x674972+99826]
+	GetHandleVerifier [0x0x65ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-29 10:10:54:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-29_10-10-54.png
+2025-09-29 10:10:56:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 10:11:01:INFO:Clicking Sign In
+2025-09-29 10:11:01:INFO:Login successful
+2025-09-29 10:11:03:INFO:Navigated to OTC page
+2025-09-29 10:11:17:INFO:Table has 36 rows
+2025-09-29 10:11:17:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'OTcm6RR', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 10:06:47 AM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 10:11:17:INFO:Old status of 7th row: Active
+2025-09-29 10:11:17:INFO:Current Time after add is: 29/09/2025 10:11:17 AM
+2025-09-29 10:11:17:INFO:Deactivate successfully
+2025-09-29 10:11:18:INFO:Clicked the 'OK' button successfully
+2025-09-29 10:11:43:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'OTcm6RR', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 10:11:14 AM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 10:11:43:INFO:Updated date 29/09/2025 10:11:14 AM and current date after edit 29/09/2025 10:11:17 AM differ by 3.0 seconds, which is within the 5-second threshold.
+2025-09-29 10:11:43:INFO:Modified Date updated successfully: 29/09/2025 10:11:14 AM
+2025-09-29 10:11:43:INFO:Status updated successfully: DeActive
+2025-09-29 10:11:43:INFO:Radio button status updated successfully: Active
+2025-09-29 10:11:43:INFO:OTC entry verified successfully after updated the status
+2025-09-29 10:11:43:INFO:Logout successfully
+2025-09-29 14:40:07:INFO:====== WebDriver manager ======
+2025-09-29 14:40:08:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 14:40:10:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 14:40:10:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 14:40:25:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:40:26:INFO:Clicking Sign In
+2025-09-29 14:40:26:INFO:Login successful
+2025-09-29 14:40:28:INFO:Navigated to OTC page
+2025-09-29 14:40:30:INFO:Page Heading is: Output Type Config
+2025-09-29 14:40:30:INFO:OTC Heading verified successfully
+2025-09-29 14:40:30:INFO:Table Heading is: List Of Output Type Config
+2025-09-29 14:40:30:INFO:OTC Table verified successfully
+2025-09-29 14:40:30:INFO:Text of Add OTC button is: Add Output Type Config
+2025-09-29 14:40:30:INFO:Add OTC button verified successfully
+2025-09-29 14:40:31:INFO:Logout successfully
+2025-09-29 14:40:31:INFO:Starting test_verify_table_columns
+2025-09-29 14:40:32:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:40:32:INFO:Clicking Sign In
+2025-09-29 14:40:32:INFO:Login successful
+2025-09-29 14:40:35:INFO:Navigated to OTC page
+2025-09-29 14:40:37:INFO:Checking column 'Sl.No': Expected 'Sl.No', Got 'Sl.No'
+2025-09-29 14:40:37:INFO:Checking column 'Output Type': Expected 'Output Type', Got 'Output Type'
+2025-09-29 14:40:37:INFO:Checking column 'Output Type Name': Expected 'Output Type Name', Got 'Output Type Name'
+2025-09-29 14:40:37:INFO:Checking column 'Created By': Expected 'Created By', Got 'Created By'
+2025-09-29 14:40:37:INFO:Checking column 'Created Date': Expected 'Created Date', Got 'Created Date'
+2025-09-29 14:40:37:INFO:Checking column 'Modified By': Expected 'Modified By', Got 'Modified By'
+2025-09-29 14:40:37:INFO:Checking column 'Modified Date': Expected 'Modified Date', Got 'Modified Date'
+2025-09-29 14:40:37:INFO:Checking column 'Status': Expected 'Status', Got 'Status'
+2025-09-29 14:40:37:INFO:Checking column 'Active/DeActive': Expected 'Active/DeActive', Got 'Active/DeActive'
+2025-09-29 14:40:37:INFO:Checking column 'Option': Expected 'Option', Got 'Option'
+2025-09-29 14:40:37:INFO:All expected columns are present in the OTC table
+2025-09-29 14:40:38:INFO:Logout successfully
+2025-09-29 14:40:40:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:40:40:INFO:Clicking Sign In
+2025-09-29 14:40:40:INFO:Login successful
+2025-09-29 14:40:42:INFO:Navigated to OTC page
+2025-09-29 14:40:44:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 14:40:44:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:40:44:INFO:'Add Output Type Config' popup displayed
+2025-09-29 14:40:45:INFO:Popup contains heading, Type dropdown, Type Name field, and Add button
+2025-09-29 14:40:45:INFO:Selected output type: Gun
+2025-09-29 14:40:45:INFO:Entered output type name: y
+2025-09-29 14:40:46:INFO:Current Time after add is: 29/09/2025 02:40:46 PM
+2025-09-29 14:40:46:INFO:Clicked the add OTC button
+2025-09-29 14:40:48:INFO:OTC success message is: Add Output Type Config successfully
+2025-09-29 14:40:48:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:41:00:INFO:Found added OTC entry: Output Type 'Gun', Output Type Name  'y', Created By outdidsuperadmin@gmail.com, Created Date  29/09/2025 02:40:43 PM, Modified By : -, Modified Date : -, Status : Active 
+2025-09-29 14:41:00:INFO:Created date 29/09/2025 02:40:43 PM and current date 29/09/2025 02:40:46 PM differ by 3.0 seconds, which is within the 5-second threshold.
+2025-09-29 14:41:00:INFO:OTC entry verified successfully in the table
+2025-09-29 14:41:00:INFO:Logout successfully
+2025-09-29 14:41:02:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:41:03:INFO:Clicking Sign In
+2025-09-29 14:41:03:INFO:Login successful
+2025-09-29 14:41:05:INFO:Navigated to OTC page
+2025-09-29 14:41:07:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:41:07:INFO:Verified dropdown options: ['Select Type', 'Gun', 'Socket']
+2025-09-29 14:41:07:INFO:Running test case: Select valid option 'Gun' from Type dropdown
+2025-09-29 14:41:07:INFO:Successfully selected 'Gun' as expected
+2025-09-29 14:41:10:INFO:Running test case: Select valid option 'Select Type' from Type dropdown
+2025-09-29 14:41:10:INFO:Successfully selected 'Select Type' as expected
+2025-09-29 14:41:12:INFO:Running test case: Select valid option 'Socket' from Type dropdown
+2025-09-29 14:41:13:INFO:Successfully selected 'Socket' as expected
+2025-09-29 14:41:15:INFO:Running test case: Attempt to select invalid option 'Connector' (not in dropdown)
+2025-09-29 14:41:15:INFO:Correctly failed to select 'Connector' as it is not in the dropdown
+2025-09-29 14:41:15:INFO:All test cases for Type dropdown completed successfully
+2025-09-29 14:41:15:INFO:Logout successfully
+2025-09-29 14:41:17:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:41:17:INFO:Clicking Sign In
+2025-09-29 14:41:17:INFO:Login successful
+2025-09-29 14:41:20:INFO:Navigated to OTC page
+2025-09-29 14:41:22:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:41:22:INFO:Selected output type: Gun
+2025-09-29 14:41:22:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 14:41:22:INFO:Cleared Output Type Name field
+2025-09-29 14:41:23:INFO:Entered input: '466575645757'
+2025-09-29 14:41:23:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 14:41:23:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 14:41:23:INFO:Cleared Output Type Name field
+2025-09-29 14:41:24:INFO:Entered input: '4665756abcde'
+2025-09-29 14:41:24:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 14:41:24:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 14:41:24:INFO:Cleared Output Type Name field
+2025-09-29 14:41:24:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 14:41:24:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 14:41:24:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 14:41:24:INFO:Cleared Output Type Name field
+2025-09-29 14:41:24:INFO:Entered input: '#$%%1234'
+2025-09-29 14:41:24:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 14:41:24:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 14:41:24:INFO:Cleared Output Type Name field
+2025-09-29 14:41:24:INFO:Entered input: 'abcd&*()'
+2025-09-29 14:41:24:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 14:41:24:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 14:41:24:INFO:Cleared Output Type Name field
+2025-09-29 14:41:25:INFO:Entered input: '%d'
+2025-09-29 14:41:25:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 14:41:25:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 14:41:25:INFO:Cleared Output Type Name field
+2025-09-29 14:41:25:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 14:41:25:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 14:41:25:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 14:41:25:INFO:Cleared Output Type Name field
+2025-09-29 14:41:25:INFO:Entered input: ''
+2025-09-29 14:41:25:INFO:Verified field value: '' matches expected ''
+2025-09-29 14:41:25:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 14:41:25:INFO:Logout successfully
+2025-09-29 14:41:26:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:41:26:INFO:Clicking Sign In
+2025-09-29 14:41:26:INFO:Login successful
+2025-09-29 14:41:29:INFO:Navigated to OTC page
+2025-09-29 14:41:33:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:41:33:INFO:Testing Type: 'Gun', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 14:41:33:INFO:Cleared Output Type Name field
+2025-09-29 14:41:33:INFO:Selected Type: 'Gun'
+2025-09-29 14:41:33:INFO:Clicked 'Add' button
+2025-09-29 14:41:34:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 14:41:34:INFO:Testing Type: '', Type Name: 'abc', Expected error: 'Please select an item in the list.'
+2025-09-29 14:41:34:INFO:Cleared Output Type Name field
+2025-09-29 14:41:34:INFO:Selected placeholder 'Select Type'
+2025-09-29 14:41:34:INFO:Entered Output Type Name: 'abc'
+2025-09-29 14:41:34:INFO:Clicked 'Add' button
+2025-09-29 14:41:34:INFO:Verified error message: 'Please select an item in the list.'
+2025-09-29 14:41:34:INFO:Testing Type: '', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 14:41:34:INFO:Cleared Output Type Name field
+2025-09-29 14:41:34:INFO:Selected placeholder 'Select Type'
+2025-09-29 14:41:34:INFO:Clicked 'Add' button
+2025-09-29 14:41:34:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 14:41:34:INFO:All test cases for Add button error validation completed successfully
+2025-09-29 14:41:35:INFO:Logout successfully
+2025-09-29 14:41:36:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:41:36:INFO:Clicking Sign In
+2025-09-29 14:41:36:INFO:Login successful
+2025-09-29 14:41:39:INFO:Navigated to OTC page
+2025-09-29 14:41:41:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:41:42:INFO:OTC error message is: Output type already exists
+2025-09-29 14:41:42:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:41:43:INFO:Logout successfully
+2025-09-29 14:41:44:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:41:45:INFO:Clicking Sign In
+2025-09-29 14:41:45:INFO:Login successful
+2025-09-29 14:41:47:INFO:Navigated to OTC page
+2025-09-29 14:41:49:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:41:53:INFO:Successfully clicked close icon
+2025-09-29 14:41:54:INFO:Logout successfully
+2025-09-29 14:41:54:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:41:55:INFO:Clicking Sign In
+2025-09-29 14:41:55:INFO:Login successful
+2025-09-29 14:41:57:INFO:Navigated to OTC page
+2025-09-29 14:42:00:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 14:42:03:INFO:Successfully clicked close icon
+2025-09-29 14:42:03:INFO:Logout successfully
+2025-09-29 14:42:05:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:42:05:INFO:Clicking Sign In
+2025-09-29 14:42:05:INFO:Login successful
+2025-09-29 14:42:08:INFO:Navigated to OTC page
+2025-09-29 14:42:10:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 14:42:10:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 14:42:10:INFO:Cleared Output Type Name field
+2025-09-29 14:42:11:INFO:Entered input: '466575645757'
+2025-09-29 14:42:11:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 14:42:11:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 14:42:11:INFO:Cleared Output Type Name field
+2025-09-29 14:42:11:INFO:Entered input: '4665756abcde'
+2025-09-29 14:42:11:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 14:42:11:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 14:42:12:INFO:Cleared Output Type Name field
+2025-09-29 14:42:12:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 14:42:12:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 14:42:12:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 14:42:12:INFO:Cleared Output Type Name field
+2025-09-29 14:42:13:INFO:Entered input: '#$%%1234'
+2025-09-29 14:42:13:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 14:42:13:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 14:42:13:INFO:Cleared Output Type Name field
+2025-09-29 14:42:13:INFO:Entered input: 'abcd&*()'
+2025-09-29 14:42:13:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 14:42:13:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 14:42:13:INFO:Cleared Output Type Name field
+2025-09-29 14:42:13:INFO:Entered input: '%d'
+2025-09-29 14:42:13:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 14:42:13:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 14:42:13:INFO:Cleared Output Type Name field
+2025-09-29 14:42:14:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 14:42:14:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 14:42:14:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 14:42:14:INFO:Cleared Output Type Name field
+2025-09-29 14:42:14:INFO:Entered input: ''
+2025-09-29 14:42:14:INFO:Verified field value: '' matches expected ''
+2025-09-29 14:42:14:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 14:42:14:INFO:Logout successfully
+2025-09-29 14:42:16:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:42:16:INFO:Clicking Sign In
+2025-09-29 14:42:16:INFO:Login successful
+2025-09-29 14:42:18:INFO:Navigated to OTC page
+2025-09-29 14:42:21:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 14:42:21:INFO:Verified that 'Type' field is read-only
+2025-09-29 14:42:21:INFO:Verified that 'Update' button is disabled
+2025-09-29 14:42:21:INFO:Verified that 'Type Name' field is editable
+2025-09-29 14:42:21:INFO:Logout successfully
+2025-09-29 14:42:22:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:42:23:INFO:Clicking Sign In
+2025-09-29 14:42:23:INFO:Login successful
+2025-09-29 14:42:25:INFO:Navigated to OTC page
+2025-09-29 14:42:40:INFO:Table has 37 rows
+2025-09-29 14:42:40:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'OTcm6RR', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 10:11:14 AM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 14:42:41:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-29 14:42:43:ERROR:Test failed: cannot access local variable 'edit_output_typename' where it is not associated with a value
+2025-09-29 14:42:43:ERROR:Screenshot saved at: ./screenshots\test_type_name_field_failure_2025-09-29_14-42-43.png
+2025-09-29 14:42:44:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:42:55:INFO:Clicking Sign In
+2025-09-29 14:42:55:INFO:Login successful
+2025-09-29 14:42:58:INFO:Navigated to OTC page
+2025-09-29 14:43:12:INFO:Table has 37 rows
+2025-09-29 14:43:12:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'OTcm6RR', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 10:11:14 AM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 14:43:12:INFO:Old status of 7th row: DeActive
+2025-09-29 14:43:12:INFO:Current Time after add is: 29/09/2025 02:43:12 PM
+2025-09-29 14:43:12:INFO:Activated successfully
+2025-09-29 14:43:13:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:43:38:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'OTcm6RR', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 02:43:09 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 14:43:38:INFO:Updated date 29/09/2025 02:43:09 PM and current date after edit 29/09/2025 02:43:12 PM differ by 3.0 seconds, which is within the 5-second threshold.
+2025-09-29 14:43:38:INFO:Modified Date updated successfully: 29/09/2025 02:43:09 PM
+2025-09-29 14:43:38:INFO:Status updated successfully: Active
+2025-09-29 14:43:38:INFO:Radio button status updated successfully: DeActive
+2025-09-29 14:43:38:INFO:OTC entry verified successfully after updated the status
+2025-09-29 14:43:38:INFO:Logout successfully
+2025-09-29 14:45:31:INFO:====== WebDriver manager ======
+2025-09-29 14:45:32:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 14:45:33:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 14:45:33:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 14:45:43:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:45:44:INFO:Clicking Sign In
+2025-09-29 14:45:44:INFO:Login successful
+2025-09-29 14:45:46:INFO:Navigated to OTC page
+2025-09-29 14:45:48:INFO:Page Heading is: Output Type Config
+2025-09-29 14:45:48:INFO:OTC Heading verified successfully
+2025-09-29 14:45:48:INFO:Table Heading is: List Of Output Type Config
+2025-09-29 14:45:48:INFO:OTC Table verified successfully
+2025-09-29 14:45:48:INFO:Text of Add OTC button is: Add Output Type Config
+2025-09-29 14:45:48:INFO:Add OTC button verified successfully
+2025-09-29 14:45:48:INFO:Logout successfully
+2025-09-29 14:45:48:INFO:Starting test_verify_table_columns
+2025-09-29 14:45:50:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:45:51:INFO:Clicking Sign In
+2025-09-29 14:45:51:INFO:Login successful
+2025-09-29 14:45:53:INFO:Navigated to OTC page
+2025-09-29 14:45:55:INFO:Checking column 'Sl.No': Expected 'Sl.No', Got 'Sl.No'
+2025-09-29 14:45:55:INFO:Checking column 'Output Type': Expected 'Output Type', Got 'Output Type'
+2025-09-29 14:45:55:INFO:Checking column 'Output Type Name': Expected 'Output Type Name', Got 'Output Type Name'
+2025-09-29 14:45:55:INFO:Checking column 'Created By': Expected 'Created By', Got 'Created By'
+2025-09-29 14:45:55:INFO:Checking column 'Created Date': Expected 'Created Date', Got 'Created Date'
+2025-09-29 14:45:55:INFO:Checking column 'Modified By': Expected 'Modified By', Got 'Modified By'
+2025-09-29 14:45:55:INFO:Checking column 'Modified Date': Expected 'Modified Date', Got 'Modified Date'
+2025-09-29 14:45:55:INFO:Checking column 'Status': Expected 'Status', Got 'Status'
+2025-09-29 14:45:55:INFO:Checking column 'Active/DeActive': Expected 'Active/DeActive', Got 'Active/DeActive'
+2025-09-29 14:45:55:INFO:Checking column 'Option': Expected 'Option', Got 'Option'
+2025-09-29 14:45:55:INFO:All expected columns are present in the OTC table
+2025-09-29 14:45:55:INFO:Logout successfully
+2025-09-29 14:45:56:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:45:57:INFO:Clicking Sign In
+2025-09-29 14:45:57:INFO:Login successful
+2025-09-29 14:45:59:INFO:Navigated to OTC page
+2025-09-29 14:46:01:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 14:46:02:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:46:02:INFO:'Add Output Type Config' popup displayed
+2025-09-29 14:46:02:INFO:Popup contains heading, Type dropdown, Type Name field, and Add button
+2025-09-29 14:46:02:INFO:Selected output type: Socket
+2025-09-29 14:46:02:INFO:Entered output type name: Pk
+2025-09-29 14:46:02:INFO:Current Time after add is: 29/09/2025 02:46:02 PM
+2025-09-29 14:46:02:INFO:Clicked the add OTC button
+2025-09-29 14:46:03:INFO:OTC success message is: Add Output Type Config successfully
+2025-09-29 14:46:03:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:46:14:INFO:Found added OTC entry: Output Type 'Socket', Output Type Name  'Pk', Created By outdidsuperadmin@gmail.com, Created Date  29/09/2025 02:46:00 PM, Modified By : -, Modified Date : -, Status : Active 
+2025-09-29 14:46:14:INFO:Created date 29/09/2025 02:46:00 PM and current date 29/09/2025 02:46:02 PM differ by 2.0 seconds, which is within the 5-second threshold.
+2025-09-29 14:46:14:INFO:OTC entry verified successfully in the table
+2025-09-29 14:46:15:INFO:Logout successfully
+2025-09-29 14:46:16:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:46:16:INFO:Clicking Sign In
+2025-09-29 14:46:16:INFO:Login successful
+2025-09-29 14:46:19:INFO:Navigated to OTC page
+2025-09-29 14:46:21:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:46:21:INFO:Verified dropdown options: ['Select Type', 'Gun', 'Socket']
+2025-09-29 14:46:21:INFO:Running test case: Select valid option 'Gun' from Type dropdown
+2025-09-29 14:46:21:INFO:Successfully selected 'Gun' as expected
+2025-09-29 14:46:24:INFO:Running test case: Select valid option 'Select Type' from Type dropdown
+2025-09-29 14:46:24:INFO:Successfully selected 'Select Type' as expected
+2025-09-29 14:46:26:INFO:Running test case: Select valid option 'Socket' from Type dropdown
+2025-09-29 14:46:27:INFO:Successfully selected 'Socket' as expected
+2025-09-29 14:46:29:INFO:Running test case: Attempt to select invalid option 'Connector' (not in dropdown)
+2025-09-29 14:46:29:INFO:Correctly failed to select 'Connector' as it is not in the dropdown
+2025-09-29 14:46:29:INFO:All test cases for Type dropdown completed successfully
+2025-09-29 14:46:29:INFO:Logout successfully
+2025-09-29 14:46:31:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:46:31:INFO:Clicking Sign In
+2025-09-29 14:46:31:INFO:Login successful
+2025-09-29 14:46:34:INFO:Navigated to OTC page
+2025-09-29 14:46:36:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:46:36:INFO:Selected output type: Socket
+2025-09-29 14:46:36:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 14:46:36:INFO:Cleared Output Type Name field
+2025-09-29 14:46:36:INFO:Entered input: '466575645757'
+2025-09-29 14:46:36:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 14:46:36:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 14:46:37:INFO:Cleared Output Type Name field
+2025-09-29 14:46:37:INFO:Entered input: '4665756abcde'
+2025-09-29 14:46:37:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 14:46:37:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 14:46:37:INFO:Cleared Output Type Name field
+2025-09-29 14:46:38:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 14:46:38:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 14:46:38:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 14:46:38:INFO:Cleared Output Type Name field
+2025-09-29 14:46:38:INFO:Entered input: '#$%%1234'
+2025-09-29 14:46:38:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 14:46:38:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 14:46:38:INFO:Cleared Output Type Name field
+2025-09-29 14:46:38:INFO:Entered input: 'abcd&*()'
+2025-09-29 14:46:38:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 14:46:38:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 14:46:38:INFO:Cleared Output Type Name field
+2025-09-29 14:46:38:INFO:Entered input: '%d'
+2025-09-29 14:46:38:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 14:46:38:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 14:46:38:INFO:Cleared Output Type Name field
+2025-09-29 14:46:39:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 14:46:39:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 14:46:39:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 14:46:39:INFO:Cleared Output Type Name field
+2025-09-29 14:46:39:INFO:Entered input: ''
+2025-09-29 14:46:39:INFO:Verified field value: '' matches expected ''
+2025-09-29 14:46:39:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 14:46:39:INFO:Logout successfully
+2025-09-29 14:46:40:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:46:41:INFO:Clicking Sign In
+2025-09-29 14:46:41:INFO:Login successful
+2025-09-29 14:46:43:INFO:Navigated to OTC page
+2025-09-29 14:46:47:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:46:47:INFO:Testing Type: 'Gun', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 14:46:48:INFO:Cleared Output Type Name field
+2025-09-29 14:46:48:INFO:Selected Type: 'Gun'
+2025-09-29 14:46:48:INFO:Clicked 'Add' button
+2025-09-29 14:46:48:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 14:46:48:INFO:Testing Type: '', Type Name: 'abc', Expected error: 'Please select an item in the list.'
+2025-09-29 14:46:48:INFO:Cleared Output Type Name field
+2025-09-29 14:46:48:INFO:Selected placeholder 'Select Type'
+2025-09-29 14:46:49:INFO:Entered Output Type Name: 'abc'
+2025-09-29 14:46:49:INFO:Clicked 'Add' button
+2025-09-29 14:46:49:INFO:Verified error message: 'Please select an item in the list.'
+2025-09-29 14:46:49:INFO:Testing Type: '', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 14:46:49:INFO:Cleared Output Type Name field
+2025-09-29 14:46:49:INFO:Selected placeholder 'Select Type'
+2025-09-29 14:46:49:INFO:Clicked 'Add' button
+2025-09-29 14:46:49:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 14:46:49:INFO:All test cases for Add button error validation completed successfully
+2025-09-29 14:46:49:INFO:Logout successfully
+2025-09-29 14:46:51:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:46:51:INFO:Clicking Sign In
+2025-09-29 14:46:51:INFO:Login successful
+2025-09-29 14:46:53:INFO:Navigated to OTC page
+2025-09-29 14:46:56:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:46:57:INFO:OTC error message is: Output type already exists
+2025-09-29 14:46:57:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:46:58:INFO:Logout successfully
+2025-09-29 14:46:59:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:46:59:INFO:Clicking Sign In
+2025-09-29 14:46:59:INFO:Login successful
+2025-09-29 14:47:02:INFO:Navigated to OTC page
+2025-09-29 14:47:04:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:47:08:INFO:Successfully clicked close icon
+2025-09-29 14:47:08:INFO:Logout successfully
+2025-09-29 14:47:10:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:47:10:INFO:Clicking Sign In
+2025-09-29 14:47:10:INFO:Login successful
+2025-09-29 14:47:12:INFO:Navigated to OTC page
+2025-09-29 14:47:15:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 14:47:18:INFO:Successfully clicked close icon
+2025-09-29 14:47:19:INFO:Logout successfully
+2025-09-29 14:47:20:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:47:21:INFO:Clicking Sign In
+2025-09-29 14:47:21:INFO:Login successful
+2025-09-29 14:47:23:INFO:Navigated to OTC page
+2025-09-29 14:47:25:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 14:47:25:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 14:47:25:INFO:Cleared Output Type Name field
+2025-09-29 14:47:26:INFO:Entered input: '466575645757'
+2025-09-29 14:47:26:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 14:47:26:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 14:47:26:INFO:Cleared Output Type Name field
+2025-09-29 14:47:27:INFO:Entered input: '4665756abcde'
+2025-09-29 14:47:27:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 14:47:27:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 14:47:27:INFO:Cleared Output Type Name field
+2025-09-29 14:47:27:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 14:47:27:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 14:47:27:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 14:47:27:INFO:Cleared Output Type Name field
+2025-09-29 14:47:28:INFO:Entered input: '#$%%1234'
+2025-09-29 14:47:28:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 14:47:28:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 14:47:28:INFO:Cleared Output Type Name field
+2025-09-29 14:47:28:INFO:Entered input: 'abcd&*()'
+2025-09-29 14:47:28:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 14:47:28:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 14:47:28:INFO:Cleared Output Type Name field
+2025-09-29 14:47:29:INFO:Entered input: '%d'
+2025-09-29 14:47:29:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 14:47:29:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 14:47:29:INFO:Cleared Output Type Name field
+2025-09-29 14:47:29:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 14:47:29:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 14:47:29:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 14:47:29:INFO:Cleared Output Type Name field
+2025-09-29 14:47:29:INFO:Entered input: ''
+2025-09-29 14:47:29:INFO:Verified field value: '' matches expected ''
+2025-09-29 14:47:29:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 14:47:29:INFO:Logout successfully
+2025-09-29 14:47:31:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:47:31:INFO:Clicking Sign In
+2025-09-29 14:47:31:INFO:Login successful
+2025-09-29 14:47:34:INFO:Navigated to OTC page
+2025-09-29 14:47:36:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 14:47:36:INFO:Verified that 'Type' field is read-only
+2025-09-29 14:47:36:INFO:Verified that 'Update' button is disabled
+2025-09-29 14:47:36:INFO:Verified that 'Type Name' field is editable
+2025-09-29 14:47:36:INFO:Logout successfully
+2025-09-29 14:47:38:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:47:38:INFO:Clicking Sign In
+2025-09-29 14:47:38:INFO:Login successful
+2025-09-29 14:47:40:INFO:Navigated to OTC page
+2025-09-29 14:47:55:INFO:Table has 38 rows
+2025-09-29 14:47:55:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'OTcm6RR', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 02:43:09 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 14:47:56:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-29 14:47:58:INFO:Entered Output Type Name: e9zuFFx7T
+2025-09-29 14:47:58:INFO:Current Time after add is: 29/09/2025 02:47:58 PM
+2025-09-29 14:47:58:INFO:Clicked the Update button
+2025-09-29 14:48:01:INFO:OTC error message is: Update Output Type Config successfully
+2025-09-29 14:48:01:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:48:13:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'e9zuFFx7T', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 02:47:56 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 14:48:13:ERROR:Verification failed: Expected updated Output Type Name 'Pk', but got 'e9zuFFx7T'
+assert 'e9zuFFx7T' == 'Pk'
+  
+  [0m[91m- Pk[39;49;00m[90m[39;49;00m
+  [92m+ e9zuFFx7T[39;49;00m[90m[39;49;00m
+2025-09-29 14:48:13:ERROR:Screenshot saved at: ./screenshots\verify_otc_edit_failure_2025-09-29_14-48-13.png
+2025-09-29 14:48:15:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:48:25:INFO:Clicking Sign In
+2025-09-29 14:48:25:INFO:Login successful
+2025-09-29 14:48:27:INFO:Navigated to OTC page
+2025-09-29 14:48:40:INFO:Table has 38 rows
+2025-09-29 14:48:40:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'e9zuFFx7T', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 02:47:56 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 14:48:40:INFO:Old status of 7th row: Active
+2025-09-29 14:48:41:INFO:Current Time after add is: 29/09/2025 02:48:41 PM
+2025-09-29 14:48:41:INFO:Deactivate successfully
+2025-09-29 14:48:41:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:49:07:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'e9zuFFx7T', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 02:48:38 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 14:49:07:INFO:Updated date 29/09/2025 02:48:38 PM and current date after edit 29/09/2025 02:48:41 PM differ by 3.0 seconds, which is within the 5-second threshold.
+2025-09-29 14:49:07:INFO:Modified Date updated successfully: 29/09/2025 02:48:38 PM
+2025-09-29 14:49:07:INFO:Status updated successfully: DeActive
+2025-09-29 14:49:07:INFO:Radio button status updated successfully: Active
+2025-09-29 14:49:07:INFO:OTC entry verified successfully after updated the status
+2025-09-29 14:49:08:INFO:Logout successfully
+2025-09-29 14:52:15:INFO:====== WebDriver manager ======
+2025-09-29 14:52:16:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 14:52:17:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 14:52:17:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 14:52:25:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:52:25:INFO:Clicking Sign In
+2025-09-29 14:52:25:INFO:Login successful
+2025-09-29 14:52:27:INFO:Navigated to OTC page
+2025-09-29 14:52:29:INFO:Page Heading is: Output Type Config
+2025-09-29 14:52:29:INFO:OTC Heading verified successfully
+2025-09-29 14:52:30:INFO:Table Heading is: List Of Output Type Config
+2025-09-29 14:52:30:INFO:OTC Table verified successfully
+2025-09-29 14:52:30:INFO:Text of Add OTC button is: Add Output Type Config
+2025-09-29 14:52:30:INFO:Add OTC button verified successfully
+2025-09-29 14:52:30:INFO:Logout successfully
+2025-09-29 14:52:30:INFO:Starting test_verify_table_columns
+2025-09-29 14:52:31:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:52:32:INFO:Clicking Sign In
+2025-09-29 14:52:32:INFO:Login successful
+2025-09-29 14:52:34:INFO:Navigated to OTC page
+2025-09-29 14:52:36:INFO:Checking column 'Sl.No': Expected 'Sl.No', Got 'Sl.No'
+2025-09-29 14:52:36:INFO:Checking column 'Output Type': Expected 'Output Type', Got 'Output Type'
+2025-09-29 14:52:36:INFO:Checking column 'Output Type Name': Expected 'Output Type Name', Got 'Output Type Name'
+2025-09-29 14:52:36:INFO:Checking column 'Created By': Expected 'Created By', Got 'Created By'
+2025-09-29 14:52:36:INFO:Checking column 'Created Date': Expected 'Created Date', Got 'Created Date'
+2025-09-29 14:52:36:INFO:Checking column 'Modified By': Expected 'Modified By', Got 'Modified By'
+2025-09-29 14:52:36:INFO:Checking column 'Modified Date': Expected 'Modified Date', Got 'Modified Date'
+2025-09-29 14:52:36:INFO:Checking column 'Status': Expected 'Status', Got 'Status'
+2025-09-29 14:52:36:INFO:Checking column 'Active/DeActive': Expected 'Active/DeActive', Got 'Active/DeActive'
+2025-09-29 14:52:36:INFO:Checking column 'Option': Expected 'Option', Got 'Option'
+2025-09-29 14:52:36:INFO:All expected columns are present in the OTC table
+2025-09-29 14:52:36:INFO:Logout successfully
+2025-09-29 14:52:38:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:52:38:INFO:Clicking Sign In
+2025-09-29 14:52:38:INFO:Login successful
+2025-09-29 14:52:40:INFO:Navigated to OTC page
+2025-09-29 14:52:42:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 14:52:42:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:52:42:INFO:'Add Output Type Config' popup displayed
+2025-09-29 14:52:42:INFO:Popup contains heading, Type dropdown, Type Name field, and Add button
+2025-09-29 14:52:42:INFO:Selected output type: Socket
+2025-09-29 14:52:43:INFO:Entered output type name: iP
+2025-09-29 14:52:43:INFO:Current Time after add is: 29/09/2025 02:52:43 PM
+2025-09-29 14:52:43:INFO:Clicked the add OTC button
+2025-09-29 14:52:43:INFO:OTC success message is: Add Output Type Config successfully
+2025-09-29 14:52:43:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:52:48:INFO:Found added OTC entry: Output Type 'Socket', Output Type Name  'iP', Created By outdidsuperadmin@gmail.com, Created Date  29/09/2025 02:52:40 PM, Modified By : -, Modified Date : -, Status : Active 
+2025-09-29 14:52:48:INFO:Created date 29/09/2025 02:52:40 PM and current date 29/09/2025 02:52:43 PM differ by 3.0 seconds, which is within the 5-second threshold.
+2025-09-29 14:52:48:INFO:OTC entry verified successfully in the table
+2025-09-29 14:52:48:INFO:Logout successfully
+2025-09-29 14:52:49:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:52:49:INFO:Clicking Sign In
+2025-09-29 14:52:49:INFO:Login successful
+2025-09-29 14:52:51:INFO:Navigated to OTC page
+2025-09-29 14:52:54:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:52:54:INFO:Verified dropdown options: ['Select Type', 'Gun', 'Socket']
+2025-09-29 14:52:54:INFO:Running test case: Select valid option 'Gun' from Type dropdown
+2025-09-29 14:52:54:INFO:Successfully selected 'Gun' as expected
+2025-09-29 14:52:56:INFO:Running test case: Select valid option 'Select Type' from Type dropdown
+2025-09-29 14:52:56:INFO:Successfully selected 'Select Type' as expected
+2025-09-29 14:52:58:INFO:Running test case: Select valid option 'Socket' from Type dropdown
+2025-09-29 14:52:59:INFO:Successfully selected 'Socket' as expected
+2025-09-29 14:53:01:INFO:Running test case: Attempt to select invalid option 'Connector' (not in dropdown)
+2025-09-29 14:53:01:INFO:Correctly failed to select 'Connector' as it is not in the dropdown
+2025-09-29 14:53:01:INFO:All test cases for Type dropdown completed successfully
+2025-09-29 14:53:01:INFO:Logout successfully
+2025-09-29 14:53:02:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:53:02:INFO:Clicking Sign In
+2025-09-29 14:53:02:INFO:Login successful
+2025-09-29 14:53:04:INFO:Navigated to OTC page
+2025-09-29 14:53:06:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:53:07:INFO:Selected output type: Socket
+2025-09-29 14:53:07:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 14:53:07:INFO:Cleared Output Type Name field
+2025-09-29 14:53:07:INFO:Entered input: '466575645757'
+2025-09-29 14:53:07:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 14:53:07:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 14:53:07:INFO:Cleared Output Type Name field
+2025-09-29 14:53:07:INFO:Entered input: '4665756abcde'
+2025-09-29 14:53:07:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 14:53:07:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 14:53:07:INFO:Cleared Output Type Name field
+2025-09-29 14:53:08:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 14:53:08:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 14:53:08:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 14:53:08:INFO:Cleared Output Type Name field
+2025-09-29 14:53:08:INFO:Entered input: '#$%%1234'
+2025-09-29 14:53:08:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 14:53:08:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 14:53:08:INFO:Cleared Output Type Name field
+2025-09-29 14:53:08:INFO:Entered input: 'abcd&*()'
+2025-09-29 14:53:08:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 14:53:08:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 14:53:08:INFO:Cleared Output Type Name field
+2025-09-29 14:53:08:INFO:Entered input: '%d'
+2025-09-29 14:53:08:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 14:53:08:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 14:53:08:INFO:Cleared Output Type Name field
+2025-09-29 14:53:08:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 14:53:08:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 14:53:08:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 14:53:08:INFO:Cleared Output Type Name field
+2025-09-29 14:53:08:INFO:Entered input: ''
+2025-09-29 14:53:08:INFO:Verified field value: '' matches expected ''
+2025-09-29 14:53:08:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 14:53:09:INFO:Logout successfully
+2025-09-29 14:53:10:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:53:10:INFO:Clicking Sign In
+2025-09-29 14:53:10:INFO:Login successful
+2025-09-29 14:53:12:INFO:Navigated to OTC page
+2025-09-29 14:53:17:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:53:17:INFO:Testing Type: 'Gun', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 14:53:17:INFO:Cleared Output Type Name field
+2025-09-29 14:53:17:INFO:Selected Type: 'Gun'
+2025-09-29 14:53:17:INFO:Clicked 'Add' button
+2025-09-29 14:53:17:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 14:53:17:INFO:Testing Type: '', Type Name: 'abc', Expected error: 'Please select an item in the list.'
+2025-09-29 14:53:17:INFO:Cleared Output Type Name field
+2025-09-29 14:53:17:INFO:Selected placeholder 'Select Type'
+2025-09-29 14:53:18:INFO:Entered Output Type Name: 'abc'
+2025-09-29 14:53:18:INFO:Clicked 'Add' button
+2025-09-29 14:53:18:INFO:Verified error message: 'Please select an item in the list.'
+2025-09-29 14:53:18:INFO:Testing Type: '', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 14:53:18:INFO:Cleared Output Type Name field
+2025-09-29 14:53:18:INFO:Selected placeholder 'Select Type'
+2025-09-29 14:53:18:INFO:Clicked 'Add' button
+2025-09-29 14:53:18:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 14:53:18:INFO:All test cases for Add button error validation completed successfully
+2025-09-29 14:53:18:INFO:Logout successfully
+2025-09-29 14:53:19:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:53:19:INFO:Clicking Sign In
+2025-09-29 14:53:19:INFO:Login successful
+2025-09-29 14:53:21:INFO:Navigated to OTC page
+2025-09-29 14:53:24:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:53:25:INFO:OTC error message is: Output type already exists
+2025-09-29 14:53:25:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:53:25:INFO:Logout successfully
+2025-09-29 14:53:27:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:53:27:INFO:Clicking Sign In
+2025-09-29 14:53:27:INFO:Login successful
+2025-09-29 14:53:29:INFO:Navigated to OTC page
+2025-09-29 14:53:31:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:53:34:INFO:Successfully clicked close icon
+2025-09-29 14:53:35:INFO:Logout successfully
+2025-09-29 14:53:36:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:53:36:INFO:Clicking Sign In
+2025-09-29 14:53:36:INFO:Login successful
+2025-09-29 14:53:39:INFO:Navigated to OTC page
+2025-09-29 14:53:41:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 14:53:44:INFO:Successfully clicked close icon
+2025-09-29 14:53:44:INFO:Logout successfully
+2025-09-29 14:53:46:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:53:46:INFO:Clicking Sign In
+2025-09-29 14:53:46:INFO:Login successful
+2025-09-29 14:53:48:INFO:Navigated to OTC page
+2025-09-29 14:53:50:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 14:53:50:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 14:53:50:INFO:Cleared Output Type Name field
+2025-09-29 14:53:51:INFO:Entered input: '466575645757'
+2025-09-29 14:53:51:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 14:53:51:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 14:53:51:INFO:Cleared Output Type Name field
+2025-09-29 14:53:51:INFO:Entered input: '4665756abcde'
+2025-09-29 14:53:51:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 14:53:51:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 14:53:51:INFO:Cleared Output Type Name field
+2025-09-29 14:53:51:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 14:53:52:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 14:53:52:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 14:53:52:INFO:Cleared Output Type Name field
+2025-09-29 14:53:52:INFO:Entered input: '#$%%1234'
+2025-09-29 14:53:52:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 14:53:52:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 14:53:52:INFO:Cleared Output Type Name field
+2025-09-29 14:53:52:INFO:Entered input: 'abcd&*()'
+2025-09-29 14:53:52:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 14:53:52:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 14:53:52:INFO:Cleared Output Type Name field
+2025-09-29 14:53:52:INFO:Entered input: '%d'
+2025-09-29 14:53:52:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 14:53:52:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 14:53:52:INFO:Cleared Output Type Name field
+2025-09-29 14:53:53:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 14:53:53:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 14:53:53:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 14:53:53:INFO:Cleared Output Type Name field
+2025-09-29 14:53:53:INFO:Entered input: ''
+2025-09-29 14:53:53:INFO:Verified field value: '' matches expected ''
+2025-09-29 14:53:53:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 14:53:53:INFO:Logout successfully
+2025-09-29 14:53:54:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:53:54:INFO:Clicking Sign In
+2025-09-29 14:53:54:INFO:Login successful
+2025-09-29 14:53:57:INFO:Navigated to OTC page
+2025-09-29 14:53:59:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 14:53:59:INFO:Verified that 'Type' field is read-only
+2025-09-29 14:53:59:INFO:Verified that 'Update' button is disabled
+2025-09-29 14:53:59:INFO:Verified that 'Type Name' field is editable
+2025-09-29 14:53:59:INFO:Logout successfully
+2025-09-29 14:54:00:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:54:01:INFO:Clicking Sign In
+2025-09-29 14:54:01:INFO:Login successful
+2025-09-29 14:54:03:INFO:Navigated to OTC page
+2025-09-29 14:54:09:INFO:Table has 39 rows
+2025-09-29 14:54:09:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'e9zuFFx7T', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 02:48:38 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 14:54:09:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-29 14:54:11:INFO:Entered Output Type Name: uYY
+2025-09-29 14:54:11:INFO:Current Time after add is: 29/09/2025 02:54:11 PM
+2025-09-29 14:54:11:INFO:Clicked the Update button
+2025-09-29 14:54:14:INFO:OTC error message is: Update Output Type Config successfully
+2025-09-29 14:54:14:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:54:18:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'uYY', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 02:54:09 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 14:54:18:INFO:Edited date 29/09/2025 02:54:09 PM and current date after edit 29/09/2025 02:54:11 PM differ by 2.0 seconds, which is within the 5-second threshold.
+2025-09-29 14:54:18:INFO:Modified Date updated successfully: 29/09/2025 02:54:09 PM
+2025-09-29 14:54:18:INFO:OTC entry verified successfully after edit
+2025-09-29 14:54:18:INFO:Logout successfully
+2025-09-29 14:54:19:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:54:20:INFO:Clicking Sign In
+2025-09-29 14:54:20:INFO:Login successful
+2025-09-29 14:54:22:INFO:Navigated to OTC page
+2025-09-29 14:54:28:INFO:Table has 39 rows
+2025-09-29 14:54:28:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'uYY', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 02:54:09 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 14:54:28:INFO:Old status of 7th row: DeActive
+2025-09-29 14:54:28:INFO:Current Time after add is: 29/09/2025 02:54:28 PM
+2025-09-29 14:54:28:INFO:Activated successfully
+2025-09-29 14:54:28:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:54:46:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'uYY', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 02:54:25 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 14:54:46:INFO:Updated date 29/09/2025 02:54:25 PM and current date after edit 29/09/2025 02:54:28 PM differ by 3.0 seconds, which is within the 5-second threshold.
+2025-09-29 14:54:46:INFO:Modified Date updated successfully: 29/09/2025 02:54:25 PM
+2025-09-29 14:54:46:INFO:Status updated successfully: Active
+2025-09-29 14:54:46:INFO:Radio button status updated successfully: DeActive
+2025-09-29 14:54:46:INFO:OTC entry verified successfully after updated the status
+2025-09-29 14:54:46:INFO:Logout successfully
+2025-09-29 14:58:28:INFO:====== WebDriver manager ======
+2025-09-29 14:58:29:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 14:58:29:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 14:58:30:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 14:58:37:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:58:37:INFO:Clicking Sign In
+2025-09-29 14:58:37:INFO:Login successful
+2025-09-29 14:58:39:INFO:Navigated to OTC page
+2025-09-29 14:58:42:INFO:Page Heading is: Output Type Config
+2025-09-29 14:58:42:INFO:OTC Heading verified successfully
+2025-09-29 14:58:42:INFO:Table Heading is: List Of Output Type Config
+2025-09-29 14:58:42:INFO:OTC Table verified successfully
+2025-09-29 14:58:42:INFO:Text of Add OTC button is: Add Output Type Config
+2025-09-29 14:58:42:INFO:Add OTC button verified successfully
+2025-09-29 14:58:42:INFO:Logout successfully
+2025-09-29 14:58:42:INFO:Starting test_verify_table_columns
+2025-09-29 14:58:43:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:58:44:INFO:Clicking Sign In
+2025-09-29 14:58:44:INFO:Login successful
+2025-09-29 14:58:46:INFO:Navigated to OTC page
+2025-09-29 14:58:48:INFO:Checking column 'Sl.No': Expected 'Sl.No', Got 'Sl.No'
+2025-09-29 14:58:48:INFO:Checking column 'Output Type': Expected 'Output Type', Got 'Output Type'
+2025-09-29 14:58:48:INFO:Checking column 'Output Type Name': Expected 'Output Type Name', Got 'Output Type Name'
+2025-09-29 14:58:48:INFO:Checking column 'Created By': Expected 'Created By', Got 'Created By'
+2025-09-29 14:58:48:INFO:Checking column 'Created Date': Expected 'Created Date', Got 'Created Date'
+2025-09-29 14:58:48:INFO:Checking column 'Modified By': Expected 'Modified By', Got 'Modified By'
+2025-09-29 14:58:48:INFO:Checking column 'Modified Date': Expected 'Modified Date', Got 'Modified Date'
+2025-09-29 14:58:48:INFO:Checking column 'Status': Expected 'Status', Got 'Status'
+2025-09-29 14:58:48:INFO:Checking column 'Active/DeActive': Expected 'Active/DeActive', Got 'Active/DeActive'
+2025-09-29 14:58:48:INFO:Checking column 'Option': Expected 'Option', Got 'Option'
+2025-09-29 14:58:48:INFO:All expected columns are present in the OTC table
+2025-09-29 14:58:48:INFO:Logout successfully
+2025-09-29 14:58:50:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:58:50:INFO:Clicking Sign In
+2025-09-29 14:58:50:INFO:Login successful
+2025-09-29 14:58:52:INFO:Navigated to OTC page
+2025-09-29 14:58:54:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 14:58:54:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:58:54:INFO:'Add Output Type Config' popup displayed
+2025-09-29 14:58:55:INFO:Popup contains heading, Type dropdown, Type Name field, and Add button
+2025-09-29 14:58:55:INFO:Selected output type: Gun
+2025-09-29 14:58:55:INFO:Entered output type name: AhLop
+2025-09-29 14:58:55:INFO:Current Time after add is: 29/09/2025 02:58:55 PM
+2025-09-29 14:58:55:INFO:Clicked the add OTC button
+2025-09-29 14:58:56:INFO:OTC success message is: Add Output Type Config successfully
+2025-09-29 14:58:56:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:59:00:INFO:Found added OTC entry: Output Type 'Gun', Output Type Name  'AhLop', Created By outdidsuperadmin@gmail.com, Created Date  29/09/2025 02:58:52 PM, Modified By : -, Modified Date : -, Status : Active 
+2025-09-29 14:59:00:INFO:Created date 29/09/2025 02:58:52 PM and current date 29/09/2025 02:58:55 PM differ by 3.0 seconds, which is within the 5-second threshold.
+2025-09-29 14:59:00:INFO:OTC entry verified successfully in the table
+2025-09-29 14:59:00:INFO:Logout successfully
+2025-09-29 14:59:02:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:59:02:INFO:Clicking Sign In
+2025-09-29 14:59:02:INFO:Login successful
+2025-09-29 14:59:04:INFO:Navigated to OTC page
+2025-09-29 14:59:06:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:59:06:INFO:Verified dropdown options: ['Select Type', 'Gun', 'Socket']
+2025-09-29 14:59:06:INFO:Running test case: Select valid option 'Gun' from Type dropdown
+2025-09-29 14:59:07:INFO:Successfully selected 'Gun' as expected
+2025-09-29 14:59:09:INFO:Running test case: Select valid option 'Select Type' from Type dropdown
+2025-09-29 14:59:09:INFO:Successfully selected 'Select Type' as expected
+2025-09-29 14:59:11:INFO:Running test case: Select valid option 'Socket' from Type dropdown
+2025-09-29 14:59:11:INFO:Successfully selected 'Socket' as expected
+2025-09-29 14:59:13:INFO:Running test case: Attempt to select invalid option 'Connector' (not in dropdown)
+2025-09-29 14:59:13:INFO:Correctly failed to select 'Connector' as it is not in the dropdown
+2025-09-29 14:59:13:INFO:All test cases for Type dropdown completed successfully
+2025-09-29 14:59:14:INFO:Logout successfully
+2025-09-29 14:59:15:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:59:15:INFO:Clicking Sign In
+2025-09-29 14:59:15:INFO:Login successful
+2025-09-29 14:59:18:INFO:Navigated to OTC page
+2025-09-29 14:59:20:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:59:20:INFO:Selected output type: Gun
+2025-09-29 14:59:20:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 14:59:20:INFO:Cleared Output Type Name field
+2025-09-29 14:59:20:INFO:Entered input: '466575645757'
+2025-09-29 14:59:20:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 14:59:20:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 14:59:20:INFO:Cleared Output Type Name field
+2025-09-29 14:59:21:INFO:Entered input: '4665756abcde'
+2025-09-29 14:59:21:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 14:59:21:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 14:59:21:INFO:Cleared Output Type Name field
+2025-09-29 14:59:21:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 14:59:21:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 14:59:21:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 14:59:21:INFO:Cleared Output Type Name field
+2025-09-29 14:59:21:INFO:Entered input: '#$%%1234'
+2025-09-29 14:59:21:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 14:59:21:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 14:59:21:INFO:Cleared Output Type Name field
+2025-09-29 14:59:21:INFO:Entered input: 'abcd&*()'
+2025-09-29 14:59:21:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 14:59:21:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 14:59:21:INFO:Cleared Output Type Name field
+2025-09-29 14:59:21:INFO:Entered input: '%d'
+2025-09-29 14:59:21:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 14:59:21:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 14:59:21:INFO:Cleared Output Type Name field
+2025-09-29 14:59:22:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 14:59:22:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 14:59:22:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 14:59:22:INFO:Cleared Output Type Name field
+2025-09-29 14:59:22:INFO:Entered input: ''
+2025-09-29 14:59:22:INFO:Verified field value: '' matches expected ''
+2025-09-29 14:59:22:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 14:59:22:INFO:Logout successfully
+2025-09-29 14:59:23:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:59:24:INFO:Clicking Sign In
+2025-09-29 14:59:24:INFO:Login successful
+2025-09-29 14:59:26:INFO:Navigated to OTC page
+2025-09-29 14:59:30:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:59:30:INFO:Testing Type: 'Gun', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 14:59:30:INFO:Cleared Output Type Name field
+2025-09-29 14:59:30:INFO:Selected Type: 'Gun'
+2025-09-29 14:59:30:INFO:Clicked 'Add' button
+2025-09-29 14:59:30:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 14:59:30:INFO:Testing Type: '', Type Name: 'abc', Expected error: 'Please select an item in the list.'
+2025-09-29 14:59:30:INFO:Cleared Output Type Name field
+2025-09-29 14:59:31:INFO:Selected placeholder 'Select Type'
+2025-09-29 14:59:31:INFO:Entered Output Type Name: 'abc'
+2025-09-29 14:59:31:INFO:Clicked 'Add' button
+2025-09-29 14:59:31:INFO:Verified error message: 'Please select an item in the list.'
+2025-09-29 14:59:31:INFO:Testing Type: '', Type Name: '', Expected error: 'Please fill out this field.'
+2025-09-29 14:59:31:INFO:Cleared Output Type Name field
+2025-09-29 14:59:31:INFO:Selected placeholder 'Select Type'
+2025-09-29 14:59:31:INFO:Clicked 'Add' button
+2025-09-29 14:59:31:INFO:Verified error message: 'Please fill out this field.'
+2025-09-29 14:59:31:INFO:All test cases for Add button error validation completed successfully
+2025-09-29 14:59:32:INFO:Logout successfully
+2025-09-29 14:59:33:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:59:33:INFO:Clicking Sign In
+2025-09-29 14:59:33:INFO:Login successful
+2025-09-29 14:59:36:INFO:Navigated to OTC page
+2025-09-29 14:59:38:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:59:39:INFO:OTC error message is: Output type already exists
+2025-09-29 14:59:39:INFO:Clicked the 'OK' button successfully
+2025-09-29 14:59:39:INFO:Logout successfully
+2025-09-29 14:59:41:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:59:41:INFO:Clicking Sign In
+2025-09-29 14:59:41:INFO:Login successful
+2025-09-29 14:59:43:INFO:Navigated to OTC page
+2025-09-29 14:59:45:INFO:Successfully clicked 'Add OTC' button
+2025-09-29 14:59:49:INFO:Successfully clicked close icon
+2025-09-29 14:59:49:INFO:Logout successfully
+2025-09-29 14:59:50:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 14:59:51:INFO:Clicking Sign In
+2025-09-29 14:59:51:INFO:Login successful
+2025-09-29 14:59:53:INFO:Navigated to OTC page
+2025-09-29 14:59:55:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 14:59:58:INFO:Successfully clicked close icon
+2025-09-29 14:59:58:INFO:Logout successfully
+2025-09-29 15:00:00:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 15:00:00:INFO:Clicking Sign In
+2025-09-29 15:00:00:INFO:Login successful
+2025-09-29 15:00:02:INFO:Navigated to OTC page
+2025-09-29 15:00:04:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 15:00:04:INFO:Testing input: '466575645757', Expected value: '466575645757', Expected valid: True
+2025-09-29 15:00:04:INFO:Cleared Output Type Name field
+2025-09-29 15:00:05:INFO:Entered input: '466575645757'
+2025-09-29 15:00:05:INFO:Verified field value: '466575645757' matches expected '466575645757'
+2025-09-29 15:00:05:INFO:Testing input: '4665756abcde', Expected value: '4665756abcde', Expected valid: True
+2025-09-29 15:00:05:INFO:Cleared Output Type Name field
+2025-09-29 15:00:05:INFO:Entered input: '4665756abcde'
+2025-09-29 15:00:05:INFO:Verified field value: '4665756abcde' matches expected '4665756abcde'
+2025-09-29 15:00:05:INFO:Testing input: 'abcdefgh1234', Expected value: 'abcdefgh1234', Expected valid: True
+2025-09-29 15:00:05:INFO:Cleared Output Type Name field
+2025-09-29 15:00:06:INFO:Entered input: 'abcdefgh1234'
+2025-09-29 15:00:06:INFO:Verified field value: 'abcdefgh1234' matches expected 'abcdefgh1234'
+2025-09-29 15:00:06:INFO:Testing input: '#$%%1234', Expected value: '1234', Expected valid: False
+2025-09-29 15:00:06:INFO:Cleared Output Type Name field
+2025-09-29 15:00:06:INFO:Entered input: '#$%%1234'
+2025-09-29 15:00:06:INFO:Verified field value: '1234' matches expected '1234'
+2025-09-29 15:00:06:INFO:Testing input: 'abcd&*()', Expected value: 'abcd', Expected valid: False
+2025-09-29 15:00:06:INFO:Cleared Output Type Name field
+2025-09-29 15:00:06:INFO:Entered input: 'abcd&*()'
+2025-09-29 15:00:06:INFO:Verified field value: 'abcd' matches expected 'abcd'
+2025-09-29 15:00:06:INFO:Testing input: '%d', Expected value: 'd', Expected valid: False
+2025-09-29 15:00:06:INFO:Cleared Output Type Name field
+2025-09-29 15:00:06:INFO:Entered input: '%d'
+2025-09-29 15:00:06:INFO:Verified field value: 'd' matches expected 'd'
+2025-09-29 15:00:06:INFO:Testing input: 'ac354kd45k9085', Expected value: 'ac354kd45k90', Expected valid: False
+2025-09-29 15:00:06:INFO:Cleared Output Type Name field
+2025-09-29 15:00:07:INFO:Entered input: 'ac354kd45k9085'
+2025-09-29 15:00:07:INFO:Verified field value: 'ac354kd45k90' matches expected 'ac354kd45k90'
+2025-09-29 15:00:07:INFO:Testing input: '', Expected value: '', Expected valid: True
+2025-09-29 15:00:07:INFO:Cleared Output Type Name field
+2025-09-29 15:00:07:INFO:Entered input: ''
+2025-09-29 15:00:07:INFO:Verified field value: '' matches expected ''
+2025-09-29 15:00:07:INFO:All test cases for Output Type Name field completed successfully
+2025-09-29 15:00:07:INFO:Logout successfully
+2025-09-29 15:00:08:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 15:00:09:INFO:Clicking Sign In
+2025-09-29 15:00:09:INFO:Login successful
+2025-09-29 15:00:11:INFO:Navigated to OTC page
+2025-09-29 15:00:13:INFO:Successfully clicked 'Edit OTC' button
+2025-09-29 15:00:13:INFO:Verified that 'Type' field is read-only
+2025-09-29 15:00:13:INFO:Verified that 'Update' button is disabled
+2025-09-29 15:00:13:INFO:Verified that 'Type Name' field is editable
+2025-09-29 15:00:13:INFO:Logout successfully
+2025-09-29 15:00:15:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 15:00:15:INFO:Clicking Sign In
+2025-09-29 15:00:15:INFO:Login successful
+2025-09-29 15:00:17:INFO:Navigated to OTC page
+2025-09-29 15:00:24:INFO:Table has 40 rows
+2025-09-29 15:00:24:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'uYY', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 02:54:25 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 15:00:24:INFO:Successfully clicked 'Edit' button in 7th row
+2025-09-29 15:00:26:INFO:Entered Output Type Name: GwRCk2EI
+2025-09-29 15:00:26:INFO:Current Time after add is: 29/09/2025 03:00:26 PM
+2025-09-29 15:00:26:INFO:Clicked the Update button
+2025-09-29 15:00:28:INFO:OTC error message is: Update Output Type Config successfully
+2025-09-29 15:00:29:INFO:Clicked the 'OK' button successfully
+2025-09-29 15:00:33:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'GwRCk2EI', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 03:00:24 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 15:00:33:INFO:Edited date 29/09/2025 03:00:24 PM and current date after edit 29/09/2025 03:00:26 PM differ by 2.0 seconds, which is within the 5-second threshold.
+2025-09-29 15:00:33:INFO:Modified Date updated successfully: 29/09/2025 03:00:24 PM
+2025-09-29 15:00:33:INFO:OTC entry verified successfully after edit
+2025-09-29 15:00:33:INFO:Logout successfully
+2025-09-29 15:00:35:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 15:00:35:INFO:Clicking Sign In
+2025-09-29 15:00:35:INFO:Login successful
+2025-09-29 15:00:37:INFO:Navigated to OTC page
+2025-09-29 15:00:43:INFO:Table has 40 rows
+2025-09-29 15:00:43:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'GwRCk2EI', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 03:00:24 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 15:00:43:INFO:Old status of 7th row: Active
+2025-09-29 15:00:44:INFO:Current Time after add is: 29/09/2025 03:00:44 PM
+2025-09-29 15:00:44:INFO:Deactivate successfully
+2025-09-29 15:00:44:INFO:Clicked the 'OK' button successfully
+2025-09-29 15:01:02:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'GwRCk2EI', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 03:00:41 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 15:01:02:INFO:Updated date 29/09/2025 03:00:41 PM and current date after edit 29/09/2025 03:00:44 PM differ by 3.0 seconds, which is within the 5-second threshold.
+2025-09-29 15:01:02:INFO:Modified Date updated successfully: 29/09/2025 03:00:41 PM
+2025-09-29 15:01:02:INFO:Status updated successfully: DeActive
+2025-09-29 15:01:02:INFO:Radio button status updated successfully: Active
+2025-09-29 15:01:02:INFO:OTC entry verified successfully after updated the status
+2025-09-29 15:01:02:INFO:Logout successfully
+2025-09-29 15:01:03:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 15:01:04:INFO:Clicking Sign In
+2025-09-29 15:01:04:INFO:Login successful
+2025-09-29 15:01:06:INFO:Navigated to OTC page
+2025-09-29 15:01:12:INFO:Table has 40 rows
+2025-09-29 15:01:12:INFO:7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'GwRCk2EI', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 03:00:41 PM', 'Status': 'DeActive', 'Active/DeActive': 'Active', 'Option': 'Edit'}
+2025-09-29 15:01:12:INFO:Old status of 7th row: DeActive
+2025-09-29 15:01:12:INFO:Current Time after add is: 29/09/2025 03:01:12 PM
+2025-09-29 15:01:12:INFO:Activated successfully
+2025-09-29 15:01:13:INFO:Clicked the 'OK' button successfully
+2025-09-29 15:01:31:INFO:After Edit - 7th row data: {'Sl.No': '7', 'Output Type': 'Socket', 'Output Type Name': 'GwRCk2EI', 'Created By': 'outdidsuperadmin@gmail.com', 'Created Date': '05/04/2025 06:12:40 PM', 'Modified By': 'outdidsuperadmin@gmail.com', 'Modified Date': '29/09/2025 03:01:10 PM', 'Status': 'Active', 'Active/DeActive': 'DeActive', 'Option': 'Edit'}
+2025-09-29 15:01:31:INFO:Updated date 29/09/2025 03:01:10 PM and current date after edit 29/09/2025 03:01:12 PM differ by 2.0 seconds, which is within the 5-second threshold.
+2025-09-29 15:01:31:INFO:Modified Date updated successfully: 29/09/2025 03:01:10 PM
+2025-09-29 15:01:31:INFO:Status updated successfully: Active
+2025-09-29 15:01:31:INFO:Radio button status updated successfully: DeActive
+2025-09-29 15:01:31:INFO:OTC entry verified successfully after updated the status
+2025-09-29 15:01:31:INFO:Logout successfully
+2025-09-29 15:04:15:INFO:====== WebDriver manager ======
+2025-09-29 15:04:15:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 15:04:16:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 15:04:16:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 15:04:23:INFO:Logging in with email: outdidsuperadmin@gmail.com, password: 1234
+2025-09-29 15:04:24:INFO:Clicking Sign In
+2025-09-29 15:04:25:INFO:Login verified successfully
+2025-09-29 15:04:26:INFO:Successfully logged out
+2025-09-29 15:04:27:INFO:Logging in with email: aoutdidsuperadmins@gmail.com, password: 1234
+2025-09-29 15:04:28:INFO:Clicking Sign In
+2025-09-29 15:04:28:INFO:Invalid login verified successfully
+2025-09-29 15:04:29:INFO:Logging in with email: outdidsuperadmin@gmail.com, password: 1235
+2025-09-29 15:04:30:INFO:Clicking Sign In
+2025-09-29 15:04:30:INFO:Invalid login verified successfully
+2025-09-29 15:04:32:INFO:Logging in with email: outdidassociation@gmail.com, password: 1234
+2025-09-29 15:04:32:INFO:Clicking Sign In
+2025-09-29 15:04:32:INFO:Invalid login verified successfully
+2025-09-29 15:04:34:INFO:Logging in with email: aoutdidsuperadmins@gmail.com, password: 1235
+2025-09-29 15:04:34:INFO:Clicking Sign In
+2025-09-29 15:04:35:INFO:Invalid login verified successfully
+2025-09-29 15:04:36:INFO:Testing Sign In with email: , password: 
+2025-09-29 15:04:36:INFO:Debug screenshot saved at: ./screenshots\debug_signIn_btn__2025-09-29_15-04-36.png
+2025-09-29 15:04:36:INFO:Validation messages verified successfully -> Email: 'Please fill out this field.', Password: 'Please fill out this field.'
+2025-09-29 15:04:37:INFO:Testing Sign In with email: outdidassociation@gmail.com, password: 
+2025-09-29 15:04:37:INFO:Debug screenshot saved at: ./screenshots\debug_signIn_btn_outdidassociation_gmail.com_2025-09-29_15-04-37.png
+2025-09-29 15:04:38:INFO:Validation messages verified successfully -> Email: '', Password: 'Please fill out this field.'
+2025-09-29 15:04:38:INFO:Testing Sign In with email: , password: 1234
+2025-09-29 15:04:38:INFO:Debug screenshot saved at: ./screenshots\debug_signIn_btn__2025-09-29_15-04-38.png
+2025-09-29 15:04:39:INFO:Validation messages verified successfully -> Email: 'Please fill out this field.', Password: ''
+2025-09-29 15:04:39:INFO:Logging in with email: outdidsuperadmin@gmail.com, password: 1234
+2025-09-29 15:04:40:INFO:Clicking Sign In
+2025-09-29 15:04:40:INFO:Navigating to Profile Page
+2025-09-29 15:04:42:INFO:Updated the password
+2025-09-29 15:04:43:INFO:Clicked the Update button
+2025-09-29 15:04:45:INFO:Clicked the OK button
+2025-09-29 15:04:46:INFO:Successfully logged out
+2025-09-29 15:04:47:INFO:Logging in with email: outdidsuperadmin@gmail.com, password: 4321
+2025-09-29 15:04:47:INFO:Clicking Sign In
+2025-09-29 15:04:48:INFO:Re-login with new password verified successfully
+2025-09-29 15:04:51:INFO:Password reset to original
+2025-09-29 15:04:51:INFO:Successfully logged out
+2025-09-29 15:04:52:INFO:Browser logs: [{'level': 'SEVERE', 'message': 'http://172.235.29.67:7777/api/superadmin/CheckLoginCredentials - Failed to load resource: the server responded with a status of 401 (Unauthorized)', 'source': 'network', 'timestamp': 1759138468715}, {'level': 'SEVERE', 'message': 'http://172.235.29.67:7777/api/superadmin/CheckLoginCredentials - Failed to load resource: the server responded with a status of 401 (Unauthorized)', 'source': 'network', 'timestamp': 1759138470780}, {'level': 'SEVERE', 'message': 'http://172.235.29.67:7777/api/superadmin/CheckLoginCredentials - Failed to load resource: the server responded with a status of 401 (Unauthorized)', 'source': 'network', 'timestamp': 1759138472814}, {'level': 'SEVERE', 'message': 'http://172.235.29.67:7777/api/superadmin/CheckLoginCredentials - Failed to load resource: the server responded with a status of 401 (Unauthorized)', 'source': 'network', 'timestamp': 1759138475188}]
+2025-09-29 15:04:52:INFO:/input text: 'test.user@example.com'
+2025-09-29 15:04:52:INFO:/expected value: 'test.user@example.com'
+2025-09-29 15:04:52:INFO:/expected valid: 'True'
+2025-09-29 15:04:54:INFO:/actual_value: 'test.user@example.com'
+2025-09-29 15:04:54:INFO:/result valid: 'True'
+2025-09-29 15:04:54:INFO:Input: 'test.user@example.com', Actual value: 'test.user@example.com', Expected value: 'test.user@example.com', Result valid: 'True', Expected valid: 'True'
+2025-09-29 15:04:54:INFO:PASS: Input 'test.user@example.com' - Value 'test.user@example.com', Validity 'True'
+2025-09-29 15:04:54:INFO:/input text: 'testuser123@example.com'
+2025-09-29 15:04:54:INFO:/expected value: 'testuser123@example.com'
+2025-09-29 15:04:54:INFO:/expected valid: 'True'
+2025-09-29 15:04:57:INFO:/actual_value: 'testuser123@example.com'
+2025-09-29 15:04:57:INFO:/result valid: 'True'
+2025-09-29 15:04:57:INFO:Input: 'testuser123@example.com', Actual value: 'testuser123@example.com', Expected value: 'testuser123@example.com', Result valid: 'True', Expected valid: 'True'
+2025-09-29 15:04:57:INFO:PASS: Input 'testuser123@example.com' - Value 'testuser123@example.com', Validity 'True'
+2025-09-29 15:04:57:INFO:/input text: 'test#user@example.com'
+2025-09-29 15:04:57:INFO:/expected value: 'testuser@example.com'
+2025-09-29 15:04:57:INFO:/expected valid: 'False'
+2025-09-29 15:04:59:INFO:/actual_value: 'testuser@example.com'
+2025-09-29 15:04:59:INFO:/result valid: 'False'
+2025-09-29 15:04:59:INFO:Input: 'test#user@example.com', Actual value: 'testuser@example.com', Expected value: 'testuser@example.com', Result valid: 'False', Expected valid: 'False'
+2025-09-29 15:04:59:INFO:PASS: Input 'test#user@example.com' - Value 'testuser@example.com', Validity 'False'
+2025-09-29 15:04:59:INFO:/input text: 'test$user@example.com'
+2025-09-29 15:04:59:INFO:/expected value: 'testuser@example.com'
+2025-09-29 15:04:59:INFO:/expected valid: 'False'
+2025-09-29 15:05:01:INFO:/actual_value: 'testuser@example.com'
+2025-09-29 15:05:01:INFO:/result valid: 'False'
+2025-09-29 15:05:01:INFO:Input: 'test$user@example.com', Actual value: 'testuser@example.com', Expected value: 'testuser@example.com', Result valid: 'False', Expected valid: 'False'
+2025-09-29 15:05:01:INFO:PASS: Input 'test$user@example.com' - Value 'testuser@example.com', Validity 'False'
+2025-09-29 15:05:01:INFO:/input text: 'test&user@example.com'
+2025-09-29 15:05:01:INFO:/expected value: 'testuser@example.com'
+2025-09-29 15:05:01:INFO:/expected valid: 'False'
+2025-09-29 15:05:03:INFO:/actual_value: 'testuser@example.com'
+2025-09-29 15:05:03:INFO:/result valid: 'False'
+2025-09-29 15:05:03:INFO:Input: 'test&user@example.com', Actual value: 'testuser@example.com', Expected value: 'testuser@example.com', Result valid: 'False', Expected valid: 'False'
+2025-09-29 15:05:03:INFO:PASS: Input 'test&user@example.com' - Value 'testuser@example.com', Validity 'False'
+2025-09-29 15:05:03:INFO:/input text: 'test*user@example.com'
+2025-09-29 15:05:03:INFO:/expected value: 'testuser@example.com'
+2025-09-29 15:05:03:INFO:/expected valid: 'False'
+2025-09-29 15:05:06:INFO:/actual_value: 'testuser@example.com'
+2025-09-29 15:05:06:INFO:/result valid: 'False'
+2025-09-29 15:05:06:INFO:Input: 'test*user@example.com', Actual value: 'testuser@example.com', Expected value: 'testuser@example.com', Result valid: 'False', Expected valid: 'False'
+2025-09-29 15:05:06:INFO:PASS: Input 'test*user@example.com' - Value 'testuser@example.com', Validity 'False'
+2025-09-29 15:05:07:INFO:Browser logs: []
+2025-09-29 15:05:07:INFO:/input text: '1234'
+2025-09-29 15:05:07:INFO:/expected value: '1234'
+2025-09-29 15:05:07:INFO:/expected valid: 'True'
+2025-09-29 15:05:09:INFO:/actual_value: '1234'
+2025-09-29 15:05:09:INFO:/result valid: 'True'
+2025-09-29 15:05:09:INFO:Input: '1234', Actual value: '1234', Expected value: '1234', Result valid: 'True', Expected valid: 'True'
+2025-09-29 15:05:09:INFO:PASS: Input '1234' - Value '1234', Validity 'True'
+2025-09-29 15:05:09:INFO:/input text: 'abcdefg'
+2025-09-29 15:05:09:INFO:/expected value: ''
+2025-09-29 15:05:09:INFO:/expected valid: 'False'
+2025-09-29 15:05:11:INFO:/actual_value: ''
+2025-09-29 15:05:11:INFO:/result valid: 'False'
+2025-09-29 15:05:11:INFO:Input: 'abcdefg', Actual value: '', Expected value: '', Result valid: 'False', Expected valid: 'False'
+2025-09-29 15:05:11:INFO:PASS: Input 'abcdefg' - Value '', Validity 'False'
+2025-09-29 15:05:11:INFO:/input text: '12av'
+2025-09-29 15:05:11:INFO:/expected value: '12'
+2025-09-29 15:05:11:INFO:/expected valid: 'False'
+2025-09-29 15:05:14:INFO:/actual_value: '12'
+2025-09-29 15:05:14:INFO:/result valid: 'False'
+2025-09-29 15:05:14:INFO:Input: '12av', Actual value: '12', Expected value: '12', Result valid: 'False', Expected valid: 'False'
+2025-09-29 15:05:14:INFO:PASS: Input '12av' - Value '12', Validity 'False'
+2025-09-29 15:05:14:INFO:/input text: '1234567'
+2025-09-29 15:05:14:INFO:/expected value: '1234'
+2025-09-29 15:05:14:INFO:/expected valid: 'False'
+2025-09-29 15:05:16:INFO:/actual_value: '1234'
+2025-09-29 15:05:16:INFO:/result valid: 'False'
+2025-09-29 15:05:16:INFO:Input: '1234567', Actual value: '1234', Expected value: '1234', Result valid: 'False', Expected valid: 'False'
+2025-09-29 15:05:16:INFO:PASS: Input '1234567' - Value '1234', Validity 'False'
+2025-09-29 15:05:16:INFO:/input text: 'abc1'
+2025-09-29 15:05:16:INFO:/expected value: '1'
+2025-09-29 15:05:16:INFO:/expected valid: 'False'
+2025-09-29 15:05:18:INFO:/actual_value: '1'
+2025-09-29 15:05:18:INFO:/result valid: 'False'
+2025-09-29 15:05:18:INFO:Input: 'abc1', Actual value: '1', Expected value: '1', Result valid: 'False', Expected valid: 'False'
+2025-09-29 15:05:18:INFO:PASS: Input 'abc1' - Value '1', Validity 'False'
+2025-09-29 15:05:18:INFO:/input text: '!@$$'
+2025-09-29 15:05:18:INFO:/expected value: ''
+2025-09-29 15:05:18:INFO:/expected valid: 'False'
+2025-09-29 15:05:20:INFO:/actual_value: ''
+2025-09-29 15:05:20:INFO:/result valid: 'False'
+2025-09-29 15:05:20:INFO:Input: '!@$$', Actual value: '', Expected value: '', Result valid: 'False', Expected valid: 'False'
+2025-09-29 15:05:20:INFO:PASS: Input '!@$$' - Value '', Validity 'False'
+2025-09-29 15:05:20:INFO:/input text: '63&*'
+2025-09-29 15:05:20:INFO:/expected value: '63'
+2025-09-29 15:05:20:INFO:/expected valid: 'False'
+2025-09-29 15:05:22:INFO:/actual_value: '63'
+2025-09-29 15:05:22:INFO:/result valid: 'False'
+2025-09-29 15:05:22:INFO:Input: '63&*', Actual value: '63', Expected value: '63', Result valid: 'False', Expected valid: 'False'
+2025-09-29 15:05:22:INFO:PASS: Input '63&*' - Value '63', Validity 'False'
+2025-09-29 15:05:22:INFO:/input text: ')(~8'
+2025-09-29 15:05:22:INFO:/expected value: '8'
+2025-09-29 15:05:22:INFO:/expected valid: 'False'
+2025-09-29 15:05:25:INFO:/actual_value: '8'
+2025-09-29 15:05:25:INFO:/result valid: 'False'
+2025-09-29 15:05:25:INFO:Input: ')(~8', Actual value: '8', Expected value: '8', Result valid: 'False', Expected valid: 'False'
+2025-09-29 15:05:25:INFO:PASS: Input ')(~8' - Value '8', Validity 'False'
+2025-09-29 15:05:25:INFO:/input text: ''
+2025-09-29 15:05:25:INFO:/expected value: ''
+2025-09-29 15:05:25:INFO:/expected valid: 'True'
+2025-09-29 15:05:27:INFO:/actual_value: ''
+2025-09-29 15:05:27:INFO:/result valid: 'True'
+2025-09-29 15:05:27:INFO:Input: '', Actual value: '', Expected value: '', Result valid: 'True', Expected valid: 'True'
+2025-09-29 15:05:27:INFO:PASS: Input '' - Value '', Validity 'True'
+2025-09-29 15:05:28:INFO:Logging in with email: outdidsuperadmin@gmail.com         , password: 1234
+2025-09-29 15:05:28:INFO:Clicking Sign In
+2025-09-29 15:05:29:INFO:Login with trimmed email verified successfully
+2025-09-29 15:05:29:INFO:Successfully logged out
+2025-09-29 15:05:30:INFO:Logging in with email: outdidsuperadmin@gmail.com, password: 1
+2025-09-29 15:05:31:INFO:Clicking Sign In
+2025-09-29 15:05:31:INFO:Validation message: '', Actual error: 'Password number must be a 4-digit number.'
+2025-09-29 15:05:31:INFO:Error message displayed successfully
+2025-09-29 15:05:32:INFO:Logging in with email: outdidsuperadmin@gmail.com, password: 12
+2025-09-29 15:05:32:INFO:Clicking Sign In
+2025-09-29 15:05:32:INFO:Validation message: '', Actual error: 'Password number must be a 4-digit number.'
+2025-09-29 15:05:32:INFO:Error message displayed successfully
+2025-09-29 15:05:34:INFO:Logging in with email: outdidsuperadmin@gmail.com, password: 123
+2025-09-29 15:05:34:INFO:Clicking Sign In
+2025-09-29 15:05:34:INFO:Validation message: '', Actual error: 'Password number must be a 4-digit number.'
+2025-09-29 15:05:34:INFO:Error message displayed successfully
+2025-09-29 15:05:35:INFO:Logging in with email: outdidsuperadmin@gmail.com, password: 1235
+2025-09-29 15:05:35:INFO:Clicking Sign In
+2025-09-29 15:05:36:INFO:Validation message: '', Actual error: 'Error: Invalid password'
+2025-09-29 15:05:36:INFO:Error message displayed successfully
+2025-09-29 15:05:37:INFO:Browser logs: [{'level': 'SEVERE', 'message': 'http://172.235.29.67:7777/api/superadmin/CheckLoginCredentials - Failed to load resource: the server responded with a status of 401 (Unauthorized)', 'source': 'network', 'timestamp': 1759138536456}]
+2025-09-29 15:05:37:INFO:Validation message: 'Please include an '@' in the email address. 'as.' is missing an '@'.', Actual error: 'Please include an '@' in the email address. 'as.' is missing an '@'.'
+2025-09-29 15:05:37:INFO:Error message displayed successfully
+2025-09-29 15:05:39:INFO:Browser logs: []
+2025-09-29 15:05:39:INFO:Validation message: 'Please enter a part following '@'. 'as@' is incomplete.', Actual error: 'Please enter a part following '@'. 'as@' is incomplete.'
+2025-09-29 15:05:39:INFO:Error message displayed successfully
+2025-09-29 15:05:40:INFO:Browser logs: []
+2025-09-29 15:05:40:INFO:Validation message: ''.' is used at a wrong position in '.'.', Actual error: ''.' is used at a wrong position in '.'.'
+2025-09-29 15:05:40:INFO:Error message displayed successfully
