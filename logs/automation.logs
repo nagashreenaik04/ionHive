@@ -3000,3 +3000,483 @@ assert 'e9zuFFx7T' == 'Pk'
 2025-09-29 15:05:40:INFO:Browser logs: []
 2025-09-29 15:05:40:INFO:Validation message: ''.' is used at a wrong position in '.'.', Actual error: ''.' is used at a wrong position in '.'.'
 2025-09-29 15:05:40:INFO:Error message displayed successfully
+2025-09-29 15:30:41:INFO:====== WebDriver manager ======
+2025-09-29 15:30:42:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 15:30:42:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 15:30:43:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 15:30:47:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 15:30:47:INFO:Clicking Sign In
+2025-09-29 15:30:47:INFO:Login successful
+2025-09-29 15:30:50:INFO:Navigated to Reseller page
+2025-09-29 15:30:52:INFO:Page Heading is: Manage Reseller
+2025-09-29 15:30:52:INFO:Reseller page Heading verified successfully
+2025-09-29 15:30:52:INFO:Table Heading is: List Of Reseller
+2025-09-29 15:30:52:INFO:Reseller Table verified successfully
+2025-09-29 15:32:37:INFO:====== WebDriver manager ======
+2025-09-29 15:32:38:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 15:32:38:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 15:32:39:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 15:32:42:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 15:32:43:INFO:Clicking Sign In
+2025-09-29 15:32:43:INFO:Login successful
+2025-09-29 15:32:45:INFO:Navigated to Reseller page
+2025-09-29 15:32:47:INFO:Page Heading is: Manage Reseller
+2025-09-29 15:32:47:INFO:Reseller page Heading verified successfully
+2025-09-29 15:32:47:INFO:Table Heading is: List Of Reseller
+2025-09-29 15:32:47:INFO:Reseller Table verified successfully
+2025-09-29 15:32:47:INFO:Text of Create button is: Create
+2025-09-29 15:32:47:INFO:Create button verified successfully
+2025-09-29 15:32:47:INFO:Logout successfully
+2025-09-29 16:42:04:INFO:====== WebDriver manager ======
+2025-09-29 16:42:05:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 16:42:06:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 16:42:06:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 16:42:10:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 16:42:10:INFO:Clicking Sign In
+2025-09-29 16:42:10:INFO:Login successful
+2025-09-29 16:42:13:INFO:Navigated to Reseller page
+2025-09-29 16:42:15:INFO:Page Heading is: Manage Reseller
+2025-09-29 16:42:15:INFO:Reseller page Heading verified successfully
+2025-09-29 16:42:15:INFO:Table Heading is: List Of Reseller
+2025-09-29 16:42:15:INFO:Reseller Table verified successfully
+2025-09-29 16:42:15:INFO:Text of Create button is: Create
+2025-09-29 16:42:15:INFO:Create button verified successfully
+2025-09-29 16:42:15:INFO:Logout successfully
+2025-09-29 16:42:17:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 16:42:17:INFO:Clicking Sign In
+2025-09-29 16:42:17:INFO:Login successful
+2025-09-29 16:42:19:INFO:Navigated to Reseller page
+2025-09-29 16:42:24:INFO:Successfully clicked 'Create' button
+2025-09-29 16:42:24:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID and Reseller Name already exists'
+2025-09-29 16:42:24:INFO:Cleared Reselller Name field
+2025-09-29 16:42:24:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-29 16:42:24:INFO:Cleared Reselller Phone field
+2025-09-29 16:42:24:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 16:43:15:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x66c333+65459]
+	GetHandleVerifier [0x0x66c374+65524]
+	(No symbol) [0x0x48d973]
+	(No symbol) [0x0x4d76e7]
+	(No symbol) [0x0x4d7a8b]
+	(No symbol) [0x0x51dea2]
+	(No symbol) [0x0x4f9e44]
+	(No symbol) [0x0x51b606]
+	(No symbol) [0x0x4f9bf6]
+	(No symbol) [0x0x4cb38e]
+	(No symbol) [0x0x4cc274]
+	GetHandleVerifier [0x0x8eeda3+2697763]
+	GetHandleVerifier [0x0x8e9ec7+2677575]
+	GetHandleVerifier [0x0x694194+228884]
+	GetHandleVerifier [0x0x6849f8+165496]
+	GetHandleVerifier [0x0x68b18d+192013]
+	GetHandleVerifier [0x0x6747d8+99416]
+	GetHandleVerifier [0x0x674972+99826]
+	GetHandleVerifier [0x0x65ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-29 16:43:15:ERROR:Screenshot saved at: ./screenshots\test_reseller_already_exist_error_msg_2025-09-29_16-43-14.png
+2025-09-29 16:43:15:INFO:Logout successfully
+2025-09-29 16:43:15:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik0@gmail.com', Reseller Address: 'BTM', Expected error: 'Reseller Name already exists'
+2025-09-29 16:47:29:INFO:====== WebDriver manager ======
+2025-09-29 16:47:30:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 16:47:31:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 16:47:31:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 16:47:35:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 16:47:35:INFO:Clicking Sign In
+2025-09-29 16:47:35:INFO:Login successful
+2025-09-29 16:47:37:INFO:Navigated to Reseller page
+2025-09-29 16:47:41:INFO:Successfully clicked 'Create' button
+2025-09-29 16:47:41:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID and Reseller Name already exists'
+2025-09-29 16:47:42:INFO:Cleared Reselller Name field
+2025-09-29 16:47:42:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-29 16:47:42:INFO:Cleared Reselller Phone field
+2025-09-29 16:47:42:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 16:48:32:ERROR:Test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x66c333+65459]
+	GetHandleVerifier [0x0x66c374+65524]
+	(No symbol) [0x0x48d973]
+	(No symbol) [0x0x4d76e7]
+	(No symbol) [0x0x4d7a8b]
+	(No symbol) [0x0x51dea2]
+	(No symbol) [0x0x4f9e44]
+	(No symbol) [0x0x51b606]
+	(No symbol) [0x0x4f9bf6]
+	(No symbol) [0x0x4cb38e]
+	(No symbol) [0x0x4cc274]
+	GetHandleVerifier [0x0x8eeda3+2697763]
+	GetHandleVerifier [0x0x8e9ec7+2677575]
+	GetHandleVerifier [0x0x694194+228884]
+	GetHandleVerifier [0x0x6849f8+165496]
+	GetHandleVerifier [0x0x68b18d+192013]
+	GetHandleVerifier [0x0x6747d8+99416]
+	GetHandleVerifier [0x0x674972+99826]
+	GetHandleVerifier [0x0x65ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-29 16:48:32:ERROR:Screenshot saved at: ./screenshots\test_reseller_already_exist_error_msg_2025-09-29_16-48-32.png
+2025-09-29 16:48:32:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik0@gmail.com', Reseller Address: 'BTM', Expected error: 'Reseller Name already exists'
+2025-09-29 16:48:33:INFO:Cleared Reselller Name field
+2025-09-29 16:48:33:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-29 16:48:33:INFO:Cleared Reselller Phone field
+2025-09-29 16:48:34:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 16:49:42:INFO:====== WebDriver manager ======
+2025-09-29 16:49:43:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 16:49:44:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 16:49:44:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 16:49:48:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 16:49:48:INFO:Clicking Sign In
+2025-09-29 16:49:48:INFO:Login successful
+2025-09-29 16:49:50:INFO:Navigated to Reseller page
+2025-09-29 16:49:55:INFO:Successfully clicked 'Create' button
+2025-09-29 16:49:55:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID and Reseller Name already exists'
+2025-09-29 16:49:55:INFO:Cleared Reselller Name field
+2025-09-29 16:49:55:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-29 16:49:55:INFO:Cleared Reselller Phone field
+2025-09-29 16:49:55:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 16:49:55:INFO:Cleared Reselller Email field
+2025-09-29 16:49:55:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-29 16:49:55:INFO:Cleared Reselller Address field
+2025-09-29 16:49:55:INFO:Entered Reseller Address: 'BTM'
+2025-09-29 16:49:56:INFO:Reseller error message is: Email ID and Reseller Name already exists
+2025-09-29 16:49:56:INFO:Clicked the 'OK' button successfully
+2025-09-29 16:49:56:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik0@gmail.com', Reseller Address: 'BTM', Expected error: 'Reseller Name already exists'
+2025-09-29 16:49:56:INFO:Cleared Reselller Name field
+2025-09-29 16:49:56:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-29 16:49:56:INFO:Cleared Reselller Phone field
+2025-09-29 16:49:57:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 16:49:57:INFO:Cleared Reselller Email field
+2025-09-29 16:49:57:INFO:Entered Reseller Email: 'nagashreenaik0@gmail.com'
+2025-09-29 16:49:58:INFO:Cleared Reselller Address field
+2025-09-29 16:49:58:INFO:Entered Reseller Address: 'BTM'
+2025-09-29 16:49:58:INFO:Reseller error message is: Reseller Name already exists
+2025-09-29 16:49:59:INFO:Clicked the 'OK' button successfully
+2025-09-29 16:49:59:INFO:Existed Reseller Name: 'Nagashree1', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID already exists'
+2025-09-29 16:49:59:INFO:Cleared Reselller Name field
+2025-09-29 16:49:59:INFO:Entered Reseller Name: 'Nagashree1'
+2025-09-29 16:49:59:INFO:Cleared Reselller Phone field
+2025-09-29 16:49:59:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 16:49:59:INFO:Cleared Reselller Email field
+2025-09-29 16:49:59:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-29 16:49:59:INFO:Cleared Reselller Address field
+2025-09-29 16:49:59:INFO:Entered Reseller Address: 'BTM'
+2025-09-29 16:50:00:INFO:Reseller error message is: Email ID already exists
+2025-09-29 16:50:00:INFO:Clicked the 'OK' button successfully
+2025-09-29 16:50:59:INFO:====== WebDriver manager ======
+2025-09-29 16:51:00:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 16:51:01:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 16:51:01:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 16:51:05:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 16:51:05:INFO:Clicking Sign In
+2025-09-29 16:51:05:INFO:Login successful
+2025-09-29 16:51:08:INFO:Navigated to Reseller page
+2025-09-29 16:51:10:INFO:Page Heading is: Manage Reseller
+2025-09-29 16:51:10:INFO:Reseller page Heading verified successfully
+2025-09-29 16:51:10:INFO:Table Heading is: List Of Reseller
+2025-09-29 16:51:10:INFO:Reseller Table verified successfully
+2025-09-29 16:51:10:INFO:Text of Create button is: Create
+2025-09-29 16:51:10:INFO:Create button verified successfully
+2025-09-29 16:51:10:INFO:Logout successfully
+2025-09-29 16:51:12:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 16:51:12:INFO:Clicking Sign In
+2025-09-29 16:51:12:INFO:Login successful
+2025-09-29 16:51:14:INFO:Navigated to Reseller page
+2025-09-29 16:51:18:INFO:Successfully clicked 'Create' button
+2025-09-29 16:51:18:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID and Reseller Name already exists'
+2025-09-29 16:51:18:INFO:Cleared Reselller Name field
+2025-09-29 16:51:19:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-29 16:51:19:INFO:Cleared Reselller Phone field
+2025-09-29 16:51:19:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 16:51:19:INFO:Cleared Reselller Email field
+2025-09-29 16:51:20:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-29 16:51:20:INFO:Cleared Reselller Address field
+2025-09-29 16:51:20:INFO:Entered Reseller Address: 'BTM'
+2025-09-29 16:51:21:INFO:Reseller error message is: Email ID and Reseller Name already exists
+2025-09-29 16:51:21:INFO:Clicked the 'OK' button successfully
+2025-09-29 16:51:21:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik0@gmail.com', Reseller Address: 'BTM', Expected error: 'Reseller Name already exists'
+2025-09-29 16:51:21:INFO:Cleared Reselller Name field
+2025-09-29 16:51:21:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-29 16:51:21:INFO:Cleared Reselller Phone field
+2025-09-29 16:51:21:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 16:51:22:INFO:Cleared Reselller Email field
+2025-09-29 16:51:22:INFO:Entered Reseller Email: 'nagashreenaik0@gmail.com'
+2025-09-29 16:51:22:INFO:Cleared Reselller Address field
+2025-09-29 16:51:22:INFO:Entered Reseller Address: 'BTM'
+2025-09-29 16:51:23:INFO:Reseller error message is: Reseller Name already exists
+2025-09-29 16:51:23:INFO:Clicked the 'OK' button successfully
+2025-09-29 16:51:23:INFO:Existed Reseller Name: 'Nagashree1', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID already exists'
+2025-09-29 16:51:23:INFO:Cleared Reselller Name field
+2025-09-29 16:51:23:INFO:Entered Reseller Name: 'Nagashree1'
+2025-09-29 16:51:23:INFO:Cleared Reselller Phone field
+2025-09-29 16:51:23:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 16:51:23:INFO:Cleared Reselller Email field
+2025-09-29 16:51:24:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-29 16:51:24:INFO:Cleared Reselller Address field
+2025-09-29 16:51:24:INFO:Entered Reseller Address: 'BTM'
+2025-09-29 16:51:25:INFO:Reseller error message is: Email ID already exists
+2025-09-29 16:51:25:INFO:Clicked the 'OK' button successfully
+2025-09-29 16:51:25:INFO:Logout successfully
+2025-09-29 17:49:08:INFO:====== WebDriver manager ======
+2025-09-29 17:49:09:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 17:49:10:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 17:49:10:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 17:49:15:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 17:49:15:INFO:Clicking Sign In
+2025-09-29 17:49:15:INFO:Login successful
+2025-09-29 17:49:17:INFO:Navigated to Reseller page
+2025-09-29 17:49:19:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 17:49:20:INFO:Successfully clicked 'Create' button
+2025-09-29 17:49:20:INFO:'Add Output Type Config' popup displayed
+2025-09-29 17:49:20:INFO:Page contains heading, Text fields and Add button
+2025-09-29 17:49:20:INFO:Entered Reseller Name : Montgomery-Maldonado
+2025-09-29 17:49:20:INFO:Entered Reseller Phone : 954-292-0053
+2025-09-29 17:49:20:INFO:Entered Reseller Email : navarrorebecca@example.com
+2025-09-29 17:49:21:INFO:Entered Reseller Address : 339 Williams Isle Suite 639
+Seanport, AZ 16758
+2025-09-29 17:54:00:INFO:====== WebDriver manager ======
+2025-09-29 17:54:01:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 17:54:02:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 17:54:02:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 17:54:06:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 17:54:06:INFO:Clicking Sign In
+2025-09-29 17:54:06:INFO:Login successful
+2025-09-29 17:54:08:INFO:Navigated to Reseller page
+2025-09-29 17:54:10:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 17:54:10:INFO:Successfully clicked 'Create' button
+2025-09-29 17:54:10:INFO:'Add Output Type Config' popup displayed
+2025-09-29 17:54:10:INFO:Page contains heading, Text fields and Add button
+2025-09-29 17:54:11:INFO:Entered Reseller Name : Rodriguez LLC
+2025-09-29 17:54:11:INFO:Entered Reseller Phone : 0016114965640047
+2025-09-29 17:54:11:INFO:Entered Reseller Email : dustin53@example.com
+2025-09-29 17:54:11:INFO:Entered Reseller Address : 7291 Swanson Pike
+Suechester, KS 79238
+2025-09-29 18:00:34:INFO:====== WebDriver manager ======
+2025-09-29 18:00:35:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:00:35:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:00:36:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 18:00:39:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 18:00:39:INFO:Clicking Sign In
+2025-09-29 18:00:39:INFO:Login successful
+2025-09-29 18:00:42:INFO:Navigated to Reseller page
+2025-09-29 18:00:44:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 18:00:44:INFO:Successfully clicked 'Create' button
+2025-09-29 18:00:44:INFO:'Add Output Type Config' popup displayed
+2025-09-29 18:00:45:INFO:Page contains heading, Text fields and Add button
+2025-09-29 18:00:45:INFO:Entered Reseller Name : Newman-Turner
+2025-09-29 18:00:45:INFO:Entered Reseller Phone : 9493220844
+2025-09-29 18:00:45:INFO:Entered Reseller Email : glennsantiago@example.com
+2025-09-29 18:00:45:INFO:Entered Reseller Address : 0449 Sarah Motorway
+Janetfurt, MN 80174
+2025-09-29 18:05:12:INFO:====== WebDriver manager ======
+2025-09-29 18:05:13:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:05:13:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:05:14:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 18:05:17:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 18:05:18:INFO:Clicking Sign In
+2025-09-29 18:05:18:INFO:Login successful
+2025-09-29 18:05:20:INFO:Navigated to Reseller page
+2025-09-29 18:05:22:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 18:05:22:INFO:Successfully clicked 'Create' button
+2025-09-29 18:05:22:INFO:'Add Output Type Config' popup displayed
+2025-09-29 18:05:23:ERROR:Failed to verify 'Add Manage Reseller' page or elements: Message: invalid selector: Unable to locate an element with the xpath expression //button[contains(text(), "Add")]] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text(), "Add")]]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0x66c333+65459]
+	GetHandleVerifier [0x0x66c374+65524]
+	(No symbol) [0x0x48d973]
+	(No symbol) [0x0x494330]
+	(No symbol) [0x0x496734]
+	(No symbol) [0x0x4967c8]
+	(No symbol) [0x0x4d6f74]
+	(No symbol) [0x0x4d7a8b]
+	(No symbol) [0x0x51dea2]
+	(No symbol) [0x0x4f9e44]
+	(No symbol) [0x0x51b606]
+	(No symbol) [0x0x4f9bf6]
+	(No symbol) [0x0x4cb38e]
+	(No symbol) [0x0x4cc274]
+	GetHandleVerifier [0x0x8eeda3+2697763]
+	GetHandleVerifier [0x0x8e9ec7+2677575]
+	GetHandleVerifier [0x0x694194+228884]
+	GetHandleVerifier [0x0x6849f8+165496]
+	GetHandleVerifier [0x0x68b18d+192013]
+	GetHandleVerifier [0x0x6747d8+99416]
+	GetHandleVerifier [0x0x674972+99826]
+	GetHandleVerifier [0x0x65ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-29 18:05:23:ERROR:Current URL: http://172.235.29.67:7777/superadmin/AddManageReseller
+2025-09-29 18:05:23:ERROR:Screenshot saved at: ./screenshots\add_reseller_page_failure_2025-09-29_18-05-23.png
+2025-09-29 18:05:44:INFO:====== WebDriver manager ======
+2025-09-29 18:05:45:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:05:46:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:05:46:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 18:05:50:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 18:05:51:INFO:Clicking Sign In
+2025-09-29 18:05:51:INFO:Login successful
+2025-09-29 18:05:53:INFO:Navigated to Reseller page
+2025-09-29 18:05:55:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 18:05:55:INFO:Successfully clicked 'Create' button
+2025-09-29 18:05:55:INFO:'Add Output Type Config' popup displayed
+2025-09-29 18:05:56:ERROR:Failed to verify 'Add Manage Reseller' page or elements: Message: invalid selector: Unable to locate an element with the xpath expression //button[contains(text(), "Add")]] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text(), "Add")]]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0x66c333+65459]
+	GetHandleVerifier [0x0x66c374+65524]
+	(No symbol) [0x0x48d973]
+	(No symbol) [0x0x494330]
+	(No symbol) [0x0x496734]
+	(No symbol) [0x0x4967c8]
+	(No symbol) [0x0x4d6f74]
+	(No symbol) [0x0x4d7a8b]
+	(No symbol) [0x0x51dea2]
+	(No symbol) [0x0x4f9e44]
+	(No symbol) [0x0x51b606]
+	(No symbol) [0x0x4f9bf6]
+	(No symbol) [0x0x4cb38e]
+	(No symbol) [0x0x4cc274]
+	GetHandleVerifier [0x0x8eeda3+2697763]
+	GetHandleVerifier [0x0x8e9ec7+2677575]
+	GetHandleVerifier [0x0x694194+228884]
+	GetHandleVerifier [0x0x6849f8+165496]
+	GetHandleVerifier [0x0x68b18d+192013]
+	GetHandleVerifier [0x0x6747d8+99416]
+	GetHandleVerifier [0x0x674972+99826]
+	GetHandleVerifier [0x0x65ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-29 18:05:56:ERROR:Current URL: http://172.235.29.67:7777/superadmin/AddManageReseller
+2025-09-29 18:05:56:ERROR:Screenshot saved at: ./screenshots\add_reseller_page_failure_2025-09-29_18-05-55.png
+2025-09-29 18:07:34:INFO:====== WebDriver manager ======
+2025-09-29 18:07:35:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:07:35:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:07:36:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 18:07:39:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 18:07:39:INFO:Clicking Sign In
+2025-09-29 18:07:39:INFO:Login successful
+2025-09-29 18:07:41:INFO:Navigated to Reseller page
+2025-09-29 18:07:43:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 18:07:43:INFO:Successfully clicked 'Create' button
+2025-09-29 18:07:43:INFO:'Add Output Type Config' popup displayed
+2025-09-29 18:07:44:ERROR:Failed to verify 'Add Manage Reseller' page or elements: Message: invalid selector: Unable to locate an element with the xpath expression //button[contains(text(), "Add")]] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text(), "Add")]]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0x66c333+65459]
+	GetHandleVerifier [0x0x66c374+65524]
+	(No symbol) [0x0x48d973]
+	(No symbol) [0x0x494330]
+	(No symbol) [0x0x496734]
+	(No symbol) [0x0x4967c8]
+	(No symbol) [0x0x4d6f74]
+	(No symbol) [0x0x4d7a8b]
+	(No symbol) [0x0x51dea2]
+	(No symbol) [0x0x4f9e44]
+	(No symbol) [0x0x51b606]
+	(No symbol) [0x0x4f9bf6]
+	(No symbol) [0x0x4cb38e]
+	(No symbol) [0x0x4cc274]
+	GetHandleVerifier [0x0x8eeda3+2697763]
+	GetHandleVerifier [0x0x8e9ec7+2677575]
+	GetHandleVerifier [0x0x694194+228884]
+	GetHandleVerifier [0x0x6849f8+165496]
+	GetHandleVerifier [0x0x68b18d+192013]
+	GetHandleVerifier [0x0x6747d8+99416]
+	GetHandleVerifier [0x0x674972+99826]
+	GetHandleVerifier [0x0x65ebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-29 18:07:44:ERROR:Current URL: http://172.235.29.67:7777/superadmin/AddManageReseller
+2025-09-29 18:07:44:ERROR:Screenshot saved at: ./screenshots\add_reseller_page_failure_2025-09-29_18-07-44.png
+2025-09-29 18:08:17:INFO:====== WebDriver manager ======
+2025-09-29 18:08:18:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:08:19:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:08:19:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 18:08:22:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 18:08:23:INFO:Clicking Sign In
+2025-09-29 18:08:23:INFO:Login successful
+2025-09-29 18:08:25:INFO:Navigated to Reseller page
+2025-09-29 18:08:27:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-29 18:08:27:INFO:Successfully clicked 'Create' button
+2025-09-29 18:08:27:INFO:'Add Output Type Config' popup displayed
+2025-09-29 18:08:27:INFO:Page contains heading, Text fields and Add button
+2025-09-29 18:08:27:INFO:Entered Reseller Name : Clay Group
+2025-09-29 18:08:28:INFO:Entered Reseller Phone : 5069840388
+2025-09-29 18:08:28:INFO:Entered Reseller Email : buchananchristina@example.com
+2025-09-29 18:08:28:INFO:Entered Reseller Address : USNV Hess
+FPO AA 23966
+2025-09-29 18:09:45:INFO:====== WebDriver manager ======
+2025-09-29 18:09:46:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:09:47:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:09:47:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 18:09:52:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 18:09:52:INFO:Clicking Sign In
+2025-09-29 18:09:52:INFO:Login successful
+2025-09-29 18:09:54:INFO:Navigated to Reseller page
+2025-09-29 18:09:58:INFO:Successfully clicked 'Create' button
+2025-09-29 18:09:58:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID and Reseller Name already exists'
+2025-09-29 18:09:58:INFO:Cleared Reselller Name field
+2025-09-29 18:09:59:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-29 18:09:59:INFO:Cleared Reselller Phone field
+2025-09-29 18:09:59:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 18:09:59:INFO:Cleared Reselller Email field
+2025-09-29 18:09:59:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-29 18:09:59:INFO:Cleared Reselller Address field
+2025-09-29 18:09:59:INFO:Entered Reseller Address: 'BTM'
+2025-09-29 18:10:00:INFO:Reseller error message is: Email ID and Reseller Name already exists
+2025-09-29 18:10:00:INFO:Clicked the 'OK' button successfully
+2025-09-29 18:10:00:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik0@gmail.com', Reseller Address: 'BTM', Expected error: 'Reseller Name already exists'
+2025-09-29 18:10:00:INFO:Cleared Reselller Name field
+2025-09-29 18:10:00:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-29 18:10:00:INFO:Cleared Reselller Phone field
+2025-09-29 18:10:01:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 18:10:01:INFO:Cleared Reselller Email field
+2025-09-29 18:10:01:INFO:Entered Reseller Email: 'nagashreenaik0@gmail.com'
+2025-09-29 18:10:01:INFO:Cleared Reselller Address field
+2025-09-29 18:10:01:INFO:Entered Reseller Address: 'BTM'
+2025-09-29 18:10:02:INFO:Reseller error message is: Reseller Name already exists
+2025-09-29 18:10:02:INFO:Clicked the 'OK' button successfully
+2025-09-29 18:10:02:INFO:Existed Reseller Name: 'Nagashree1', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID already exists'
+2025-09-29 18:10:02:INFO:Cleared Reselller Name field
+2025-09-29 18:10:02:INFO:Entered Reseller Name: 'Nagashree1'
+2025-09-29 18:10:02:INFO:Cleared Reselller Phone field
+2025-09-29 18:10:03:INFO:Entered Reseller Phone: '8989898989'
+2025-09-29 18:10:03:INFO:Cleared Reselller Email field
+2025-09-29 18:10:03:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-29 18:10:03:INFO:Cleared Reselller Address field
+2025-09-29 18:10:03:INFO:Entered Reseller Address: 'BTM'
+2025-09-29 18:10:04:INFO:Reseller error message is: Email ID already exists
+2025-09-29 18:10:04:INFO:Clicked the 'OK' button successfully
+2025-09-29 18:10:05:INFO:Logout successfully
+2025-09-29 18:12:55:INFO:====== WebDriver manager ======
+2025-09-29 18:12:56:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:12:56:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:12:57:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-29 18:13:00:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-29 18:13:01:INFO:Clicking Sign In
+2025-09-29 18:13:01:INFO:Login successful
+2025-09-29 18:13:03:INFO:Navigated to Reseller page
+2025-09-29 18:13:05:INFO:Page Heading is: Manage Reseller
+2025-09-29 18:13:05:INFO:Reseller page Heading verified successfully
+2025-09-29 18:13:05:INFO:Table Heading is: List Of Reseller
+2025-09-29 18:13:05:INFO:Reseller Table verified successfully
+2025-09-29 18:13:05:INFO:Text of Create button is: Create
+2025-09-29 18:13:05:INFO:Create button verified successfully
+2025-09-29 18:13:05:INFO:Logout successfully
+2025-09-29 18:23:34:INFO:====== WebDriver manager ======
+2025-09-29 18:23:34:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:23:35:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-29 18:23:36:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache

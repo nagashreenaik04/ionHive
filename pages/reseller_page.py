@@ -7,16 +7,26 @@ class ResellerPage(BasePage):
     reseller_link = (By.LINK_TEXT, "Manage Reseller")
     reseller_page = (By.XPATH, '//h3[text()="Manage Reseller"]')
     reseller_list_table = (By.XPATH, '//h4[text()="List Of Reseller"]')
-    addCreate_btn = (By.XPATH, '//button[text()="Create"]')
+    create_btn = (By.XPATH, '//button[text()="Create"]')
 
     add_res_page = (By.XPATH, '//h3[text()="Add Manage Reseller"]')
     back_btn = (By.XPATH, '//button[text()="Back"]')
     add_btn = (By.XPATH, '//button[text()="Add"]')
+    ok_btn = (By.XPATH, '//button[text()="OK"]')
 
     reseller_name = (By.XPATH, '//input[@placeholder="Reseller Name"]')
     reseller_phone = (By.XPATH, '//input[@placeholder="Phone Number"]')
-    reseller_email = (By.XPATH, '//input[@placeholder="email"]')
+    reseller_email = (By.XPATH, '//input[@placeholder="Email ID"]')
     reseller_address = (By.XPATH, '//input[@placeholder="Address"]')
+
+    # List of Reseller table
+    otc_table = (By.XPATH, "//table[@class='table table-striped']")
+    table_header = (By.TAG_NAME, "thead")
+    table_header_cell = (By.TAG_NAME, "th")
+    row_table = (By.XPATH, ".//tbody/tr")
+    table_data_cell = (By.TAG_NAME, "td")
+    status_span = (By.TAG_NAME, "span")
+    active_label = (By.XPATH, ".//label[@class='active']")
 
     # logout locator
     logout_drpdwn = (By.XPATH, '//*[@id="root"]/div/nav/div[2]/ul/li[2]')
@@ -26,9 +36,9 @@ class ResellerPage(BasePage):
     reseller_success_msg = (By.XPATH, '//h2[text()="Reseller added successfully"]')
     reseller_error1_msg = (By.XPATH, '//h2[text()="Error"]')
         #(By.XPATH, '//div[text() ="Email ID and Reseller Name already exists"]')
-    '//div[text() ="Reseller Name already exists"]'
-    '//div[text() ="Email ID already exists"]'
-    '(//h2[text()="Error"]/following::div)[1]'
+    #'//div[text() ="Reseller Name already exists"]'
+    #'//div[text() ="Email ID already exists"]'
+    reseller_error2_msg = (By.XPATH, '(//h2[text()="Error"]/following::div)[1]')
 
 
 
@@ -44,11 +54,11 @@ class ResellerPage(BasePage):
     def get_reseller_list_table(self):
         return self.find_element(self.reseller_list_table).text
 
-    def get_addOTC_btn(self):
-        return self.find_element(self.addOTC_btn).text
+    def get_create_btn(self):
+        return self.find_element(self.create_btn).text
 
     def click_Create_btn(self):
-        self.click(self.addCreate_btn)
+        self.click(self.create_btn)
 
     def get_add_reseller_heading(self):
         return self.find_element(self.add_res_page).text
@@ -70,4 +80,80 @@ class ResellerPage(BasePage):
 
     def enter_reseller_address(self, resellerAddress):
         self.send_keys(self.reseller_address, resellerAddress)
+
+    def click_logout(self):
+        self.click(self.logout_drpdwn)
+        self.click(self.logout_btn)
+
+    def get_reseller_success_msg(self):
+        return self.get_text(self.reseller_success_msg)
+
+    def get_reseller_error_msg(self):
+        return self.get_text(self.reseller_error2_msg)
+
+    def click_ok_btn(self):
+        self.click(self.ok_btn)
+
+    def get_table_data(self):
+        """Retrieve all data from the Reseller table as a list of dictionaries."""
+        # Wait for the table to be visible
+        self.wait_for_element(self.otc_table)
+
+        # Locate the table
+        table = self.find_element(self.otc_table)
+
+        # Get headers
+        headers = [header.text.strip() for header in table.find_elements(*self.table_header_cell)]
+
+        # Get data rows
+        rows = table.find_elements(*self.row_table)
+        table_data = []
+
+        for row in rows:
+            cells = row.find_elements(*self.table_data_cell)
+            row_data = {}
+            for index, cell in enumerate(cells):
+                if index >= len(headers):
+                    continue  # Skip if there are more cells than headers
+                header = headers[index]
+                text = cell.text.strip()
+
+                # Handle special cases for Status and Active/DeActive columns
+                if header == "Status":
+                    try:
+                        text = cell.find_element(*self.status_span).text.strip()
+                    except:
+                        pass  # Use cell text if no span is found
+                elif header == "Active/DeActive":
+                    try:
+                        label = cell.find_element(*self.active_label).text.strip()
+                        text = label if label else text
+                    except:
+                        pass  # Use cell text if no label is found
+
+                row_data[header] = text
+            table_data.append(row_data)
+
+        return table_data
+
+    def click_view_btn_in_row(self, reseller_email):
+        """
+        Find the row matching reseller_email and click its 'View' button.
+
+        :param reseller_name: The reseller's name to match
+        :return: True if clicked, raises ValueError otherwise
+        """
+        # Wait for table before searching
+        self.wait_for_element(self.otc_table)
+        rows = self.find_element(self.otc_table).find_elements(*self.row_table)
+
+        for row in rows:
+            if reseller_email in row.text:
+                view_btn = row.find_element(By.XPATH, ".//button[contains(text(),'View')]")
+                view_btn.click()
+                return True
+
+        raise ValueError(f"View button for reseller '{reseller_email}' not found")
+
+
 
