@@ -23,9 +23,10 @@ class TestReseller:
 
     # Generate Faker data
     fake = Faker()
-    reseller_name = fake.company()  # fake company name
+    reseller_name =  None # fake company name
     reseller_email = fake.email()  # fake email
-    reseller_address = fake.address()  # fake address
+    reseller_address = fake.address().replace("\n", " ") # fake address
+    reseller_phone = None
 
     # Expected datas
     expected_reseller_success_msg = "Reseller added successfully"
@@ -72,13 +73,25 @@ class TestReseller:
         # If the difference is greater than 5 seconds, return True; if less than 5 seconds, return False
         return time_difference > 5, time_difference  # Return a tuple (is_greater_than_5_seconds, time_difference)
 
-    def get_fake_phone(self):
-        return str(self.fake.random_number(digits=10, fix_len=True))
+    @staticmethod
+    def get_fake_phone():
+        """Generate a fake 10-digit phone number"""
+        return str(random.randint(6000000000, 9999999999))
+
+    @staticmethod
+    def get_reseller_name():
+        fake = Faker()
+        name = fake.company()
+        return ''.join(ch for ch in name if ch.isalpha() or ch.isspace()).strip()
+
+    # Assign reseller_phone using the method
+    reseller_phone = get_fake_phone.__func__()
+    reseller_name = get_reseller_name.__func__()
 
 
 
     @pytest.mark.smoke
-    def test_create_reseller(self, driver):
+    def test_verify_reseller(self, driver):
         res_page, screenshot_util = self.setup_reseller_test(driver)
 
         # Verify the Page Heading
@@ -194,7 +207,7 @@ class TestReseller:
                 )
             raise
 
-    """
+
     @pytest.mark.integration
     def test_create_reseller(self, driver):
         #
@@ -238,13 +251,13 @@ class TestReseller:
         # Validate Add Reseller and verify the success message
         res_page.enter_reseller_name(self.reseller_name)
         self.logger.info(f"Entered Reseller Name : {self.reseller_name}")
-        res_page.enter_reseller_phone(self.get_fake_phone())
-        self.logger.info(f"Entered Reseller Phone : {self.get_fake_phone()}")
+        res_page.enter_reseller_phone(self.reseller_phone)
+        self.logger.info(f"Entered Reseller Phone : {self.reseller_phone}")
         res_page.enter_reseller_email(self.reseller_email)
         self.logger.info(f"Entered Reseller Email : {self.reseller_email}")
         res_page.enter_reseller_address(self.reseller_address)
         self.logger.info(f"Entered Reseller Address : {self.reseller_address}")
-        time.sleep(3)
+        time.sleep(2)
         res_page.click_add_btn()
         # Log after the update with the exact time
         current_time = datetime.now()
@@ -259,49 +272,65 @@ class TestReseller:
                 f"Expected Reseller success message '{self.expected_reseller_success_msg}', but got '{get_reseller_success_msg}'")
             res_page.click_ok_btn()
             self.logger.info("Clicked the 'OK' button successfully")
+            # Verify the created Reseller in List of Reseller Table
+            try:
+                table_data = res_page.get_table_data()
+                found = False
+                for row in table_data:
+                    if row['Reseller Name'] == self.reseller_name and row['Phone Number'] == self.reseller_phone and \
+                            row['Email ID'] == self.reseller_email and row['Status'] == self.status:
+                        found = True
+                        self.logger.info(
+                            f"Found created Reseller entry: Reseller Name '{self.reseller_name}', Phone Number  '{self.reseller_phone}', Email ID '{self.reseller_email}', Status : {row['Status']} ")
+                        res_page.click_view_btn_in_row(self.reseller_email)
+                        self.logger.info("Navigate to the 'Reseller Details' page")
+                        time.sleep(5)
+                        assert res_page.get_reseller_name_details() == self.reseller_name , "Reseller Name should not change"
+                        assert res_page.get_reseller_phone_details() == self.reseller_phone , "Reseller Phone should not change"
+                        assert res_page.get_reseller_email_details() == self.reseller_email, "Reseller Email should not change"
+                        assert res_page.get_reseller_wallet_details() == self.reseller_wallet, "Reseller Wallet should not change"
+                        assert res_page.get_reseller_address_details() == self.reseller_address , "Reseller Address should not change"
+                        assert res_page.get_reseller_createdby_details() == self.created_by , "Reseller Created By should not change"
+                        assert res_page.get_reseller_modifiedBy_details() == self.modified_by  , "Reseller Modified By should not change"
+                        assert res_page.get_reseller_modifiedDate_details() == self.modified_date  , "Reseller Modified Date should not change"
+                        assert res_page.get_reseller_status_details() == self.status, "Status should not change"
+                        self.logger.info(f"Found created Reseller entry: Reseller Name '{res_page.get_reseller_name_details()}', Phone Number  '{res_page.get_reseller_phone_details()}', Email ID '{res_page.get_reseller_phone_details()}',\
+                                 Wallet : {res_page.get_reseller_wallet_details()}, Address : {res_page.get_reseller_address_details()}, Created By : {res_page.get_reseller_createdby_details()}, \
+                                 Created Date : {res_page.get_reseller_createdDate_details()}, Modified By : {res_page.get_reseller_modifiedBy_details()}, Modified Date : {res_page.get_reseller_modifiedDate_details()} , \
+                                 Status : {res_page.get_reseller_status_details()} ")
+
+                        # Check if the difference between the current time and created date is greater than 5 seconds
+                        is_greater, time_difference = self.check_time_difference(res_page.get_reseller_createdDate_details(),
+                                                                                     current_time_after_add)
+                        if res_page.get_reseller_createdDate_details() == current_time_after_add:
+                            self.logger.info(
+                                f"Created date {res_page.get_reseller_createdDate_details()} and current date {current_time_after_add} are the same")
+                        elif is_greater:  # Fixed syntax: 'else if' should be 'elif' in Python
+                            self.logger.error(
+                                f"Created date {res_page.get_reseller_createdDate_details()} and current date {current_time_after_add} " f"differ by {time_difference} seconds, which is greater than 5 seconds.")
+                            raise AssertionError(f"Created date and current date differ by more than 5 seconds.")
+                        else:
+                            self.logger.info(
+                                f"Created date {res_page.get_reseller_createdDate_details()} and current date {current_time_after_add} "
+                                f"differ by {time_difference} seconds, which is within the 5-second threshold.")
+                        break
+                self.logger.info("Reseller entry verified successfully in the table")
+
+            except Exception as e:
+                self.logger.error(f"Failed to verify OTC entry in table: {str(e)}")
+                screenshot_path = screenshot_util.capture_screenshot("test_added_otc_in_table_failure")
+                self.logger.error(f"Test failed, screenshot saved at: {screenshot_path}")
+                raise
+
         except Exception as e:
             screenshot_path = screenshot_util.capture_screenshot("add_reseller_failure")
             self.logger.error(f"Success message '{self.expected_reseller_success_msg}' not found or incorrect: {str(e)}")
             self.logger.error(f"Screenshot saved at: {screenshot_path}")
             raise
 
-        # Verify the created Reseller in List of Reseller Table
-        try:
-            table_data = res_page.get_table_data()
-            found = False
-            for row in table_data:
-                if row['Reseller Name'] == self.reseller_name and row['Phone Number'] == self.reseller_phone and row['Email ID'] == self.reseller_email and row['Status'] == self.status:
-                    found = True
-                    self.logger.info(
-                        f"Found created Reseller entry: Reseller Name '{self.reseller_name}', Phone Number  '{self.reseller_phone}', Email ID '{self.reseller_email}', Status : {row['Status']} ")
-
-                    res_page.click_view_btn_in_row(self.reseller_email)
-
-
-                    # Check if the difference between the current time and created date is greater than 5 seconds
-                    is_greater, time_difference = self.check_time_difference(row['Created Date'],
-                                                                             current_time_after_add)
-                    if row['Created Date'] == current_time_after_add:
-                        self.logger.info(
-                            f"Created date {row['Created Date']} and current date {current_time_after_add} are the same")
-                    elif is_greater:  # Fixed syntax: 'else if' should be 'elif' in Python
-                        self.logger.error(
-                            f"Created date {row['Created Date']} and current date {current_time_after_add} " f"differ by {time_difference} seconds, which is greater than 5 seconds.")
-                        raise AssertionError(f"Created date and current date differ by more than 5 seconds.")
-                    else:
-                        self.logger.info(
-                            f"Created date {row['Created Date']} and current date {current_time_after_add} "
-                            f"differ by {time_difference} seconds, which is within the 5-second threshold.")
-                    break
-            assert found, f"OTC entry with Output Type '{self.outputType}' and Output Type Name '{self.outputTypeName}' not found in table"
-            self.logger.info("OTC entry verified successfully in the table")
-        except Exception as e:
-            self.logger.error(f"Failed to verify OTC entry in table: {str(e)}")
-            screenshot_path = screenshot_util.capture_screenshot("test_added_otc_in_table_failure")
-            self.logger.error(f"Test failed, screenshot saved at: {screenshot_path}")
-            raise
-
         res_page.click_logout()
         self.logger.info("Logout successfully")
-    """
+
+
+
 

@@ -3480,3 +3480,778 @@ FPO AA 23966
 2025-09-29 18:23:34:INFO:Get LATEST chromedriver version for google-chrome
 2025-09-29 18:23:35:INFO:Get LATEST chromedriver version for google-chrome
 2025-09-29 18:23:36:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 10:21:10:INFO:====== WebDriver manager ======
+2025-09-30 10:21:11:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:21:12:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:21:12:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:21:14:INFO:WebDriver version 140.0.7339.207 selected
+2025-09-30 10:21:14:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-09-30 10:21:14:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-09-30 10:21:14:INFO:Driver downloading response is 200
+2025-09-30 10:21:15:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:21:16:INFO:Driver has been saved in cache [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207]
+2025-09-30 10:21:21:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:21:21:INFO:Clicking Sign In
+2025-09-30 10:21:21:INFO:Login successful
+2025-09-30 10:21:24:INFO:Navigated to Reseller page
+2025-09-30 10:21:26:INFO:Page Heading is: Manage Reseller
+2025-09-30 10:21:26:INFO:Reseller page Heading verified successfully
+2025-09-30 10:21:26:INFO:Table Heading is: List Of Reseller
+2025-09-30 10:21:26:INFO:Reseller Table verified successfully
+2025-09-30 10:21:26:INFO:Text of Create button is: Create
+2025-09-30 10:21:26:INFO:Create button verified successfully
+2025-09-30 10:21:26:INFO:Logout successfully
+2025-09-30 10:21:28:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:21:28:INFO:Clicking Sign In
+2025-09-30 10:21:28:INFO:Login successful
+2025-09-30 10:21:31:INFO:Navigated to Reseller page
+2025-09-30 10:21:35:INFO:Successfully clicked 'Create' button
+2025-09-30 10:21:35:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID and Reseller Name already exists'
+2025-09-30 10:21:35:INFO:Cleared Reselller Name field
+2025-09-30 10:21:35:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-30 10:21:35:INFO:Cleared Reselller Phone field
+2025-09-30 10:21:35:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 10:21:35:INFO:Cleared Reselller Email field
+2025-09-30 10:21:36:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-30 10:21:36:INFO:Cleared Reselller Address field
+2025-09-30 10:21:36:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 10:21:36:INFO:Reseller error message is: Email ID and Reseller Name already exists
+2025-09-30 10:21:36:INFO:Clicked the 'OK' button successfully
+2025-09-30 10:21:36:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik0@gmail.com', Reseller Address: 'BTM', Expected error: 'Reseller Name already exists'
+2025-09-30 10:21:36:INFO:Cleared Reselller Name field
+2025-09-30 10:21:37:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-30 10:21:37:INFO:Cleared Reselller Phone field
+2025-09-30 10:21:37:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 10:21:37:INFO:Cleared Reselller Email field
+2025-09-30 10:21:37:INFO:Entered Reseller Email: 'nagashreenaik0@gmail.com'
+2025-09-30 10:21:37:INFO:Cleared Reselller Address field
+2025-09-30 10:21:37:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 10:21:38:INFO:Reseller error message is: Reseller Name already exists
+2025-09-30 10:21:38:INFO:Clicked the 'OK' button successfully
+2025-09-30 10:21:38:INFO:Existed Reseller Name: 'Nagashree1', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID already exists'
+2025-09-30 10:21:38:INFO:Cleared Reselller Name field
+2025-09-30 10:21:38:INFO:Entered Reseller Name: 'Nagashree1'
+2025-09-30 10:21:38:INFO:Cleared Reselller Phone field
+2025-09-30 10:21:39:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 10:21:39:INFO:Cleared Reselller Email field
+2025-09-30 10:21:39:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-30 10:21:39:INFO:Cleared Reselller Address field
+2025-09-30 10:21:39:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 10:21:40:INFO:Reseller error message is: Email ID already exists
+2025-09-30 10:21:40:INFO:Clicked the 'OK' button successfully
+2025-09-30 10:21:40:INFO:Logout successfully
+2025-09-30 10:21:41:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:21:42:INFO:Clicking Sign In
+2025-09-30 10:21:42:INFO:Login successful
+2025-09-30 10:21:44:INFO:Navigated to Reseller page
+2025-09-30 10:21:46:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 10:21:46:INFO:Successfully clicked 'Create' button
+2025-09-30 10:21:46:INFO:'Add Output Type Config' popup displayed
+2025-09-30 10:21:47:INFO:Page contains heading, Text fields and Add button
+2025-09-30 10:21:47:INFO:Entered Reseller Name : Campbell, Gray and Thomas
+2025-09-30 10:21:47:INFO:Entered Reseller Phone : 3937768830
+2025-09-30 10:21:48:INFO:Entered Reseller Email : kjoseph@example.net
+2025-09-30 10:21:48:INFO:Entered Reseller Address : PSC 2179, Box 8251
+APO AE 08208
+2025-09-30 10:25:28:INFO:====== WebDriver manager ======
+2025-09-30 10:25:29:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:25:30:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:25:30:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 10:25:35:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:25:36:INFO:Clicking Sign In
+2025-09-30 10:25:36:INFO:Login successful
+2025-09-30 10:25:38:INFO:Navigated to Reseller page
+2025-09-30 10:25:55:INFO:====== WebDriver manager ======
+2025-09-30 10:25:56:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:25:56:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:25:57:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 10:26:02:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:26:03:INFO:Clicking Sign In
+2025-09-30 10:26:03:INFO:Login successful
+2025-09-30 10:26:05:INFO:Navigated to Reseller page
+2025-09-30 10:26:07:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 10:26:07:INFO:Successfully clicked 'Create' button
+2025-09-30 10:26:07:INFO:'Add Output Type Config' popup displayed
+2025-09-30 10:26:07:INFO:Page contains heading, Text fields and Add button
+2025-09-30 10:26:08:INFO:Entered Reseller Name : Hobbs, Davis and Ferguson
+2025-09-30 10:26:08:INFO:Entered Reseller Phone : 3514583120
+2025-09-30 10:26:08:INFO:Entered Reseller Email : allenleslie@example.net
+2025-09-30 10:26:08:INFO:Entered Reseller Address : 937 Jill Isle
+East Haroldburgh, NV 07354
+2025-09-30 10:29:46:INFO:====== WebDriver manager ======
+2025-09-30 10:29:47:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:29:47:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:29:48:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 10:29:52:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:29:53:INFO:Clicking Sign In
+2025-09-30 10:29:53:INFO:Login successful
+2025-09-30 10:29:55:INFO:Navigated to Reseller page
+2025-09-30 10:29:57:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 10:29:57:INFO:Successfully clicked 'Create' button
+2025-09-30 10:29:57:INFO:'Add Output Type Config' popup displayed
+2025-09-30 10:29:57:INFO:Page contains heading, Text fields and Add button
+2025-09-30 10:29:57:INFO:Entered Reseller Name : Burton PLC
+2025-09-30 10:29:58:INFO:Entered Reseller Phone : 9094850626
+2025-09-30 10:29:58:INFO:Entered Reseller Email : smithbrandi@example.org
+2025-09-30 10:29:59:INFO:Entered Reseller Address : 80294 Tiffany Plains Suite 898
+South Johnshire, MS 81127
+2025-09-30 10:30:21:INFO:Current Time after add is: 30/09/2025 10:30:21 AM
+2025-09-30 10:30:21:INFO:Clicked the add button
+2025-09-30 10:30:51:ERROR:Success message 'Reseller added successfully' not found or incorrect: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb0c333+65459]
+	GetHandleVerifier [0x0xb0c374+65524]
+	(No symbol) [0x0x92d973]
+	(No symbol) [0x0x9776e7]
+	(No symbol) [0x0x977a8b]
+	(No symbol) [0x0x9bdea2]
+	(No symbol) [0x0x999e44]
+	(No symbol) [0x0x9bb606]
+	(No symbol) [0x0x999bf6]
+	(No symbol) [0x0x96b38e]
+	(No symbol) [0x0x96c274]
+	GetHandleVerifier [0x0xd8eda3+2697763]
+	GetHandleVerifier [0x0xd89ec7+2677575]
+	GetHandleVerifier [0x0xb34194+228884]
+	GetHandleVerifier [0x0xb249f8+165496]
+	GetHandleVerifier [0x0xb2b18d+192013]
+	GetHandleVerifier [0x0xb147d8+99416]
+	GetHandleVerifier [0x0xb14972+99826]
+	GetHandleVerifier [0x0xafebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-30 10:30:51:ERROR:Screenshot saved at: ./screenshots\add_reseller_failure_2025-09-30_10-30-51.png
+2025-09-30 10:31:00:INFO:====== WebDriver manager ======
+2025-09-30 10:31:01:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:31:02:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:31:03:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 10:31:09:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:31:10:INFO:Clicking Sign In
+2025-09-30 10:31:10:INFO:Login successful
+2025-09-30 10:31:12:INFO:Navigated to Reseller page
+2025-09-30 10:31:14:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 10:31:14:INFO:Successfully clicked 'Create' button
+2025-09-30 10:31:14:INFO:'Add Output Type Config' popup displayed
+2025-09-30 10:31:14:INFO:Page contains heading, Text fields and Add button
+2025-09-30 10:31:14:INFO:Entered Reseller Name : Wright-Long
+2025-09-30 10:31:15:INFO:Entered Reseller Phone : 3677552906
+2025-09-30 10:31:15:INFO:Entered Reseller Email : alexanderchristopher@example.net
+2025-09-30 10:31:15:INFO:Entered Reseller Address : 846 Anthony Heights Apt. 621
+Mckeetown, MN 73735
+2025-09-30 10:31:25:INFO:Current Time after add is: 30/09/2025 10:31:25 AM
+2025-09-30 10:31:25:INFO:Clicked the add button
+2025-09-30 10:31:25:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 10:31:25:INFO:Clicked the 'OK' button successfully
+2025-09-30 10:31:31:ERROR:Failed to verify OTC entry in table: 'TestReseller' object has no attribute 'outputType'
+2025-09-30 10:31:31:ERROR:Test failed, screenshot saved at: ./screenshots\test_added_otc_in_table_failure_2025-09-30_10-31-31.png
+2025-09-30 10:34:25:INFO:====== WebDriver manager ======
+2025-09-30 10:34:26:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:34:26:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:34:27:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 10:34:31:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:34:31:INFO:Clicking Sign In
+2025-09-30 10:34:31:INFO:Login successful
+2025-09-30 10:34:34:INFO:Navigated to Reseller page
+2025-09-30 10:34:36:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 10:34:36:INFO:Successfully clicked 'Create' button
+2025-09-30 10:34:36:INFO:'Add Output Type Config' popup displayed
+2025-09-30 10:34:36:INFO:Page contains heading, Text fields and Add button
+2025-09-30 10:34:36:INFO:Entered Reseller Name : Wiley Ltd
+2025-09-30 10:34:36:INFO:Entered Reseller Phone : 5364986895
+2025-09-30 10:34:36:INFO:Entered Reseller Email : gregory09@example.net
+2025-09-30 10:34:37:INFO:Entered Reseller Address : 42333 Smith Ridges
+Craigville, VI 54310
+2025-09-30 10:34:47:INFO:Current Time after add is: 30/09/2025 10:34:47 AM
+2025-09-30 10:34:47:INFO:Clicked the add button
+2025-09-30 10:34:47:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 10:34:47:INFO:Clicked the 'OK' button successfully
+2025-09-30 10:34:53:ERROR:Failed to verify OTC entry in table: 'TestReseller' object has no attribute 'reseller_phone'
+2025-09-30 10:34:53:ERROR:Test failed, screenshot saved at: ./screenshots\test_added_otc_in_table_failure_2025-09-30_10-34-53.png
+2025-09-30 10:49:09:INFO:====== WebDriver manager ======
+2025-09-30 10:49:10:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:49:10:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:49:11:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 10:49:14:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:49:15:INFO:Clicking Sign In
+2025-09-30 10:49:15:INFO:Login successful
+2025-09-30 10:49:17:INFO:Navigated to Reseller page
+2025-09-30 10:49:19:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 10:49:19:INFO:Successfully clicked 'Create' button
+2025-09-30 10:49:19:INFO:'Add Output Type Config' popup displayed
+2025-09-30 10:49:19:INFO:Page contains heading, Text fields and Add button
+2025-09-30 10:49:19:INFO:Entered Reseller Name : Bowers-Williams
+2025-09-30 10:49:20:INFO:Entered Reseller Phone : 8876893589
+2025-09-30 10:49:20:INFO:Entered Reseller Email : krausevalerie@example.net
+2025-09-30 10:49:20:INFO:Entered Reseller Address : 6541 Daniel Harbor Suite 412
+West Jasonstad, AS 48304
+2025-09-30 10:49:30:INFO:Current Time after add is: 30/09/2025 10:49:30 AM
+2025-09-30 10:49:30:INFO:Clicked the add button
+2025-09-30 10:49:31:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 10:49:31:INFO:Clicked the 'OK' button successfully
+2025-09-30 10:49:37:INFO:Logout successfully
+2025-09-30 10:55:32:INFO:====== WebDriver manager ======
+2025-09-30 10:55:33:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:55:34:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:55:34:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 10:55:39:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:55:39:INFO:Clicking Sign In
+2025-09-30 10:55:39:INFO:Login successful
+2025-09-30 10:55:41:INFO:Navigated to Reseller page
+2025-09-30 10:55:43:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 10:55:43:INFO:Successfully clicked 'Create' button
+2025-09-30 10:55:43:INFO:'Add Output Type Config' popup displayed
+2025-09-30 10:55:44:INFO:Page contains heading, Text fields and Add button
+2025-09-30 10:55:44:INFO:Entered Reseller Name : Solis Ltd
+2025-09-30 10:55:45:INFO:Entered Reseller Phone : 8966503474
+2025-09-30 10:55:45:INFO:Entered Reseller Email : llopez@example.com
+2025-09-30 10:55:45:INFO:Entered Reseller Address : USNS Smith
+FPO AA 68400
+2025-09-30 10:55:55:INFO:Current Time after add is: 30/09/2025 10:55:55 AM
+2025-09-30 10:55:55:INFO:Clicked the add button
+2025-09-30 10:55:55:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 10:55:55:INFO:Clicked the 'OK' button successfully
+2025-09-30 10:56:01:INFO:Found created Reseller entry: Reseller Name 'Solis Ltd', Phone Number  '8966503474', Email ID 'llopez@example.com', Status : Active 
+2025-09-30 10:56:02:INFO:Logout successfully
+2025-09-30 10:58:06:INFO:====== WebDriver manager ======
+2025-09-30 10:58:07:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:58:08:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:58:08:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 10:58:11:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:58:12:INFO:Clicking Sign In
+2025-09-30 10:58:12:INFO:Login successful
+2025-09-30 10:58:14:INFO:Navigated to Reseller page
+2025-09-30 10:58:16:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 10:58:16:INFO:Successfully clicked 'Create' button
+2025-09-30 10:58:16:INFO:'Add Output Type Config' popup displayed
+2025-09-30 10:58:17:INFO:Page contains heading, Text fields and Add button
+2025-09-30 10:58:17:INFO:Entered Reseller Name : Baxter, Mitchell and Reyes
+2025-09-30 10:58:17:INFO:Entered Reseller Phone : 7245818358
+2025-09-30 10:58:18:INFO:Entered Reseller Email : bradymann@example.com
+2025-09-30 10:58:18:INFO:Entered Reseller Address : Unit 2530 Box 1004
+DPO AP 11602
+2025-09-30 10:58:28:INFO:Current Time after add is: 30/09/2025 10:58:28 AM
+2025-09-30 10:58:28:INFO:Clicked the add button
+2025-09-30 10:58:28:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 10:58:28:INFO:Clicked the 'OK' button successfully
+2025-09-30 10:58:34:INFO:Logout successfully
+2025-09-30 10:59:15:INFO:====== WebDriver manager ======
+2025-09-30 10:59:16:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:59:17:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 10:59:17:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 10:59:21:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 10:59:21:INFO:Clicking Sign In
+2025-09-30 10:59:21:INFO:Login successful
+2025-09-30 10:59:23:INFO:Navigated to Reseller page
+2025-09-30 10:59:25:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 10:59:25:INFO:Successfully clicked 'Create' button
+2025-09-30 10:59:25:INFO:'Add Output Type Config' popup displayed
+2025-09-30 10:59:25:INFO:Page contains heading, Text fields and Add button
+2025-09-30 10:59:26:INFO:Entered Reseller Name : Mathis-Hale
+2025-09-30 10:59:26:INFO:Entered Reseller Phone : 7808475425
+2025-09-30 10:59:26:INFO:Entered Reseller Email : jonathan30@example.com
+2025-09-30 10:59:26:INFO:Entered Reseller Address : 643 Mary Shores
+Markville, RI 19880
+2025-09-30 10:59:36:INFO:Current Time after add is: 30/09/2025 10:59:36 AM
+2025-09-30 10:59:36:INFO:Clicked the add button
+2025-09-30 10:59:36:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 10:59:36:INFO:Clicked the 'OK' button successfully
+2025-09-30 10:59:43:INFO:Logout successfully
+2025-09-30 11:01:57:INFO:====== WebDriver manager ======
+2025-09-30 11:01:58:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 11:01:58:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 11:01:59:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 11:02:02:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 11:02:02:INFO:Clicking Sign In
+2025-09-30 11:02:02:INFO:Login successful
+2025-09-30 11:02:05:INFO:Navigated to Reseller page
+2025-09-30 11:02:07:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 11:02:07:INFO:Successfully clicked 'Create' button
+2025-09-30 11:02:07:INFO:'Add Output Type Config' popup displayed
+2025-09-30 11:02:07:INFO:Page contains heading, Text fields and Add button
+2025-09-30 11:02:07:INFO:Entered Reseller Name : Dennis LLC
+2025-09-30 11:02:07:INFO:Entered Reseller Phone : 9440394879
+2025-09-30 11:02:08:INFO:Entered Reseller Email : tinajohnson@example.org
+2025-09-30 11:02:08:INFO:Entered Reseller Address : 7810 Reilly Cape Suite 269
+North Deanna, NV 69765
+2025-09-30 11:02:18:INFO:Current Time after add is: 30/09/2025 11:02:18 AM
+2025-09-30 11:02:18:INFO:Clicked the add button
+2025-09-30 11:02:18:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 11:02:18:INFO:Clicked the 'OK' button successfully
+2025-09-30 11:02:25:INFO:Found created Reseller entry: Reseller Name 'Dennis LLC', Phone Number  '9440394879', Email ID 'tinajohnson@example.org', Status : Active 
+2025-09-30 11:02:31:INFO:Logout successfully
+2025-09-30 11:42:59:INFO:====== WebDriver manager ======
+2025-09-30 11:43:00:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 11:43:01:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 11:43:01:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 11:43:05:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 11:43:06:INFO:Clicking Sign In
+2025-09-30 11:43:06:INFO:Login successful
+2025-09-30 11:43:08:INFO:Navigated to Reseller page
+2025-09-30 11:43:10:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 11:43:10:INFO:Successfully clicked 'Create' button
+2025-09-30 11:43:10:INFO:'Add Output Type Config' popup displayed
+2025-09-30 11:43:11:INFO:Page contains heading, Text fields and Add button
+2025-09-30 11:43:11:INFO:Entered Reseller Name : Jordan, Blankenship and Carter
+2025-09-30 11:43:12:INFO:Entered Reseller Phone : 8890491401
+2025-09-30 11:43:12:INFO:Entered Reseller Email : nicholsmaria@example.net
+2025-09-30 11:43:12:INFO:Entered Reseller Address : 64344 Micheal Mount Suite 348
+North Anthony, ID 61368
+2025-09-30 11:43:22:INFO:Current Time after add is: 30/09/2025 11:43:22 AM
+2025-09-30 11:43:22:INFO:Clicked the add button
+2025-09-30 11:43:22:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 11:43:22:INFO:Clicked the 'OK' button successfully
+2025-09-30 11:43:29:INFO:Logout successfully
+2025-09-30 11:45:59:INFO:====== WebDriver manager ======
+2025-09-30 11:46:00:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 11:46:01:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 11:46:01:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 11:46:05:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 11:46:05:INFO:Clicking Sign In
+2025-09-30 11:46:05:INFO:Login successful
+2025-09-30 11:46:07:INFO:Navigated to Reseller page
+2025-09-30 11:46:09:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 11:46:09:INFO:Successfully clicked 'Create' button
+2025-09-30 11:46:09:INFO:'Add Output Type Config' popup displayed
+2025-09-30 11:46:09:INFO:Page contains heading, Text fields and Add button
+2025-09-30 11:46:10:INFO:Entered Reseller Name : Santana, Harris and Rowe
+2025-09-30 11:46:10:INFO:Entered Reseller Phone : 6371229795
+2025-09-30 11:46:10:INFO:Entered Reseller Email : suzannesmith@example.com
+2025-09-30 11:46:10:INFO:Entered Reseller Address : 8428 Meyer Mountains
+North Maria, VA 10223
+2025-09-30 11:46:20:INFO:Current Time after add is: 30/09/2025 11:46:20 AM
+2025-09-30 11:46:20:INFO:Clicked the add button
+2025-09-30 11:46:20:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 11:46:20:INFO:Clicked the 'OK' button successfully
+2025-09-30 11:46:27:INFO:Reseller entry verified successfully in the table
+2025-09-30 11:46:28:INFO:Logout successfully
+2025-09-30 11:48:21:INFO:====== WebDriver manager ======
+2025-09-30 11:48:22:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 11:48:22:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 11:48:23:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 11:48:26:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 11:48:27:INFO:Clicking Sign In
+2025-09-30 11:48:27:INFO:Login successful
+2025-09-30 11:48:29:INFO:Navigated to Reseller page
+2025-09-30 11:48:31:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 11:48:31:INFO:Successfully clicked 'Create' button
+2025-09-30 11:48:31:INFO:'Add Output Type Config' popup displayed
+2025-09-30 11:48:32:INFO:Page contains heading, Text fields and Add button
+2025-09-30 11:48:32:INFO:Entered Reseller Name : Cain, Hunter and Sanchez
+2025-09-30 11:48:32:INFO:Entered Reseller Phone : 6684496877
+2025-09-30 11:48:33:INFO:Entered Reseller Email : taylorphillips@example.net
+2025-09-30 11:48:33:INFO:Entered Reseller Address : 19224 Susan Greens Suite 765
+East Kristinstad, LA 72258
+2025-09-30 11:48:35:INFO:Current Time after add is: 30/09/2025 11:48:35 AM
+2025-09-30 11:48:35:INFO:Clicked the add button
+2025-09-30 11:48:37:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 11:48:37:INFO:Clicked the 'OK' button successfully
+2025-09-30 11:48:44:INFO:Reseller entry verified successfully in the table
+2025-09-30 11:48:44:INFO:Logout successfully
+2025-09-30 12:01:08:INFO:====== WebDriver manager ======
+2025-09-30 12:01:09:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 12:01:10:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 12:01:11:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 12:01:14:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 12:01:14:INFO:Clicking Sign In
+2025-09-30 12:01:14:INFO:Login successful
+2025-09-30 12:01:17:INFO:Navigated to Reseller page
+2025-09-30 12:01:19:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 12:01:19:INFO:Successfully clicked 'Create' button
+2025-09-30 12:01:19:INFO:'Add Output Type Config' popup displayed
+2025-09-30 12:01:19:INFO:Page contains heading, Text fields and Add button
+2025-09-30 12:01:19:INFO:Entered Reseller Name : Allen Ltd
+2025-09-30 12:01:19:INFO:Entered Reseller Phone : 6034298427
+2025-09-30 12:01:19:INFO:Entered Reseller Email : vgamble@example.net
+2025-09-30 12:01:20:INFO:Entered Reseller Address : 046 Jennifer Cliffs Suite 478
+Micheleton, MH 46693
+2025-09-30 12:01:22:INFO:Current Time after add is: 30/09/2025 12:01:22 PM
+2025-09-30 12:01:22:INFO:Clicked the add button
+2025-09-30 12:01:23:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 12:01:23:INFO:Clicked the 'OK' button successfully
+2025-09-30 12:01:31:INFO:Found created Reseller entry: Reseller Name 'Allen Ltd', Phone Number  '6034298427', Email ID 'vgamble@example.net', Status : Active 
+2025-09-30 12:01:32:INFO:Navigate to the 'Reseller Details' page
+2025-09-30 12:01:37:INFO:Reseller entry verified successfully in the table
+2025-09-30 12:01:37:INFO:Logout successfully
+2025-09-30 12:09:25:INFO:====== WebDriver manager ======
+2025-09-30 12:09:26:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 12:09:27:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 12:09:28:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 12:09:31:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 12:09:32:INFO:Clicking Sign In
+2025-09-30 12:09:32:INFO:Login successful
+2025-09-30 12:09:34:INFO:Navigated to Reseller page
+2025-09-30 12:09:36:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 12:09:36:INFO:Successfully clicked 'Create' button
+2025-09-30 12:09:36:INFO:'Add Output Type Config' popup displayed
+2025-09-30 12:09:37:INFO:Page contains heading, Text fields and Add button
+2025-09-30 12:09:37:INFO:Entered Reseller Name : Davis Carr and Estrada
+2025-09-30 12:09:37:INFO:Entered Reseller Phone : 7154049596
+2025-09-30 12:09:37:INFO:Entered Reseller Email : shawnalopez@example.org
+2025-09-30 12:09:37:INFO:Entered Reseller Address : 2375 Angelica Neck
+Williamfort, WI 67191
+2025-09-30 12:09:39:INFO:Current Time after add is: 30/09/2025 12:09:39 PM
+2025-09-30 12:09:39:INFO:Clicked the add button
+2025-09-30 12:09:41:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 12:09:41:INFO:Clicked the 'OK' button successfully
+2025-09-30 12:09:49:INFO:Found created Reseller entry: Reseller Name 'Davis Carr and Estrada', Phone Number  '7154049596', Email ID 'shawnalopez@example.org', Status : Active 
+2025-09-30 12:09:51:INFO:Navigate to the 'Reseller Details' page
+2025-09-30 12:09:56:ERROR:Failed to verify OTC entry in table: Reseller Address should not change
+assert '2375 Angelica Neck' == '2375 Angelic...ort, WI 67191'
+  
+  [0m[91m- 2375 Angelica Neck[39;49;00m[90m[39;49;00m
+  ?                   -[90m[39;49;00m
+  [92m+ 2375 Angelica Neck[39;49;00m[90m[39;49;00m
+  [91m- Williamfort, WI 67191[39;49;00m[90m[39;49;00m
+2025-09-30 12:09:56:ERROR:Test failed, screenshot saved at: ./screenshots\test_added_otc_in_table_failure_2025-09-30_12-09-56.png
+2025-09-30 12:09:56:ERROR:Success message 'Reseller added successfully' not found or incorrect: Reseller Address should not change
+assert '2375 Angelica Neck' == '2375 Angelic...ort, WI 67191'
+  
+  [0m[91m- 2375 Angelica Neck[39;49;00m[90m[39;49;00m
+  ?                   -[90m[39;49;00m
+  [92m+ 2375 Angelica Neck[39;49;00m[90m[39;49;00m
+  [91m- Williamfort, WI 67191[39;49;00m[90m[39;49;00m
+2025-09-30 12:09:56:ERROR:Screenshot saved at: ./screenshots\add_reseller_failure_2025-09-30_12-09-56.png
+2025-09-30 12:14:16:INFO:====== WebDriver manager ======
+2025-09-30 12:14:17:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 12:14:18:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 12:14:18:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 12:14:22:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 12:14:22:INFO:Clicking Sign In
+2025-09-30 12:14:22:INFO:Login successful
+2025-09-30 12:14:24:INFO:Navigated to Reseller page
+2025-09-30 12:14:26:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 12:14:27:INFO:Successfully clicked 'Create' button
+2025-09-30 12:14:27:INFO:'Add Output Type Config' popup displayed
+2025-09-30 12:14:27:INFO:Page contains heading, Text fields and Add button
+2025-09-30 12:14:28:INFO:Entered Reseller Name : Freeman Knight and White
+2025-09-30 12:14:28:INFO:Entered Reseller Phone : 7745057114
+2025-09-30 12:14:28:INFO:Entered Reseller Email : karenpena@example.net
+2025-09-30 12:14:28:INFO:Entered Reseller Address : 712 Todd Plains Apt. 647 West Patricia, NY 29540
+2025-09-30 12:14:30:INFO:Current Time after add is: 30/09/2025 12:14:30 PM
+2025-09-30 12:14:30:INFO:Clicked the add button
+2025-09-30 12:14:36:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 12:14:36:INFO:Clicked the 'OK' button successfully
+2025-09-30 12:14:43:INFO:Found created Reseller entry: Reseller Name 'Freeman Knight and White', Phone Number  '7745057114', Email ID 'karenpena@example.net', Status : Active 
+2025-09-30 12:14:45:INFO:Navigate to the 'Reseller Details' page
+2025-09-30 12:14:50:INFO:Found created Reseller entry: Reseller Name 'Freeman Knight and White', Phone Number  '7745057114', Email ID '7745057114',                                 Wallet : 0, Address : 712 Todd Plains Apt. 647 West Patricia, NY 29540, Created By : outdidsuperadmin@gmail.com,                                  Created Date : 30/09/2025 12:14:32 PM, Modified By : -, Modified Date : - ,                                  Status : Active 
+2025-09-30 12:14:50:INFO:Created date 30/09/2025 12:14:32 PM and current date 30/09/2025 12:14:30 PM differ by 2.0 seconds, which is within the 5-second threshold.
+2025-09-30 12:14:50:INFO:Reseller entry verified successfully in the table
+2025-09-30 12:14:50:INFO:Logout successfully
+2025-09-30 12:18:33:INFO:====== WebDriver manager ======
+2025-09-30 12:18:34:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 12:18:34:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 12:18:35:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 12:18:38:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 12:18:38:INFO:Clicking Sign In
+2025-09-30 12:18:38:INFO:Login successful
+2025-09-30 12:18:41:INFO:Navigated to Reseller page
+2025-09-30 12:18:43:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 12:18:43:INFO:Successfully clicked 'Create' button
+2025-09-30 12:18:43:INFO:'Add Output Type Config' popup displayed
+2025-09-30 12:18:43:INFO:Page contains heading, Text fields and Add button
+2025-09-30 12:18:43:INFO:Entered Reseller Name : Gomez PLC
+2025-09-30 12:18:43:INFO:Entered Reseller Phone : 8923894463
+2025-09-30 12:18:43:INFO:Entered Reseller Email : dedwards@example.org
+2025-09-30 12:18:44:INFO:Entered Reseller Address : 0568 Rowland Expressway Thomasburgh, SD 84746
+2025-09-30 12:18:46:INFO:Current Time after add is: 30/09/2025 12:18:46 PM
+2025-09-30 12:18:46:INFO:Clicked the add button
+2025-09-30 12:18:49:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 12:18:49:INFO:Clicked the 'OK' button successfully
+2025-09-30 12:18:56:INFO:Found created Reseller entry: Reseller Name 'Gomez PLC', Phone Number  '8923894463', Email ID 'dedwards@example.org', Status : Active 
+2025-09-30 12:18:57:INFO:Navigate to the 'Reseller Details' page
+2025-09-30 12:19:03:INFO:Found created Reseller entry: Reseller Name 'Gomez PLC', Phone Number  '8923894463', Email ID '8923894463',                                 Wallet : 0, Address : 0568 Rowland Expressway Thomasburgh, SD 84746, Created By : outdidsuperadmin@gmail.com,                                  Created Date : 30/09/2025 12:18:45 PM, Modified By : -, Modified Date : - ,                                  Status : Active 
+2025-09-30 12:19:03:INFO:Created date 30/09/2025 12:18:45 PM and current date 30/09/2025 12:18:46 PM differ by 1.0 seconds, which is within the 5-second threshold.
+2025-09-30 12:19:03:INFO:Reseller entry verified successfully in the table
+2025-09-30 12:19:03:INFO:Logout successfully
+2025-09-30 12:20:17:INFO:====== WebDriver manager ======
+2025-09-30 12:20:18:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 12:20:18:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 12:20:19:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 12:20:23:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 12:20:23:INFO:Clicking Sign In
+2025-09-30 12:20:23:INFO:Login successful
+2025-09-30 12:20:26:INFO:Navigated to Reseller page
+2025-09-30 12:20:28:INFO:Page Heading is: Manage Reseller
+2025-09-30 12:20:28:INFO:Reseller page Heading verified successfully
+2025-09-30 12:20:28:INFO:Table Heading is: List Of Reseller
+2025-09-30 12:20:28:INFO:Reseller Table verified successfully
+2025-09-30 12:20:28:INFO:Text of Create button is: Create
+2025-09-30 12:20:28:INFO:Create button verified successfully
+2025-09-30 12:20:28:INFO:Logout successfully
+2025-09-30 12:20:29:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 12:20:30:INFO:Clicking Sign In
+2025-09-30 12:20:30:INFO:Login successful
+2025-09-30 12:20:32:INFO:Navigated to Reseller page
+2025-09-30 12:20:36:INFO:Successfully clicked 'Create' button
+2025-09-30 12:20:36:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID and Reseller Name already exists'
+2025-09-30 12:20:36:INFO:Cleared Reselller Name field
+2025-09-30 12:20:36:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-30 12:20:36:INFO:Cleared Reselller Phone field
+2025-09-30 12:20:37:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 12:20:37:INFO:Cleared Reselller Email field
+2025-09-30 12:20:37:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-30 12:20:37:INFO:Cleared Reselller Address field
+2025-09-30 12:20:37:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 12:20:38:INFO:Reseller error message is: Email ID and Reseller Name already exists
+2025-09-30 12:20:38:INFO:Clicked the 'OK' button successfully
+2025-09-30 12:20:38:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik0@gmail.com', Reseller Address: 'BTM', Expected error: 'Reseller Name already exists'
+2025-09-30 12:20:38:INFO:Cleared Reselller Name field
+2025-09-30 12:20:38:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-30 12:20:38:INFO:Cleared Reselller Phone field
+2025-09-30 12:20:39:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 12:20:39:INFO:Cleared Reselller Email field
+2025-09-30 12:20:39:INFO:Entered Reseller Email: 'nagashreenaik0@gmail.com'
+2025-09-30 12:20:39:INFO:Cleared Reselller Address field
+2025-09-30 12:20:39:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 12:20:40:INFO:Reseller error message is: Reseller Name already exists
+2025-09-30 12:20:40:INFO:Clicked the 'OK' button successfully
+2025-09-30 12:20:40:INFO:Existed Reseller Name: 'Nagashree1', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID already exists'
+2025-09-30 12:20:40:INFO:Cleared Reselller Name field
+2025-09-30 12:20:40:INFO:Entered Reseller Name: 'Nagashree1'
+2025-09-30 12:20:40:INFO:Cleared Reselller Phone field
+2025-09-30 12:20:40:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 12:20:40:INFO:Cleared Reselller Email field
+2025-09-30 12:20:41:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-30 12:20:41:INFO:Cleared Reselller Address field
+2025-09-30 12:20:41:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 12:20:42:INFO:Reseller error message is: Email ID already exists
+2025-09-30 12:20:42:INFO:Clicked the 'OK' button successfully
+2025-09-30 12:20:42:INFO:Logout successfully
+2025-09-30 12:20:43:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 12:20:43:INFO:Clicking Sign In
+2025-09-30 12:20:43:INFO:Login successful
+2025-09-30 12:20:46:INFO:Navigated to Reseller page
+2025-09-30 12:20:48:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 12:20:48:INFO:Successfully clicked 'Create' button
+2025-09-30 12:20:48:INFO:'Add Output Type Config' popup displayed
+2025-09-30 12:20:48:INFO:Page contains heading, Text fields and Add button
+2025-09-30 12:20:48:INFO:Entered Reseller Name : Coffey Delgado and Wilcox
+2025-09-30 12:20:48:INFO:Entered Reseller Phone : 6511771808
+2025-09-30 12:20:48:INFO:Entered Reseller Email : zsimon@example.com
+2025-09-30 12:20:49:INFO:Entered Reseller Address : 35483 Mendez Rapid Aaronmouth, IA 89712
+2025-09-30 12:20:51:INFO:Current Time after add is: 30/09/2025 12:20:51 PM
+2025-09-30 12:20:51:INFO:Clicked the add button
+2025-09-30 12:20:54:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 12:20:54:INFO:Clicked the 'OK' button successfully
+2025-09-30 12:21:01:INFO:Found created Reseller entry: Reseller Name 'Coffey Delgado and Wilcox', Phone Number  '6511771808', Email ID 'zsimon@example.com', Status : Active 
+2025-09-30 12:21:03:INFO:Navigate to the 'Reseller Details' page
+2025-09-30 12:21:08:INFO:Found created Reseller entry: Reseller Name 'Coffey Delgado and Wilcox', Phone Number  '6511771808', Email ID '6511771808',                                 Wallet : 0, Address : 35483 Mendez Rapid Aaronmouth, IA 89712, Created By : outdidsuperadmin@gmail.com,                                  Created Date : 30/09/2025 12:20:50 PM, Modified By : -, Modified Date : - ,                                  Status : Active 
+2025-09-30 12:21:08:INFO:Created date 30/09/2025 12:20:50 PM and current date 30/09/2025 12:20:51 PM differ by 1.0 seconds, which is within the 5-second threshold.
+2025-09-30 12:21:08:INFO:Reseller entry verified successfully in the table
+2025-09-30 12:21:08:INFO:Logout successfully
+2025-09-30 14:23:28:INFO:====== WebDriver manager ======
+2025-09-30 14:23:29:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 14:23:30:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 14:23:30:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 14:23:38:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 14:23:39:INFO:Clicking Sign In
+2025-09-30 14:23:39:INFO:Login successful
+2025-09-30 14:23:41:INFO:Navigated to Reseller page
+2025-09-30 14:23:43:INFO:Page Heading is: Manage Reseller
+2025-09-30 14:23:43:INFO:Reseller page Heading verified successfully
+2025-09-30 14:23:43:INFO:Table Heading is: List Of Reseller
+2025-09-30 14:23:43:INFO:Reseller Table verified successfully
+2025-09-30 14:23:43:INFO:Text of Create button is: Create
+2025-09-30 14:23:43:INFO:Create button verified successfully
+2025-09-30 14:23:44:INFO:Logout successfully
+2025-09-30 14:23:45:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 14:23:45:INFO:Clicking Sign In
+2025-09-30 14:23:45:INFO:Login successful
+2025-09-30 14:23:47:INFO:Navigated to Reseller page
+2025-09-30 14:23:51:INFO:Successfully clicked 'Create' button
+2025-09-30 14:23:51:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID and Reseller Name already exists'
+2025-09-30 14:23:51:INFO:Cleared Reselller Name field
+2025-09-30 14:23:52:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-30 14:23:52:INFO:Cleared Reselller Phone field
+2025-09-30 14:23:52:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 14:23:52:INFO:Cleared Reselller Email field
+2025-09-30 14:23:52:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-30 14:23:53:INFO:Cleared Reselller Address field
+2025-09-30 14:23:53:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 14:23:53:INFO:Reseller error message is: Email ID and Reseller Name already exists
+2025-09-30 14:23:54:INFO:Clicked the 'OK' button successfully
+2025-09-30 14:23:54:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik0@gmail.com', Reseller Address: 'BTM', Expected error: 'Reseller Name already exists'
+2025-09-30 14:23:54:INFO:Cleared Reselller Name field
+2025-09-30 14:23:54:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-30 14:23:54:INFO:Cleared Reselller Phone field
+2025-09-30 14:23:54:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 14:23:54:INFO:Cleared Reselller Email field
+2025-09-30 14:23:55:INFO:Entered Reseller Email: 'nagashreenaik0@gmail.com'
+2025-09-30 14:23:55:INFO:Cleared Reselller Address field
+2025-09-30 14:23:55:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 14:23:55:INFO:Reseller error message is: Reseller Name already exists
+2025-09-30 14:23:55:INFO:Clicked the 'OK' button successfully
+2025-09-30 14:23:55:INFO:Existed Reseller Name: 'Nagashree1', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID already exists'
+2025-09-30 14:23:55:INFO:Cleared Reselller Name field
+2025-09-30 14:23:56:INFO:Entered Reseller Name: 'Nagashree1'
+2025-09-30 14:23:56:INFO:Cleared Reselller Phone field
+2025-09-30 14:23:56:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 14:23:56:INFO:Cleared Reselller Email field
+2025-09-30 14:23:56:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-30 14:23:56:INFO:Cleared Reselller Address field
+2025-09-30 14:23:56:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 14:23:57:INFO:Reseller error message is: Email ID already exists
+2025-09-30 14:23:57:INFO:Clicked the 'OK' button successfully
+2025-09-30 14:23:58:INFO:Logout successfully
+2025-09-30 14:24:00:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 14:24:00:INFO:Clicking Sign In
+2025-09-30 14:24:00:INFO:Login successful
+2025-09-30 14:24:03:INFO:Navigated to Reseller page
+2025-09-30 14:24:05:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 14:24:05:INFO:Successfully clicked 'Create' button
+2025-09-30 14:24:05:INFO:'Add Output Type Config' popup displayed
+2025-09-30 14:24:05:INFO:Page contains heading, Text fields and Add button
+2025-09-30 14:24:05:INFO:Entered Reseller Name : OwenDonovan
+2025-09-30 14:24:05:INFO:Entered Reseller Phone : 7768144526
+2025-09-30 14:24:06:INFO:Entered Reseller Email : angelnguyen@example.net
+2025-09-30 14:24:06:INFO:Entered Reseller Address : 66089 Rivers Club Danielland, AS 19611
+2025-09-30 14:24:08:INFO:Current Time after add is: 30/09/2025 02:24:08 PM
+2025-09-30 14:24:08:INFO:Clicked the add button
+2025-09-30 14:24:11:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 14:24:11:INFO:Clicked the 'OK' button successfully
+2025-09-30 14:24:18:INFO:Found created Reseller entry: Reseller Name 'OwenDonovan', Phone Number  '7768144526', Email ID 'angelnguyen@example.net', Status : Active 
+2025-09-30 14:24:19:INFO:Navigate to the 'Reseller Details' page
+2025-09-30 14:24:25:INFO:Found created Reseller entry: Reseller Name 'OwenDonovan', Phone Number  '7768144526', Email ID '7768144526',                                 Wallet : 0, Address : 66089 Rivers Club Danielland, AS 19611, Created By : outdidsuperadmin@gmail.com,                                  Created Date : 30/09/2025 02:24:07 PM, Modified By : -, Modified Date : - ,                                  Status : Active 
+2025-09-30 14:24:25:INFO:Created date 30/09/2025 02:24:07 PM and current date 30/09/2025 02:24:08 PM differ by 1.0 seconds, which is within the 5-second threshold.
+2025-09-30 14:24:25:INFO:Reseller entry verified successfully in the table
+2025-09-30 14:24:25:INFO:Logout successfully
+2025-09-30 14:24:27:INFO:====== WebDriver manager ======
+2025-09-30 14:24:29:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 14:24:29:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 14:24:30:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 14:24:36:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 14:24:36:INFO:Clicking Sign In
+2025-09-30 14:24:36:INFO:Login successful
+2025-09-30 14:24:38:INFO:Navigated to Reseller page
+2025-09-30 14:24:40:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 14:24:40:INFO:Successfully clicked 'Create' button
+2025-09-30 14:24:40:INFO:'Add Output Type Config' popup displayed
+2025-09-30 14:24:41:INFO:Page contains heading, Text fields and Add button
+2025-09-30 14:24:41:INFO:Entered Reseller Name : OwenDonovan
+2025-09-30 14:24:41:INFO:Entered Reseller Phone : 7768144526
+2025-09-30 14:24:41:INFO:Entered Reseller Email : angelnguyen@example.net
+2025-09-30 14:24:41:INFO:Entered Reseller Address : 66089 Rivers Club Danielland, AS 19611
+2025-09-30 14:24:44:INFO:Current Time after add is: 30/09/2025 02:24:44 PM
+2025-09-30 14:24:44:INFO:Clicked the add button
+2025-09-30 14:25:14:ERROR:Success message 'Reseller added successfully' not found or incorrect: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb0c333+65459]
+	GetHandleVerifier [0x0xb0c374+65524]
+	(No symbol) [0x0x92d973]
+	(No symbol) [0x0x9776e7]
+	(No symbol) [0x0x977a8b]
+	(No symbol) [0x0x9bdea2]
+	(No symbol) [0x0x999e44]
+	(No symbol) [0x0x9bb606]
+	(No symbol) [0x0x999bf6]
+	(No symbol) [0x0x96b38e]
+	(No symbol) [0x0x96c274]
+	GetHandleVerifier [0x0xd8eda3+2697763]
+	GetHandleVerifier [0x0xd89ec7+2677575]
+	GetHandleVerifier [0x0xb34194+228884]
+	GetHandleVerifier [0x0xb249f8+165496]
+	GetHandleVerifier [0x0xb2b18d+192013]
+	GetHandleVerifier [0x0xb147d8+99416]
+	GetHandleVerifier [0x0xb14972+99826]
+	GetHandleVerifier [0x0xafebea+10346]
+	BaseThreadInitThunk [0x0x7549fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772a82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772a827e+238]
+
+2025-09-30 14:25:14:ERROR:Screenshot saved at: ./screenshots\add_reseller_failure_2025-09-30_14-25-14.png
+2025-09-30 14:27:09:INFO:====== WebDriver manager ======
+2025-09-30 14:27:10:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 14:27:10:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 14:27:11:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 14:27:14:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 14:27:14:INFO:Clicking Sign In
+2025-09-30 14:27:14:INFO:Login successful
+2025-09-30 14:27:16:INFO:Navigated to Reseller page
+2025-09-30 14:27:18:INFO:Page Heading is: Manage Reseller
+2025-09-30 14:27:18:INFO:Reseller page Heading verified successfully
+2025-09-30 14:27:19:INFO:Table Heading is: List Of Reseller
+2025-09-30 14:27:19:INFO:Reseller Table verified successfully
+2025-09-30 14:27:19:INFO:Text of Create button is: Create
+2025-09-30 14:27:19:INFO:Create button verified successfully
+2025-09-30 14:27:19:INFO:Logout successfully
+2025-09-30 14:27:20:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 14:27:20:INFO:Clicking Sign In
+2025-09-30 14:27:20:INFO:Login successful
+2025-09-30 14:27:23:INFO:Navigated to Reseller page
+2025-09-30 14:27:27:INFO:Successfully clicked 'Create' button
+2025-09-30 14:27:27:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID and Reseller Name already exists'
+2025-09-30 14:27:27:INFO:Cleared Reselller Name field
+2025-09-30 14:27:27:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-30 14:27:27:INFO:Cleared Reselller Phone field
+2025-09-30 14:27:27:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 14:27:27:INFO:Cleared Reselller Email field
+2025-09-30 14:27:28:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-30 14:27:28:INFO:Cleared Reselller Address field
+2025-09-30 14:27:28:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 14:27:28:INFO:Reseller error message is: Email ID and Reseller Name already exists
+2025-09-30 14:27:28:INFO:Clicked the 'OK' button successfully
+2025-09-30 14:27:28:INFO:Existed Reseller Name: 'Nagashree', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik0@gmail.com', Reseller Address: 'BTM', Expected error: 'Reseller Name already exists'
+2025-09-30 14:27:28:INFO:Cleared Reselller Name field
+2025-09-30 14:27:29:INFO:Entered Reseller Name: 'Nagashree'
+2025-09-30 14:27:29:INFO:Cleared Reselller Phone field
+2025-09-30 14:27:29:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 14:27:29:INFO:Cleared Reselller Email field
+2025-09-30 14:27:30:INFO:Entered Reseller Email: 'nagashreenaik0@gmail.com'
+2025-09-30 14:27:30:INFO:Cleared Reselller Address field
+2025-09-30 14:27:30:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 14:27:31:INFO:Reseller error message is: Reseller Name already exists
+2025-09-30 14:27:31:INFO:Clicked the 'OK' button successfully
+2025-09-30 14:27:31:INFO:Existed Reseller Name: 'Nagashree1', Reseller Phone: '8989898989', Reseller Email: 'nagashreenaik040@gmail.com', Reseller Address: 'BTM', Expected error: 'Email ID already exists'
+2025-09-30 14:27:31:INFO:Cleared Reselller Name field
+2025-09-30 14:27:31:INFO:Entered Reseller Name: 'Nagashree1'
+2025-09-30 14:27:31:INFO:Cleared Reselller Phone field
+2025-09-30 14:27:31:INFO:Entered Reseller Phone: '8989898989'
+2025-09-30 14:27:31:INFO:Cleared Reselller Email field
+2025-09-30 14:27:31:INFO:Entered Reseller Email: 'nagashreenaik040@gmail.com'
+2025-09-30 14:27:31:INFO:Cleared Reselller Address field
+2025-09-30 14:27:32:INFO:Entered Reseller Address: 'BTM'
+2025-09-30 14:27:32:INFO:Reseller error message is: Email ID already exists
+2025-09-30 14:27:32:INFO:Clicked the 'OK' button successfully
+2025-09-30 14:27:33:INFO:Logout successfully
+2025-09-30 14:27:34:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 14:27:34:INFO:Clicking Sign In
+2025-09-30 14:27:34:INFO:Login successful
+2025-09-30 14:27:36:INFO:Navigated to Reseller page
+2025-09-30 14:27:38:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 14:27:39:INFO:Successfully clicked 'Create' button
+2025-09-30 14:27:39:INFO:'Add Output Type Config' popup displayed
+2025-09-30 14:27:39:INFO:Page contains heading, Text fields and Add button
+2025-09-30 14:27:39:INFO:Entered Reseller Name : Castaneda and Sons
+2025-09-30 14:27:39:INFO:Entered Reseller Phone : 6491239363
+2025-09-30 14:27:39:INFO:Entered Reseller Email : bridgethancock@example.net
+2025-09-30 14:27:40:INFO:Entered Reseller Address : 035 Sims Prairie Suite 761 North Laura, SC 73745
+2025-09-30 14:27:42:INFO:Current Time after add is: 30/09/2025 02:27:42 PM
+2025-09-30 14:27:42:INFO:Clicked the add button
+2025-09-30 14:27:45:INFO:Reseller success message is: Reseller added successfully
+2025-09-30 14:27:45:INFO:Clicked the 'OK' button successfully
+2025-09-30 14:27:53:INFO:Found created Reseller entry: Reseller Name 'Castaneda and Sons', Phone Number  '6491239363', Email ID 'bridgethancock@example.net', Status : Active 
+2025-09-30 14:27:54:INFO:Navigate to the 'Reseller Details' page
+2025-09-30 14:27:59:INFO:Found created Reseller entry: Reseller Name 'Castaneda and Sons', Phone Number  '6491239363', Email ID '6491239363',                                 Wallet : 0, Address : 035 Sims Prairie Suite 761 North Laura, SC 73745, Created By : outdidsuperadmin@gmail.com,                                  Created Date : 30/09/2025 02:27:41 PM, Modified By : -, Modified Date : - ,                                  Status : Active 
+2025-09-30 14:27:59:INFO:Created date 30/09/2025 02:27:41 PM and current date 30/09/2025 02:27:42 PM differ by 1.0 seconds, which is within the 5-second threshold.
+2025-09-30 14:27:59:INFO:Reseller entry verified successfully in the table
+2025-09-30 14:27:59:INFO:Logout successfully
+2025-09-30 14:28:02:INFO:====== WebDriver manager ======
+2025-09-30 14:28:03:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 14:28:04:INFO:Get LATEST chromedriver version for google-chrome
+2025-09-30 14:28:04:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-30 14:28:10:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-09-30 14:28:10:INFO:Clicking Sign In
+2025-09-30 14:28:10:INFO:Login successful
+2025-09-30 14:28:12:INFO:Navigated to Reseller page
+2025-09-30 14:28:14:INFO:Email value: outdidsuperadmin@gmail.com
+2025-09-30 14:28:14:INFO:Successfully clicked 'Create' button
+2025-09-30 14:28:14:INFO:'Add Output Type Config' popup displayed
+2025-09-30 14:28:15:INFO:Page contains heading, Text fields and Add button
+2025-09-30 14:28:15:INFO:Entered Reseller Name : Castaneda and Sons
+2025-09-30 14:28:16:INFO:Entered Reseller Phone : 6491239363
+2025-09-30 14:28:16:INFO:Entered Reseller Email : bridgethancock@example.net
+2025-09-30 14:28:16:INFO:Entered Reseller Address : 035 Sims Prairie Suite 761 North Laura, SC 73745
+2025-09-30 14:28:18:INFO:Current Time after add is: 30/09/2025 02:28:18 PM
+2025-09-30 14:28:18:INFO:Clicked the add button

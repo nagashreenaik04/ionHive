@@ -40,6 +40,18 @@ class ResellerPage(BasePage):
     #'//div[text() ="Email ID already exists"]'
     reseller_error2_msg = (By.XPATH, '(//h2[text()="Error"]/following::div)[1]')
 
+    #View Reseller Details
+    res_name_dtls = (By.XPATH, "//div[text()='Reseller Name: ']/span")
+    res_phone_dtls = (By.XPATH, "//div[text()='Phone Number:  ']/span")
+    res_email_dtls = (By.XPATH, "//div[text()='Email ID: ']/span")
+    res_wallet_dtls = (By.XPATH, "//div[text()='Reseller Wallet: ']/span")
+    res_address_dtls = (By.XPATH, "//div[text()='Address: ']/span")
+    res_createdBy_dtls = (By.XPATH, "//div[text()='Created By: ']/span")
+    res_createdDate_dtls = (By.XPATH, "//div[text()='Created Date: ']/span")
+    res_modifiedBy_dtls = (By.XPATH, "//div[text()='Modified By: ']/span")
+    res_modifiedDate_dtls = (By.XPATH, "//div[text()='Modified Date: ']/span")
+    res_status_dtls = (By.XPATH, "//div[text()='Status: ']/span")
+
 
 
     def __init__(self, driver):
@@ -154,6 +166,38 @@ class ResellerPage(BasePage):
                 return True
 
         raise ValueError(f"View button for reseller '{reseller_email}' not found")
+
+
+    def get_reseller_name_details(self):
+        return self.find_element(self.res_name_dtls).text
+
+    def get_reseller_phone_details(self):
+        return self.find_element(self.res_phone_dtls).text
+
+    def get_reseller_email_details(self):
+        return self.find_element(self.res_email_dtls).text
+
+    def get_reseller_wallet_details(self):
+        return self.find_element(self.res_wallet_dtls).text
+
+    def get_reseller_address_details(self):
+        return self.find_element(self.res_address_dtls).text
+
+    def get_reseller_createdby_details(self):
+        return self.find_element(self.res_createdBy_dtls).text
+
+    def get_reseller_createdDate_details(self):
+        return self.find_element(self.res_createdDate_dtls).text
+
+    def get_reseller_modifiedBy_details(self):
+        return self.find_element(self.res_modifiedBy_dtls).text
+
+    def get_reseller_modifiedDate_details(self):
+        return self.find_element(self.res_modifiedDate_dtls).text
+
+    def get_reseller_status_details(self):
+        return self.find_element(self.res_status_dtls).text
+
 
 
 

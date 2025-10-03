@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccc1d322-3647-4587-9e7b-e9eab5992426" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_reseller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/device_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_device.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.logs" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.logs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/reseller_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reseller_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/debug_signIn_btn__2025-09-29_15-04-36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/debug_signIn_btn__2025-09-29_15-04-38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/debug_signIn_btn_outdidassociation_gmail.com_2025-09-29_15-04-37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/test_type_name_field_failure_2025-09-27_16-17-49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/test_type_name_field_failure_2025-09-29_10-06-31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/test_type_name_field_failure_2025-09-29_10-10-54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/test_type_name_field_failure_2025-09-29_14-42-43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/verify_otc_edit_failure_2025-09-29_14-48-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_reseller.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reseller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test_reseller.TestOTC.test_create_reseller.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_reseller.TestOTC.test_create_reseller.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Python tests for test_reseller.TestOTC.test_create_reseller" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ionHive" />
