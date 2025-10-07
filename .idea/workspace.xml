@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccc1d322-3647-4587-9e7b-e9eab5992426" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/utilities/device_data_provider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/vehicle_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.logs" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.logs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/device_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/device_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/reseller_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reseller_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_device.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_device.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_reseller.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reseller.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

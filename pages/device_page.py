@@ -56,6 +56,8 @@ class ChargerPage(BasePage):
     status_span = (By.TAG_NAME, "span")
     active_label = (By.XPATH, ".//label[@class='active']")
 
+    def __init__(self, driver):
+        super().__init__(driver)
 
     def click_device_drpdwn(self):
         self.click(self.device_drpdwn)

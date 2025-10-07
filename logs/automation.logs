@@ -4873,3 +4873,42 @@ Stacktrace:
 2025-10-06 15:36:40:ERROR:Test failed, screenshot saved at: ./screenshots\test_create_charger_in_table_failure_2025-10-06_15-36-40.png
 2025-10-06 15:36:40:ERROR:Success message 'Charger added successfully' not found or incorrect: 'Charger ID'
 2025-10-06 15:36:40:ERROR:Screenshot saved at: ./screenshots\create_charger_failure_2025-10-06_15-36-40.png
+2025-10-07 10:05:50:INFO:====== WebDriver manager ======
+2025-10-07 10:05:52:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-07 10:05:52:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-07 10:05:53:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-07 10:05:54:INFO:WebDriver version 140.0.7339.207 selected
+2025-10-07 10:05:54:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-10-07 10:05:54:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-10-07 10:05:54:INFO:Driver downloading response is 200
+2025-10-07 10:05:55:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-07 10:05:55:INFO:Driver has been saved in cache [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207]
+2025-10-07 10:06:00:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-07 10:06:01:INFO:Clicking Sign In
+2025-10-07 10:06:01:INFO:Login successful
+2025-10-07 10:06:03:INFO:Navigated to Unallocated Charger page
+2025-10-07 10:06:05:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-07 10:06:05:INFO:Unallocated charger page Heading verified successfully
+2025-10-07 10:06:05:INFO:Table Heading is: List Of Chargers
+2025-10-07 10:06:05:INFO:Unallocated Charger Table verified successfully
+2025-10-07 10:06:07:INFO:Page Heading is: Add Manage Device
+2025-10-07 10:06:07:INFO:Add Device page Heading verified successfully
+2025-10-07 10:06:08:INFO:Enter Charger ID : FlXAEDR3
+2025-10-07 10:06:08:INFO:Enter Vendor : sfw
+2025-10-07 10:06:08:INFO:Enter Charger Model : 3.5 KW
+2025-10-07 10:06:08:INFO:Enter Charger Type : AC
+2025-10-07 10:06:08:INFO:Enter Charger Max Current : 6
+2025-10-07 10:06:08:INFO:Enter Charger Max Power : 2697
+2025-10-07 10:06:09:INFO:Enter Charger WiFi Module : True
+2025-10-07 10:06:09:INFO:Enter Charger Bluetooth Module : False
+2025-10-07 10:06:09:INFO:Enter Charger Connector Type : Gun
+2025-10-07 10:06:14:INFO:Type name options: ['CCS2', 'TYPE1', 'Type 951', 'Type 378', 'Type2', 'Type 748', 'Type 820', 'TYPE01', 'Type 825', 'Type 984', 'Type 369', 'Type 960', 'Type 150', 'Type 773', 'Type 312', 'Type 376', 'Type 629', 'Type01', 'e6YG', 'Type5', 'pCJ2hG', 'Mfq', 'y', 'AhLop']
+2025-10-07 10:06:14:INFO:Enter type Name : Type01
+2025-10-07 10:06:17:INFO:Current Time after add is: 07/10/2025 10:06:17 AM
+2025-10-07 10:06:17:INFO:Clicked the 'Add' button
+2025-10-07 10:06:18:INFO:Charger Created success message is: Charger added successfully
+2025-10-07 10:06:18:INFO:Clicked the 'OK' button successfully
+2025-10-07 10:06:18:ERROR:Failed to verify created charger entry in table: 'Charger ID'
+2025-10-07 10:06:18:ERROR:Test failed, screenshot saved at: ./screenshots\test_create_charger_in_table_failure_2025-10-07_10-06-18.png
+2025-10-07 10:06:18:ERROR:Success message 'Charger added successfully' not found or incorrect: 'Charger ID'
+2025-10-07 10:06:18:ERROR:Screenshot saved at: ./screenshots\create_charger_failure_2025-10-07_10-06-18.png
