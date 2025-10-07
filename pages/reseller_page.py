@@ -20,7 +20,7 @@ class ResellerPage(BasePage):
     reseller_address = (By.XPATH, '//input[@placeholder="Address"]')
 
     # List of Reseller table
-    otc_table = (By.XPATH, "//table[@class='table table-striped']")
+    reseller_table = (By.XPATH, "//table[@class='table table-striped']")
     table_header = (By.TAG_NAME, "thead")
     table_header_cell = (By.TAG_NAME, "th")
     row_table = (By.XPATH, ".//tbody/tr")
@@ -109,10 +109,10 @@ class ResellerPage(BasePage):
     def get_table_data(self):
         """Retrieve all data from the Reseller table as a list of dictionaries."""
         # Wait for the table to be visible
-        self.wait_for_element(self.otc_table)
+        self.wait_for_element(self.reseller_table)
 
         # Locate the table
-        table = self.find_element(self.otc_table)
+        table = self.find_element(self.reseller_table)
 
         # Get headers
         headers = [header.text.strip() for header in table.find_elements(*self.table_header_cell)]
@@ -156,8 +156,8 @@ class ResellerPage(BasePage):
         :return: True if clicked, raises ValueError otherwise
         """
         # Wait for table before searching
-        self.wait_for_element(self.otc_table)
-        rows = self.find_element(self.otc_table).find_elements(*self.row_table)
+        self.wait_for_element(self.reseller_table)
+        rows = self.find_element(self.reseller_table).find_elements(*self.row_table)
 
         for row in rows:
             if reseller_email in row.text:

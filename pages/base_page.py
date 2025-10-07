@@ -5,6 +5,7 @@ from selenium.webdriver.support.select import Select
 
 
 class BasePage:
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -53,6 +54,13 @@ class BasePage:
     def get_attribute(self, locator, attribute):
         element = self.wait_for_element(locator)
         return element.get_attribute(attribute) or ""
+
+    def get_all_options_from_dropdown(self, locator):
+        """
+        Returns a list of all visible texts in the dropdown element.
+        """
+        drpSelect = Select(self.wait_for_element(locator))
+        return [option.text for option in drpSelect.options]
 
 
 

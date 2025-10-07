@@ -317,7 +317,7 @@ class TestReseller:
                 self.logger.info("Reseller entry verified successfully in the table")
 
             except Exception as e:
-                self.logger.error(f"Failed to verify OTC entry in table: {str(e)}")
+                self.logger.error(f"Failed to verify added reseller entry in table: {str(e)}")
                 screenshot_path = screenshot_util.capture_screenshot("test_added_otc_in_table_failure")
                 self.logger.error(f"Test failed, screenshot saved at: {screenshot_path}")
                 raise

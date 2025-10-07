@@ -4255,3 +4255,621 @@ Stacktrace:
 2025-09-30 14:28:16:INFO:Entered Reseller Address : 035 Sims Prairie Suite 761 North Laura, SC 73745
 2025-09-30 14:28:18:INFO:Current Time after add is: 30/09/2025 02:28:18 PM
 2025-09-30 14:28:18:INFO:Clicked the add button
+2025-10-06 10:35:04:INFO:====== WebDriver manager ======
+2025-10-06 10:35:05:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 10:35:06:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 10:35:06:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 10:35:08:INFO:WebDriver version 140.0.7339.207 selected
+2025-10-06 10:35:08:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-10-06 10:35:08:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-10-06 10:35:08:INFO:Driver downloading response is 200
+2025-10-06 10:35:09:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 10:35:10:INFO:Driver has been saved in cache [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207]
+2025-10-06 10:35:17:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 10:35:17:INFO:Clicking Sign In
+2025-10-06 10:35:17:INFO:Login successful
+2025-10-06 10:35:20:INFO:Navigated to OTC page
+2025-10-06 10:35:22:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 10:35:22:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 10:35:22:INFO:Table Heading is: List Of Chargers
+2025-10-06 10:35:22:INFO:Unallocated Charger Table verified successfully
+2025-10-06 10:41:26:INFO:====== WebDriver manager ======
+2025-10-06 10:41:27:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 10:41:28:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 10:41:28:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 10:41:32:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 10:41:32:INFO:Clicking Sign In
+2025-10-06 10:41:32:INFO:Login successful
+2025-10-06 10:41:35:INFO:Navigated to OTC page
+2025-10-06 10:41:37:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 10:41:37:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 10:41:38:INFO:Table Heading is: List Of Chargers
+2025-10-06 10:41:38:INFO:Unallocated Charger Table verified successfully
+2025-10-06 10:41:40:INFO:Page Heading is: Add Manage Device
+2025-10-06 10:41:40:INFO:Add Device page Heading verified successfully
+2025-10-06 11:14:17:INFO:====== WebDriver manager ======
+2025-10-06 11:14:18:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:14:19:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:14:19:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 11:14:31:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 11:14:31:INFO:Clicking Sign In
+2025-10-06 11:14:31:INFO:Login successful
+2025-10-06 11:14:34:INFO:Navigated to Unallocated Charger page
+2025-10-06 11:14:36:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 11:14:36:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 11:14:36:INFO:Table Heading is: List Of Chargers
+2025-10-06 11:14:36:INFO:Unallocated Charger Table verified successfully
+2025-10-06 11:14:38:INFO:Page Heading is: Add Manage Device
+2025-10-06 11:14:38:INFO:Add Device page Heading verified successfully
+2025-10-06 11:20:30:INFO:====== WebDriver manager ======
+2025-10-06 11:20:31:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:20:32:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:20:33:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 11:20:36:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 11:20:36:INFO:Clicking Sign In
+2025-10-06 11:20:36:INFO:Login successful
+2025-10-06 11:20:40:INFO:Navigated to Unallocated Charger page
+2025-10-06 11:20:42:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 11:20:42:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 11:20:42:INFO:Table Heading is: List Of Chargers
+2025-10-06 11:20:42:INFO:Unallocated Charger Table verified successfully
+2025-10-06 11:20:44:INFO:Page Heading is: Add Manage Device
+2025-10-06 11:20:44:INFO:Add Device page Heading verified successfully
+2025-10-06 11:21:27:INFO:====== WebDriver manager ======
+2025-10-06 11:21:28:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:21:29:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:21:29:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 11:21:33:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 11:21:33:INFO:Clicking Sign In
+2025-10-06 11:21:33:INFO:Login successful
+2025-10-06 11:21:35:INFO:Navigated to Unallocated Charger page
+2025-10-06 11:21:38:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 11:21:38:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 11:21:38:INFO:Table Heading is: List Of Chargers
+2025-10-06 11:21:38:INFO:Unallocated Charger Table verified successfully
+2025-10-06 11:21:40:INFO:Page Heading is: Add Manage Device
+2025-10-06 11:21:40:INFO:Add Device page Heading verified successfully
+2025-10-06 11:33:56:INFO:====== WebDriver manager ======
+2025-10-06 11:33:57:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:34:03:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:34:04:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 11:34:34:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 11:34:34:INFO:Clicking Sign In
+2025-10-06 11:34:35:INFO:Login successful
+2025-10-06 11:34:38:INFO:Navigated to Unallocated Charger page
+2025-10-06 11:34:40:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 11:34:40:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 11:34:40:INFO:Table Heading is: List Of Chargers
+2025-10-06 11:34:40:INFO:Unallocated Charger Table verified successfully
+2025-10-06 11:34:42:INFO:Page Heading is: Add Manage Device
+2025-10-06 11:34:42:INFO:Add Device page Heading verified successfully
+2025-10-06 11:36:19:INFO:====== WebDriver manager ======
+2025-10-06 11:36:20:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:36:21:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:36:21:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 11:36:25:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 11:36:25:INFO:Clicking Sign In
+2025-10-06 11:36:25:INFO:Login successful
+2025-10-06 11:36:28:INFO:Navigated to Unallocated Charger page
+2025-10-06 11:36:30:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 11:36:30:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 11:36:30:INFO:Table Heading is: List Of Chargers
+2025-10-06 11:36:30:INFO:Unallocated Charger Table verified successfully
+2025-10-06 11:36:32:INFO:Page Heading is: Add Manage Device
+2025-10-06 11:36:32:INFO:Add Device page Heading verified successfully
+2025-10-06 11:38:42:INFO:====== WebDriver manager ======
+2025-10-06 11:38:43:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:38:44:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:38:44:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 11:38:48:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 11:38:48:INFO:Clicking Sign In
+2025-10-06 11:38:48:INFO:Login successful
+2025-10-06 11:38:51:INFO:Navigated to Unallocated Charger page
+2025-10-06 11:38:53:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 11:38:53:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 11:38:53:INFO:Table Heading is: List Of Chargers
+2025-10-06 11:38:53:INFO:Unallocated Charger Table verified successfully
+2025-10-06 11:38:56:INFO:Page Heading is: Add Manage Device
+2025-10-06 11:38:56:INFO:Add Device page Heading verified successfully
+2025-10-06 11:40:42:INFO:====== WebDriver manager ======
+2025-10-06 11:40:43:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:40:43:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:40:44:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 11:40:47:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 11:40:48:INFO:Clicking Sign In
+2025-10-06 11:40:48:INFO:Login successful
+2025-10-06 11:40:51:INFO:Navigated to Unallocated Charger page
+2025-10-06 11:40:53:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 11:40:53:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 11:40:53:INFO:Table Heading is: List Of Chargers
+2025-10-06 11:40:53:INFO:Unallocated Charger Table verified successfully
+2025-10-06 11:40:55:INFO:Page Heading is: Add Manage Device
+2025-10-06 11:40:55:INFO:Add Device page Heading verified successfully
+2025-10-06 11:43:01:INFO:====== WebDriver manager ======
+2025-10-06 11:43:02:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:43:02:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:43:03:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 11:43:06:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 11:43:07:INFO:Clicking Sign In
+2025-10-06 11:43:07:INFO:Login successful
+2025-10-06 11:43:09:INFO:Navigated to Unallocated Charger page
+2025-10-06 11:43:11:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 11:43:11:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 11:43:11:INFO:Table Heading is: List Of Chargers
+2025-10-06 11:43:11:INFO:Unallocated Charger Table verified successfully
+2025-10-06 11:43:14:INFO:Page Heading is: Add Manage Device
+2025-10-06 11:43:14:INFO:Add Device page Heading verified successfully
+2025-10-06 11:44:23:INFO:====== WebDriver manager ======
+2025-10-06 11:44:24:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:44:24:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 11:44:25:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 11:44:28:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 11:44:28:INFO:Clicking Sign In
+2025-10-06 11:44:28:INFO:Login successful
+2025-10-06 11:44:31:INFO:Navigated to Unallocated Charger page
+2025-10-06 11:44:33:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 11:44:33:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 11:44:33:INFO:Table Heading is: List Of Chargers
+2025-10-06 11:44:33:INFO:Unallocated Charger Table verified successfully
+2025-10-06 11:44:35:INFO:Page Heading is: Add Manage Device
+2025-10-06 11:44:35:INFO:Add Device page Heading verified successfully
+2025-10-06 12:02:27:INFO:====== WebDriver manager ======
+2025-10-06 12:02:28:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:02:29:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:02:29:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:02:32:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 12:02:33:INFO:Clicking Sign In
+2025-10-06 12:02:33:INFO:Login successful
+2025-10-06 12:02:36:INFO:Navigated to Unallocated Charger page
+2025-10-06 12:02:38:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 12:02:38:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 12:02:38:INFO:Table Heading is: List Of Chargers
+2025-10-06 12:02:38:INFO:Unallocated Charger Table verified successfully
+2025-10-06 12:02:40:INFO:Page Heading is: Add Manage Device
+2025-10-06 12:02:40:INFO:Add Device page Heading verified successfully
+2025-10-06 12:14:45:INFO:====== WebDriver manager ======
+2025-10-06 12:14:46:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:14:46:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:14:47:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:14:50:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 12:14:51:INFO:Clicking Sign In
+2025-10-06 12:14:51:INFO:Login successful
+2025-10-06 12:15:52:INFO:====== WebDriver manager ======
+2025-10-06 12:15:53:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:15:53:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:15:54:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:15:57:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 12:15:57:INFO:Clicking Sign In
+2025-10-06 12:15:57:INFO:Login successful
+2025-10-06 12:16:00:INFO:Navigated to Unallocated Charger page
+2025-10-06 12:16:02:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 12:16:02:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 12:16:02:INFO:Table Heading is: List Of Chargers
+2025-10-06 12:16:02:INFO:Unallocated Charger Table verified successfully
+2025-10-06 12:16:05:INFO:Page Heading is: Add Manage Device
+2025-10-06 12:16:05:INFO:Add Device page Heading verified successfully
+2025-10-06 12:16:05:INFO:Enter Charger ID : e3g
+2025-10-06 12:16:05:INFO:Enter Vendor : HDAnkMjgvdxvHXxUZig
+2025-10-06 12:16:05:INFO:Enter Charger Model : 7.4 KW
+2025-10-06 12:16:05:INFO:Enter Charger Type : DC
+2025-10-06 12:19:15:INFO:====== WebDriver manager ======
+2025-10-06 12:19:16:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:19:17:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:19:17:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:19:20:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 12:19:21:INFO:Clicking Sign In
+2025-10-06 12:19:21:INFO:Login successful
+2025-10-06 12:19:24:INFO:Navigated to Unallocated Charger page
+2025-10-06 12:19:26:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 12:19:26:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 12:19:26:INFO:Table Heading is: List Of Chargers
+2025-10-06 12:19:26:INFO:Unallocated Charger Table verified successfully
+2025-10-06 12:19:28:INFO:Page Heading is: Add Manage Device
+2025-10-06 12:19:28:INFO:Add Device page Heading verified successfully
+2025-10-06 12:19:28:INFO:Enter Charger ID : rcOF
+2025-10-06 12:19:29:INFO:Enter Vendor : NsYPDWlHZQZYIJUIU
+2025-10-06 12:19:29:INFO:Enter Charger Model : 22 KW
+2025-10-06 12:19:29:INFO:Enter Charger Type : DC
+2025-10-06 12:19:29:INFO:Enter Charger Max Current : 2
+2025-10-06 12:19:29:INFO:Enter Charger Max Power : 12510
+2025-10-06 12:20:31:INFO:====== WebDriver manager ======
+2025-10-06 12:20:32:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:20:33:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:20:33:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:20:37:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 12:20:37:INFO:Clicking Sign In
+2025-10-06 12:20:37:INFO:Login successful
+2025-10-06 12:20:40:INFO:Navigated to Unallocated Charger page
+2025-10-06 12:20:42:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 12:20:42:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 12:20:42:INFO:Table Heading is: List Of Chargers
+2025-10-06 12:20:42:INFO:Unallocated Charger Table verified successfully
+2025-10-06 12:20:44:INFO:Page Heading is: Add Manage Device
+2025-10-06 12:20:44:INFO:Add Device page Heading verified successfully
+2025-10-06 12:20:44:INFO:Enter Charger ID : D
+2025-10-06 12:20:45:INFO:Enter Vendor : TaNdowtRowSTtTC
+2025-10-06 12:20:45:INFO:Enter Charger Model : 22 KW
+2025-10-06 12:20:45:INFO:Enter Charger Type : DC
+2025-10-06 12:20:45:INFO:Enter Charger Max Current : 2
+2025-10-06 12:20:46:INFO:Enter Charger Max Power : 21354
+2025-10-06 12:20:46:INFO:Enter Charger WiFi Module : False
+2025-10-06 12:20:46:INFO:Enter Charger Bluetooth Module : True
+2025-10-06 12:20:46:INFO:Enter Charger Connector Type : Gun
+2025-10-06 12:22:28:INFO:====== WebDriver manager ======
+2025-10-06 12:22:29:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:22:29:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:22:30:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:22:34:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 12:22:35:INFO:Clicking Sign In
+2025-10-06 12:22:35:INFO:Login successful
+2025-10-06 12:22:37:INFO:Navigated to Unallocated Charger page
+2025-10-06 12:22:39:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 12:22:39:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 12:22:39:INFO:Table Heading is: List Of Chargers
+2025-10-06 12:22:39:INFO:Unallocated Charger Table verified successfully
+2025-10-06 12:22:42:INFO:Page Heading is: Add Manage Device
+2025-10-06 12:22:42:INFO:Add Device page Heading verified successfully
+2025-10-06 12:22:42:INFO:Enter Charger ID : vdPbTj
+2025-10-06 12:22:42:INFO:Enter Vendor : usax
+2025-10-06 12:22:42:INFO:Enter Charger Model : 11 KW
+2025-10-06 12:22:42:INFO:Enter Charger Type : DC
+2025-10-06 12:22:42:INFO:Enter Charger Max Current : 6
+2025-10-06 12:22:43:INFO:Enter Charger Max Power : 14976
+2025-10-06 12:22:43:INFO:Enter Charger WiFi Module : True
+2025-10-06 12:22:43:INFO:Enter Charger Bluetooth Module : True
+2025-10-06 12:22:43:INFO:Enter Charger Connector Type : Socket
+2025-10-06 12:22:53:INFO:Type name options: ['Type 224', 'Type 847', 'Type 651', 'GwRCk2EI', 'Type 750', 'Type 245', 'Type 351', 'TYPE1', 'Type 853', 'Type 857', 'Type 101', 'Socket', 'Type 344', 'Ad1', 'Pk', 'iP']
+2025-10-06 12:22:53:INFO:Enter type Name : Type 224
+2025-10-06 12:24:23:INFO:====== WebDriver manager ======
+2025-10-06 12:24:24:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:24:25:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:24:25:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:24:29:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 12:24:30:INFO:Clicking Sign In
+2025-10-06 12:24:30:INFO:Login successful
+2025-10-06 12:24:32:INFO:Navigated to Unallocated Charger page
+2025-10-06 12:24:34:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 12:24:34:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 12:24:35:INFO:Table Heading is: List Of Chargers
+2025-10-06 12:24:35:INFO:Unallocated Charger Table verified successfully
+2025-10-06 12:24:37:INFO:Page Heading is: Add Manage Device
+2025-10-06 12:24:37:INFO:Add Device page Heading verified successfully
+2025-10-06 12:24:37:INFO:Enter Charger ID : DNb7yqc2
+2025-10-06 12:24:37:INFO:Enter Vendor : gCxn fRQWlhxgasSlj
+2025-10-06 12:24:37:INFO:Enter Charger Model : 22 KW
+2025-10-06 12:24:38:INFO:Enter Charger Type : AC
+2025-10-06 12:24:38:INFO:Enter Charger Max Current : 19
+2025-10-06 12:24:38:INFO:Enter Charger Max Power : 20538
+2025-10-06 12:24:38:INFO:Enter Charger WiFi Module : False
+2025-10-06 12:24:38:INFO:Enter Charger Bluetooth Module : False
+2025-10-06 12:24:39:INFO:Enter Charger Connector Type : Gun
+2025-10-06 12:24:49:INFO:Type name options: ['CCS2', 'TYPE1', 'Type 951', 'Type 378', 'Type2', 'Type 748', 'Type 820', 'TYPE01', 'Type 825', 'Type 984', 'Type 369', 'Type 960', 'Type 150', 'Type 773', 'Type 312', 'Type 376', 'Type 629', 'Type01', 'e6YG', 'Type5', 'pCJ2hG', 'Mfq', 'y', 'AhLop']
+2025-10-06 12:24:49:INFO:Enter type Name : Type2
+2025-10-06 12:59:00:INFO:====== WebDriver manager ======
+2025-10-06 12:59:01:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:59:02:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 12:59:02:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:59:06:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 12:59:06:INFO:Clicking Sign In
+2025-10-06 12:59:06:INFO:Login successful
+2025-10-06 12:59:09:INFO:Navigated to Unallocated Charger page
+2025-10-06 12:59:11:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 12:59:11:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 12:59:11:INFO:Table Heading is: List Of Chargers
+2025-10-06 12:59:11:INFO:Unallocated Charger Table verified successfully
+2025-10-06 12:59:13:INFO:Page Heading is: Add Manage Device
+2025-10-06 12:59:13:INFO:Add Device page Heading verified successfully
+2025-10-06 12:59:14:INFO:Enter Charger ID : E66RDOtVO3c5N
+2025-10-06 12:59:14:INFO:Enter Vendor : uxDKJrqFxnP
+2025-10-06 12:59:14:INFO:Enter Charger Model : 11 KW
+2025-10-06 12:59:14:INFO:Enter Charger Type : DC
+2025-10-06 12:59:14:INFO:Enter Charger Max Current : 27
+2025-10-06 12:59:14:INFO:Enter Charger Max Power : 21963
+2025-10-06 12:59:14:INFO:Enter Charger WiFi Module : True
+2025-10-06 12:59:14:INFO:Enter Charger Bluetooth Module : True
+2025-10-06 12:59:15:INFO:Enter Charger Connector Type : Socket
+2025-10-06 12:59:25:INFO:Type name options: ['Type 224', 'Type 847', 'Type 651', 'GwRCk2EI', 'Type 750', 'Type 245', 'Type 351', 'TYPE1', 'Type 853', 'Type 857', 'Type 101', 'Socket', 'Type 344', 'Ad1', 'Pk', 'iP']
+2025-10-06 12:59:25:INFO:Enter type Name : Type 224
+2025-10-06 12:59:30:INFO:Current Time after add is: 06/10/2025 12:59:30 PM
+2025-10-06 12:59:30:INFO:Clicked the 'Add' button
+2025-10-06 12:59:31:INFO:Created success message is: Charger added successfully
+2025-10-06 12:59:31:INFO:Clicked the 'OK' button successfully
+2025-10-06 12:59:31:ERROR:Failed to verify Charger entry in table: 'Charger ID'
+2025-10-06 12:59:31:ERROR:Test failed, screenshot saved at: ./screenshots\test_create_charger_in_table_failure_2025-10-06_12-59-31.png
+2025-10-06 14:41:41:INFO:====== WebDriver manager ======
+2025-10-06 14:41:42:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 14:41:43:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 14:41:43:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 14:41:49:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 14:41:49:INFO:Clicking Sign In
+2025-10-06 14:41:49:INFO:Login successful
+2025-10-06 14:41:52:INFO:Navigated to Unallocated Charger page
+2025-10-06 14:41:54:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 14:41:54:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 14:41:54:INFO:Table Heading is: List Of Chargers
+2025-10-06 14:41:54:INFO:Unallocated Charger Table verified successfully
+2025-10-06 14:41:57:INFO:Page Heading is: Add Manage Device
+2025-10-06 14:41:57:INFO:Add Device page Heading verified successfully
+2025-10-06 14:41:57:INFO:Enter Charger ID : mHaWp
+2025-10-06 14:41:57:INFO:Enter Vendor : QQMLc
+2025-10-06 14:41:57:INFO:Enter Charger Model : 11 KW
+2025-10-06 14:41:58:INFO:Enter Charger Type : AC
+2025-10-06 14:41:58:INFO:Enter Charger Max Current : 27
+2025-10-06 14:41:58:INFO:Enter Charger Max Power : 18782
+2025-10-06 14:41:58:INFO:Enter Charger WiFi Module : True
+2025-10-06 14:41:58:INFO:Enter Charger Bluetooth Module : True
+2025-10-06 14:41:58:INFO:Enter Charger Connector Type : Gun
+2025-10-06 14:42:09:INFO:Type name options: ['CCS2', 'TYPE1', 'Type 951', 'Type 378', 'Type2', 'Type 748', 'Type 820', 'TYPE01', 'Type 825', 'Type 984', 'Type 369', 'Type 960', 'Type 150', 'Type 773', 'Type 312', 'Type 376', 'Type 629', 'Type01', 'e6YG', 'Type5', 'pCJ2hG', 'Mfq', 'y', 'AhLop']
+2025-10-06 14:42:09:INFO:Enter type Name : Type 748
+2025-10-06 14:42:14:INFO:Current Time after add is: 06/10/2025 02:42:14 PM
+2025-10-06 14:42:14:INFO:Clicked the 'Add' button
+2025-10-06 14:42:14:INFO:Created success message is: Charger added successfully
+2025-10-06 14:42:15:INFO:Clicked the 'OK' button successfully
+2025-10-06 14:42:18:ERROR:Failed to verify Charger entry in table: 'Charger ID'
+2025-10-06 14:42:19:ERROR:Test failed, screenshot saved at: ./screenshots\test_create_charger_in_table_failure_2025-10-06_14-42-18.png
+2025-10-06 14:42:32:INFO:====== WebDriver manager ======
+2025-10-06 14:42:33:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 14:42:34:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 14:42:34:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 14:42:39:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 14:42:40:INFO:Clicking Sign In
+2025-10-06 14:42:40:INFO:Login successful
+2025-10-06 14:42:42:INFO:Navigated to Unallocated Charger page
+2025-10-06 14:42:44:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 14:42:44:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 14:42:44:INFO:Table Heading is: List Of Chargers
+2025-10-06 14:42:44:INFO:Unallocated Charger Table verified successfully
+2025-10-06 14:42:47:INFO:Page Heading is: Add Manage Device
+2025-10-06 14:42:47:INFO:Add Device page Heading verified successfully
+2025-10-06 14:42:47:INFO:Enter Charger ID : ETj4qz
+2025-10-06 14:42:47:INFO:Enter Vendor : NbexpwMrnQ
+2025-10-06 14:42:47:INFO:Enter Charger Model : 7.4 KW
+2025-10-06 14:42:47:INFO:Enter Charger Type : AC
+2025-10-06 14:42:47:INFO:Enter Charger Max Current : 19
+2025-10-06 14:42:48:INFO:Enter Charger Max Power : 11301
+2025-10-06 14:42:48:INFO:Enter Charger WiFi Module : False
+2025-10-06 14:42:48:INFO:Enter Charger Bluetooth Module : False
+2025-10-06 14:42:48:INFO:Enter Charger Connector Type : Gun
+2025-10-06 14:42:58:INFO:Type name options: ['CCS2', 'TYPE1', 'Type 951', 'Type 378', 'Type2', 'Type 748', 'Type 820', 'TYPE01', 'Type 825', 'Type 984', 'Type 369', 'Type 960', 'Type 150', 'Type 773', 'Type 312', 'Type 376', 'Type 629', 'Type01', 'e6YG', 'Type5', 'pCJ2hG', 'Mfq', 'y', 'AhLop']
+2025-10-06 14:42:58:INFO:Enter type Name : Type 825
+2025-10-06 14:43:04:INFO:Current Time after add is: 06/10/2025 02:43:04 PM
+2025-10-06 14:43:04:INFO:Clicked the 'Add' button
+2025-10-06 14:43:04:INFO:Created success message is: Charger added successfully
+2025-10-06 14:43:04:INFO:Clicked the 'OK' button successfully
+2025-10-06 14:43:10:ERROR:Failed to verify Charger entry in table: 'Charger ID'
+2025-10-06 14:43:10:ERROR:Test failed, screenshot saved at: ./screenshots\test_create_charger_in_table_failure_2025-10-06_14-43-10.png
+2025-10-06 15:08:53:INFO:====== WebDriver manager ======
+2025-10-06 15:08:54:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:08:54:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:08:55:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 15:08:58:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 15:08:58:INFO:Clicking Sign In
+2025-10-06 15:08:58:INFO:Login successful
+2025-10-06 15:09:01:INFO:Navigated to Unallocated Charger page
+2025-10-06 15:09:04:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 15:09:04:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 15:09:04:INFO:Table Heading is: List Of Chargers
+2025-10-06 15:09:04:INFO:Unallocated Charger Table verified successfully
+2025-10-06 15:09:06:INFO:Page Heading is: Add Manage Device
+2025-10-06 15:09:06:INFO:Add Device page Heading verified successfully
+2025-10-06 15:09:06:INFO:Enter Charger ID : eH
+2025-10-06 15:09:06:INFO:Enter Vendor : B
+2025-10-06 15:09:06:INFO:Enter Charger Model : 3.5 KW
+2025-10-06 15:09:06:INFO:Enter Charger Type : DC
+2025-10-06 15:09:06:INFO:Enter Charger Max Current : 5
+2025-10-06 15:09:06:INFO:Enter Charger Max Power : 19037
+2025-10-06 15:09:06:INFO:Enter Charger WiFi Module : False
+2025-10-06 15:09:07:INFO:Enter Charger Bluetooth Module : True
+2025-10-06 15:09:07:INFO:Enter Charger Connector Type : Socket
+2025-10-06 15:09:17:INFO:Type name options: ['Type 224', 'Type 847', 'Type 651', 'GwRCk2EI', 'Type 750', 'Type 245', 'Type 351', 'TYPE1', 'Type 853', 'Type 857', 'Type 101', 'Socket', 'Type 344', 'Ad1', 'Pk', 'iP']
+2025-10-06 15:09:17:INFO:Enter type Name : Type 344
+2025-10-06 15:09:22:INFO:Current Time after add is: 06/10/2025 03:09:22 PM
+2025-10-06 15:09:22:INFO:Clicked the 'Add' button
+2025-10-06 15:09:23:INFO:Created success message is: Charger added successfully
+2025-10-06 15:09:23:INFO:Clicked the 'OK' button successfully
+2025-10-06 15:09:23:INFO:Charger Created success message is: Charger added successfully
+2025-10-06 15:09:23:INFO:Clicked the 'OK' button successfully
+2025-10-06 15:09:23:ERROR:Failed to verify created charger entry in table: 'Charger ID'
+2025-10-06 15:09:23:ERROR:Test failed, screenshot saved at: ./screenshots\test_create_charger_in_table_failure_2025-10-06_15-09-23.png
+2025-10-06 15:09:23:ERROR:Success message 'Charger added successfully' not found or incorrect: 'Charger ID'
+2025-10-06 15:09:23:ERROR:Screenshot saved at: ./screenshots\create_charger_failure_2025-10-06_15-09-23.png
+2025-10-06 15:11:32:INFO:====== WebDriver manager ======
+2025-10-06 15:11:33:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:11:34:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:11:34:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 15:11:37:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 15:11:38:INFO:Clicking Sign In
+2025-10-06 15:11:38:INFO:Login successful
+2025-10-06 15:11:41:INFO:Navigated to Unallocated Charger page
+2025-10-06 15:11:43:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 15:11:43:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 15:11:43:INFO:Table Heading is: List Of Chargers
+2025-10-06 15:11:43:INFO:Unallocated Charger Table verified successfully
+2025-10-06 15:11:45:INFO:Page Heading is: Add Manage Device
+2025-10-06 15:11:45:INFO:Add Device page Heading verified successfully
+2025-10-06 15:11:45:INFO:Enter Charger ID : RRl8Iamh
+2025-10-06 15:11:46:INFO:Enter Vendor : iNdobHo
+2025-10-06 15:11:46:INFO:Enter Charger Model : 3.5 KW
+2025-10-06 15:11:46:INFO:Enter Charger Type : DC
+2025-10-06 15:11:46:INFO:Enter Charger Max Current : 4
+2025-10-06 15:11:46:INFO:Enter Charger Max Power : 15495
+2025-10-06 15:11:46:INFO:Enter Charger WiFi Module : False
+2025-10-06 15:11:47:INFO:Enter Charger Bluetooth Module : False
+2025-10-06 15:11:47:INFO:Enter Charger Connector Type : Socket
+2025-10-06 15:11:57:INFO:Type name options: ['Type 224', 'Type 847', 'Type 651', 'GwRCk2EI', 'Type 750', 'Type 245', 'Type 351', 'TYPE1', 'Type 853', 'Type 857', 'Type 101', 'Socket', 'Type 344', 'Ad1', 'Pk', 'iP']
+2025-10-06 15:11:57:INFO:Enter type Name : Type 224
+2025-10-06 15:12:02:INFO:Current Time after add is: 06/10/2025 03:12:02 PM
+2025-10-06 15:12:02:INFO:Clicked the 'Add' button
+2025-10-06 15:12:03:INFO:Created success message is: Charger added successfully
+2025-10-06 15:12:03:INFO:Clicked the 'OK' button successfully
+2025-10-06 15:12:03:INFO:Charger Created success message is: Charger added successfully
+2025-10-06 15:12:03:INFO:Clicked the 'OK' button successfully
+2025-10-06 15:12:03:ERROR:Failed to verify created charger entry in table: 'Charger ID'
+2025-10-06 15:12:03:ERROR:Test failed, screenshot saved at: ./screenshots\test_create_charger_in_table_failure_2025-10-06_15-12-03.png
+2025-10-06 15:12:04:ERROR:Success message 'Charger added successfully' not found or incorrect: 'Charger ID'
+2025-10-06 15:12:04:ERROR:Screenshot saved at: ./screenshots\create_charger_failure_2025-10-06_15-12-03.png
+2025-10-06 15:15:05:INFO:====== WebDriver manager ======
+2025-10-06 15:15:05:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:15:06:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:15:06:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 15:15:10:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 15:15:10:INFO:Clicking Sign In
+2025-10-06 15:15:10:INFO:Login successful
+2025-10-06 15:15:13:INFO:Navigated to Unallocated Charger page
+2025-10-06 15:15:15:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 15:15:15:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 15:15:15:INFO:Table Heading is: List Of Chargers
+2025-10-06 15:15:15:INFO:Unallocated Charger Table verified successfully
+2025-10-06 15:15:17:INFO:Page Heading is: Add Manage Device
+2025-10-06 15:15:17:INFO:Add Device page Heading verified successfully
+2025-10-06 15:15:18:INFO:Enter Charger ID : Gx
+2025-10-06 15:15:18:INFO:Enter Vendor : thdURzci
+2025-10-06 15:15:18:INFO:Enter Charger Model : 22 KW
+2025-10-06 15:15:18:INFO:Enter Charger Type : DC
+2025-10-06 15:15:19:INFO:Enter Charger Max Current : 25
+2025-10-06 15:15:19:INFO:Enter Charger Max Power : 20604
+2025-10-06 15:15:19:INFO:Enter Charger WiFi Module : True
+2025-10-06 15:15:19:INFO:Enter Charger Bluetooth Module : False
+2025-10-06 15:15:19:INFO:Enter Charger Connector Type : Gun
+2025-10-06 15:15:30:INFO:Type name options: ['CCS2', 'TYPE1', 'Type 951', 'Type 378', 'Type2', 'Type 748', 'Type 820', 'TYPE01', 'Type 825', 'Type 984', 'Type 369', 'Type 960', 'Type 150', 'Type 773', 'Type 312', 'Type 376', 'Type 629', 'Type01', 'e6YG', 'Type5', 'pCJ2hG', 'Mfq', 'y', 'AhLop']
+2025-10-06 15:15:30:INFO:Enter type Name : Type 960
+2025-10-06 15:15:35:INFO:Current Time after add is: 06/10/2025 03:15:35 PM
+2025-10-06 15:15:35:INFO:Clicked the 'Add' button
+2025-10-06 15:15:36:INFO:Created success message is: Charger added successfully
+2025-10-06 15:15:36:INFO:Clicked the 'OK' button successfully
+2025-10-06 15:15:36:INFO:Charger Created success message is: Charger added successfully
+2025-10-06 15:15:36:INFO:Clicked the 'OK' button successfully
+2025-10-06 15:15:36:ERROR:Failed to verify created charger entry in table: 'ID'
+2025-10-06 15:15:36:ERROR:Test failed, screenshot saved at: ./screenshots\test_create_charger_in_table_failure_2025-10-06_15-15-36.png
+2025-10-06 15:15:36:ERROR:Success message 'Charger added successfully' not found or incorrect: 'ID'
+2025-10-06 15:15:36:ERROR:Screenshot saved at: ./screenshots\create_charger_failure_2025-10-06_15-15-36.png
+2025-10-06 15:18:33:INFO:====== WebDriver manager ======
+2025-10-06 15:18:34:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:18:34:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:18:35:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 15:18:39:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 15:18:39:INFO:Clicking Sign In
+2025-10-06 15:18:39:INFO:Login successful
+2025-10-06 15:18:42:INFO:Navigated to Unallocated Charger page
+2025-10-06 15:18:44:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 15:18:44:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 15:18:44:INFO:Table Heading is: List Of Chargers
+2025-10-06 15:18:44:INFO:Unallocated Charger Table verified successfully
+2025-10-06 15:18:47:INFO:Page Heading is: Add Manage Device
+2025-10-06 15:18:47:INFO:Add Device page Heading verified successfully
+2025-10-06 15:18:47:INFO:Enter Charger ID : qzyoMEzSTfI
+2025-10-06 15:18:47:INFO:Enter Vendor : RfliQTRseFq HmA
+2025-10-06 15:18:47:INFO:Enter Charger Model : 3.5 KW
+2025-10-06 15:18:48:INFO:Enter Charger Type : AC
+2025-10-06 15:18:48:INFO:Enter Charger Max Current : 21
+2025-10-06 15:18:48:INFO:Enter Charger Max Power : 3485
+2025-10-06 15:18:48:INFO:Enter Charger WiFi Module : False
+2025-10-06 15:18:48:INFO:Enter Charger Bluetooth Module : True
+2025-10-06 15:18:48:INFO:Enter Charger Connector Type : Gun
+2025-10-06 15:18:59:INFO:Type name options: ['CCS2', 'TYPE1', 'Type 951', 'Type 378', 'Type2', 'Type 748', 'Type 820', 'TYPE01', 'Type 825', 'Type 984', 'Type 369', 'Type 960', 'Type 150', 'Type 773', 'Type 312', 'Type 376', 'Type 629', 'Type01', 'e6YG', 'Type5', 'pCJ2hG', 'Mfq', 'y', 'AhLop']
+2025-10-06 15:18:59:INFO:Enter type Name : Type 951
+2025-10-06 15:19:04:INFO:Current Time after add is: 06/10/2025 03:19:04 PM
+2025-10-06 15:19:04:INFO:Clicked the 'Add' button
+2025-10-06 15:19:05:INFO:Created success message is: Charger added successfully
+2025-10-06 15:19:05:INFO:Clicked the 'OK' button successfully
+2025-10-06 15:19:05:INFO:Charger Created success message is: Charger added successfully
+2025-10-06 15:19:05:INFO:Clicked the 'OK' button successfully
+2025-10-06 15:19:05:INFO:Reseller entry verified successfully in the table
+2025-10-06 15:19:05:INFO:Logout successfully
+2025-10-06 15:25:21:INFO:====== WebDriver manager ======
+2025-10-06 15:25:22:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:25:22:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:25:23:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 15:25:26:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 15:25:27:INFO:Clicking Sign In
+2025-10-06 15:25:27:INFO:Login successful
+2025-10-06 15:25:30:INFO:Navigated to Unallocated Charger page
+2025-10-06 15:25:32:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 15:25:32:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 15:25:32:INFO:Table Heading is: List Of Chargers
+2025-10-06 15:25:32:INFO:Unallocated Charger Table verified successfully
+2025-10-06 15:25:34:INFO:Page Heading is: Add Manage Device
+2025-10-06 15:25:34:INFO:Add Device page Heading verified successfully
+2025-10-06 15:25:35:INFO:Enter Charger ID : 8Kuu0
+2025-10-06 15:25:35:INFO:Enter Vendor : BtesSxMWOGcP
+2025-10-06 15:25:35:INFO:Enter Charger Model : 3.5 KW
+2025-10-06 15:25:35:INFO:Enter Charger Type : AC
+2025-10-06 15:25:36:INFO:Enter Charger Max Current : 14
+2025-10-06 15:25:36:INFO:Enter Charger Max Power : 12669
+2025-10-06 15:25:36:INFO:Enter Charger WiFi Module : False
+2025-10-06 15:25:36:INFO:Enter Charger Bluetooth Module : False
+2025-10-06 15:25:36:INFO:Enter Charger Connector Type : Gun
+2025-10-06 15:25:47:INFO:Type name options: ['CCS2', 'TYPE1', 'Type 951', 'Type 378', 'Type2', 'Type 748', 'Type 820', 'TYPE01', 'Type 825', 'Type 984', 'Type 369', 'Type 960', 'Type 150', 'Type 773', 'Type 312', 'Type 376', 'Type 629', 'Type01', 'e6YG', 'Type5', 'pCJ2hG', 'Mfq', 'y', 'AhLop']
+2025-10-06 15:25:47:INFO:Enter type Name : Type 820
+2025-10-06 15:25:52:INFO:Current Time after add is: 06/10/2025 03:25:52 PM
+2025-10-06 15:25:52:INFO:Clicked the 'Add' button
+2025-10-06 15:25:53:INFO:Charger Created success message is: Charger added successfully
+2025-10-06 15:25:53:INFO:Clicked the 'OK' button successfully
+2025-10-06 15:25:53:INFO:Reseller entry verified successfully in the table
+2025-10-06 15:25:53:INFO:Logout successfully
+2025-10-06 15:29:04:INFO:====== WebDriver manager ======
+2025-10-06 15:29:05:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:29:05:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:29:06:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 15:29:09:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 15:29:10:INFO:Clicking Sign In
+2025-10-06 15:29:10:INFO:Login successful
+2025-10-06 15:29:13:INFO:Navigated to Unallocated Charger page
+2025-10-06 15:29:15:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 15:29:15:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 15:29:15:INFO:Table Heading is: List Of Chargers
+2025-10-06 15:29:15:INFO:Unallocated Charger Table verified successfully
+2025-10-06 15:29:17:INFO:Page Heading is: Add Manage Device
+2025-10-06 15:29:17:INFO:Add Device page Heading verified successfully
+2025-10-06 15:29:17:INFO:Enter Charger ID : 7D1S
+2025-10-06 15:29:17:INFO:Enter Vendor : WShUKE
+2025-10-06 15:29:17:INFO:Enter Charger Model : 22 KW
+2025-10-06 15:29:17:INFO:Enter Charger Type : DC
+2025-10-06 15:29:18:INFO:Enter Charger Max Current : 30
+2025-10-06 15:29:18:INFO:Enter Charger Max Power : 870
+2025-10-06 15:29:18:INFO:Enter Charger WiFi Module : False
+2025-10-06 15:29:18:INFO:Enter Charger Bluetooth Module : False
+2025-10-06 15:29:18:INFO:Enter Charger Connector Type : Gun
+2025-10-06 15:29:28:INFO:Type name options: ['CCS2', 'TYPE1', 'Type 951', 'Type 378', 'Type2', 'Type 748', 'Type 820', 'TYPE01', 'Type 825', 'Type 984', 'Type 369', 'Type 960', 'Type 150', 'Type 773', 'Type 312', 'Type 376', 'Type 629', 'Type01', 'e6YG', 'Type5', 'pCJ2hG', 'Mfq', 'y', 'AhLop']
+2025-10-06 15:29:29:INFO:Enter type Name : CCS2
+2025-10-06 15:29:34:INFO:Current Time after add is: 06/10/2025 03:29:34 PM
+2025-10-06 15:29:34:INFO:Clicked the 'Add' button
+2025-10-06 15:29:34:INFO:Charger Created success message is: Charger added successfully
+2025-10-06 15:29:34:INFO:Clicked the 'OK' button successfully
+2025-10-06 15:29:35:ERROR:Failed to verify created charger entry in table: 'ID'
+2025-10-06 15:29:35:ERROR:Test failed, screenshot saved at: ./screenshots\test_create_charger_in_table_failure_2025-10-06_15-29-35.png
+2025-10-06 15:29:35:ERROR:Success message 'Charger added successfully' not found or incorrect: 'ID'
+2025-10-06 15:29:35:ERROR:Screenshot saved at: ./screenshots\create_charger_failure_2025-10-06_15-29-35.png
+2025-10-06 15:36:16:INFO:====== WebDriver manager ======
+2025-10-06 15:36:17:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:36:18:INFO:Get LATEST chromedriver version for google-chrome
+2025-10-06 15:36:18:INFO:Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 15:36:22:INFO:Navigating to URL: http://172.235.29.67:7777/superadmin/
+2025-10-06 15:36:22:INFO:Clicking Sign In
+2025-10-06 15:36:22:INFO:Login successful
+2025-10-06 15:36:25:INFO:Navigated to Unallocated Charger page
+2025-10-06 15:36:27:INFO:Page Heading is: Manage Device-Unallocated
+2025-10-06 15:36:27:INFO:Unallocated charger page Heading verified successfully
+2025-10-06 15:36:27:INFO:Table Heading is: List Of Chargers
+2025-10-06 15:36:27:INFO:Unallocated Charger Table verified successfully
+2025-10-06 15:36:29:INFO:Page Heading is: Add Manage Device
+2025-10-06 15:36:29:INFO:Add Device page Heading verified successfully
+2025-10-06 15:36:29:INFO:Enter Charger ID : ccRS
+2025-10-06 15:36:30:INFO:Enter Vendor : MMzeKPCzQIhLF
+2025-10-06 15:36:30:INFO:Enter Charger Model : 11 KW
+2025-10-06 15:36:30:INFO:Enter Charger Type : AC
+2025-10-06 15:36:30:INFO:Enter Charger Max Current : 6
+2025-10-06 15:36:30:INFO:Enter Charger Max Power : 15088
+2025-10-06 15:36:30:INFO:Enter Charger WiFi Module : False
+2025-10-06 15:36:30:INFO:Enter Charger Bluetooth Module : False
+2025-10-06 15:36:30:INFO:Enter Charger Connector Type : Gun
+2025-10-06 15:36:36:INFO:Type name options: ['CCS2', 'TYPE1', 'Type 951', 'Type 378', 'Type2', 'Type 748', 'Type 820', 'TYPE01', 'Type 825', 'Type 984', 'Type 369', 'Type 960', 'Type 150', 'Type 773', 'Type 312', 'Type 376', 'Type 629', 'Type01', 'e6YG', 'Type5', 'pCJ2hG', 'Mfq', 'y', 'AhLop']
+2025-10-06 15:36:36:INFO:Enter type Name : e6YG
+2025-10-06 15:36:39:INFO:Current Time after add is: 06/10/2025 03:36:39 PM
+2025-10-06 15:36:39:INFO:Clicked the 'Add' button
+2025-10-06 15:36:40:INFO:Charger Created success message is: Charger added successfully
+2025-10-06 15:36:40:INFO:Clicked the 'OK' button successfully
+2025-10-06 15:36:40:ERROR:Failed to verify created charger entry in table: 'Charger ID'
+2025-10-06 15:36:40:ERROR:Test failed, screenshot saved at: ./screenshots\test_create_charger_in_table_failure_2025-10-06_15-36-40.png
+2025-10-06 15:36:40:ERROR:Success message 'Charger added successfully' not found or incorrect: 'Charger ID'
+2025-10-06 15:36:40:ERROR:Screenshot saved at: ./screenshots\create_charger_failure_2025-10-06_15-36-40.png
