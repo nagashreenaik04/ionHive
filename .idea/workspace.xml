@@ -5,10 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccc1d322-3647-4587-9e7b-e9eab5992426" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/vehicle_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/device_report_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/revenue_report_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_vehicle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commands.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.logs" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.logs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/device_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/device_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/otc_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/super/otc_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/super/profile_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/super/user_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vehicle_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vehicle_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/add_reseller_failure_2025-09-30_10-30-51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/add_reseller_failure_2025-09-30_12-09-56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/add_reseller_failure_2025-09-30_14-25-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/create_charger_failure_2025-10-06_15-09-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/create_charger_failure_2025-10-06_15-12-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/create_charger_failure_2025-10-06_15-15-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/create_charger_failure_2025-10-06_15-29-35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/create_charger_failure_2025-10-06_15-36-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/create_charger_failure_2025-10-07_10-06-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_added_otc_in_table_failure_2025-09-30_10-31-31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_added_otc_in_table_failure_2025-09-30_10-34-53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_added_otc_in_table_failure_2025-09-30_12-09-56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_create_charger_in_table_failure_2025-10-06_12-59-31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_create_charger_in_table_failure_2025-10-06_14-42-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_create_charger_in_table_failure_2025-10-06_14-43-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_create_charger_in_table_failure_2025-10-06_15-09-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_create_charger_in_table_failure_2025-10-06_15-12-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_create_charger_in_table_failure_2025-10-06_15-15-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_create_charger_in_table_failure_2025-10-06_15-29-35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_create_charger_in_table_failure_2025-10-06_15-36-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/test_create_charger_in_table_failure_2025-10-07_10-06-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/super/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_otc.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/super/test_otc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +67,7 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python tests.Python tests for test_reseller.TestOTC.test_create_reseller.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_role.TestOTC.test_deactive_and_active_first_five_rows.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -44,7 +75,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\PycharmProjects\ionHive\pages\super" />
+      <recent name="C:\Users\LENOVO\PycharmProjects\ionHive\tests\super" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_role.TestOTC.test_deactive_and_active_first_five_rows">
     <configuration name="Python tests for test_reseller.TestOTC.test_create_reseller" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ionHive" />
       <option name="ENV_FILES" value="" />
@@ -60,8 +97,24 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_role.TestOTC.test_deactive_and_active_first_five_rows" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ionHive" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/super" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_role.TestOTC.test_deactive_and_active_first_five_rows&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_role.TestOTC.test_deactive_and_active_first_five_rows" />
         <item itemvalue="Python tests.Python tests for test_reseller.TestOTC.test_create_reseller" />
       </list>
     </recent_temporary>

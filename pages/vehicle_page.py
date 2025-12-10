@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 
 class VehiclePage(BasePage):
 
-    actual_suc_msg = "Vehicle model added successfully"
 
     #Locators
     vehicle_link = (By.XPATH, "//span[text()='Vehicle Model']")
@@ -27,6 +26,10 @@ class VehiclePage(BasePage):
     suc_msg = (By.XPATH, "//h2[text()='Vehicle model added successfully']")
     ok_btn = (By.XPATH, "//button[text()='OK']")
 
+    # logout locator
+    logout_drpdwn = (By.XPATH, '//*[@id="root"]/div/nav/div[2]/ul/li[2]')
+    logout_btn = (By.XPATH, "(//i[@class='ti-power-off text-primary'])[2]")
+
     def __init__(self, driver):
         super().__init__(driver)
 
@@ -44,6 +47,9 @@ class VehiclePage(BasePage):
 
     def get_add_vehicle_heading(self):
         return self.find_element(self.add_vhcl_heading).text
+
+    def get_add_vehicle_btn(self):
+        return self.find_element(self.addVehicle_btn).text
 
     def enter_model_field(self, modelField):
         self.send_keys(self.model_field,modelField)
@@ -71,5 +77,9 @@ class VehiclePage(BasePage):
 
     def click_ok_btn(self):
         self.click(self.ok_btn)
+
+    def click_logout(self):
+        self.click(self.logout_drpdwn)
+        self.click(self.logout_btn)
 
 

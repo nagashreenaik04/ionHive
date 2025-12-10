@@ -2,6 +2,7 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
+from selenium.common.exceptions import NoSuchElementException
 
 
 class BasePage:
@@ -61,6 +62,13 @@ class BasePage:
         """
         drpSelect = Select(self.wait_for_element(locator))
         return [option.text for option in drpSelect.options]
+
+    def is_element_present(self, locator):
+        try:
+            self.driver.find_element(*locator)
+            return True
+        except NoSuchElementException:
+            return False
 
 
 

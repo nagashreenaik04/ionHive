@@ -1,5 +1,7 @@
 
 #pytest -v tests/test_login.py --html=report.html --self-contained-html
+#--html=./reports/test_ALogin.html --self-contained-html
+
 #pytest -v tests/test_login.py --html=report.html --self-contained-html --title="Login Test Report" --env="Windows 11, Chrome 137.0.7151.104"
 #pytest -v -m regression tests/test_login.py
 #pytest -v -m sanity tests/test_login.py
@@ -7,4 +9,6 @@
 
 #pytest -v tests/test_login.py --browser_name=edge
 #pytest -v -m "regression or sanity" tests/test_login.py
+
+
 
