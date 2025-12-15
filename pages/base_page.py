@@ -70,6 +70,11 @@ class BasePage:
         except NoSuchElementException:
             return False
 
+    def open_new_tab_and_switch(self, driver):
+        driver.execute_script("window.open('');")
+        driver.switch_to.window(driver.window_handles[-1])
+
+
 
 
 

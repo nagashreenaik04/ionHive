@@ -8,6 +8,17 @@ class UserPage(BasePage):
     user_page = (By.XPATH, '//h3[text()="Manage User\'s"]')
     user_list_table = (By.XPATH, '//h4[text()="List Of User\'s"]')
 
+    #Add User
+    add_user_heading = (By.XPATH, '//h4[text()="Add User\'s"]')
+    add_user_btn = (By.XPATH, '//button[text()="Add User\'s"]')
+    role_name = (By.XPATH,'//span[text()="Role Name"]/following::select')
+    user_name = (By.XPATH, '(//span[text()="User Name"]/following::input)[1]')
+    email = (By.XPATH, '(//span[text()="Email ID"]/following::input)[1]')
+    phone = (By.XPATH, '(//span[text()="Phone"]/following::input)[1]')
+    password = (By.XPATH, '(//span[text()="Password"]/following::input)[1]')
+    add_btn = (By.XPATH, "//button[text()='Add']")
+    close_icon = (By.XPATH, "//span[text()='×']")
+
 
     #search
     search_field = (By.XPATH, '//input[@placeholder="Search now"]')
@@ -68,6 +79,10 @@ class UserPage(BasePage):
     status_inp = (By.XPATH, "//label[text()='Status']//following::select")
     update_btn = (By.XPATH, "//button[text()='Update']")
 
+    #add message
+    add_suc_msg = (By.XPATH, "//h2[text()='User added successfully']")
+    already_existed_err_msg = (By.XPATH, "//div[text()='This email is already registered under the same role']")
+
     #edit success
     edit_suc_msg = (By.XPATH, "//h2[text()='User updated successfully']")
     ok_btn = (By.XPATH, "//button[text()='OK']")
@@ -98,6 +113,12 @@ class UserPage(BasePage):
         cells = first_row.find_elements(By.TAG_NAME, "td")
         return [cell.text.strip() for cell in cells]
 
+    def get_row_data(self, row_number):
+        """Return list of values for any user row (1-based row_number)."""
+        row = self.find_elements(self.row_table)[row_number - 1]  # subtract 1 for 0-based index
+        cells = row.find_elements(By.TAG_NAME, "td")
+        return [cell.text.strip() for cell in cells]
+
     def click_view_btn_first_row(self):
         """Click View button of first row"""
         first_row = self.find_elements(self.row_table)[0]
@@ -118,8 +139,68 @@ class UserPage(BasePage):
         self.clear_element(self.password_inp)
         self.send_keys(self.password_inp,password)
 
+    def select_status(self,status):
+        self.webelement_selectFromDropdown(self.status_inp,status)
+
+    def get_add_suc_msg(self):
+        return self.find_element(self.add_suc_msg).text
+
     def get_edit_suc_msg(self):
         return self.find_element(self.edit_suc_msg).text
+
+    def click_add_user_btn(self):
+        self.click(self.add_user_btn)
+
+    def select_role_name(self,roleName):
+        self.webelement_selectFromDropdown(self.role_name,roleName)
+
+    def enter_user_name(self,userName):
+        self.send_keys(self.user_name,userName)
+
+    def enter_email(self,email):
+        self.send_keys(self.email,email)
+
+    def enter_phone(self,phone):
+        self.send_keys(self.phone,phone)
+
+    def enter_password(self,password):
+        self.send_keys(self.password,password)
+
+    def click_add_btn(self):
+        self.click(self.add_btn)
+
+    def click_close_btn(self):
+        self.click(self.close_icon)
+
+    def get_add_user_heading(self):
+        return self.find_element(self.add_user_heading).text
+
+    def get_table_row_data(self, row_number):
+        """
+        Returns the FULL text of the given row number from the reseller table.
+        Example: row 4 → returns full text of that row.
+        """
+        # Wait for the table
+        self.wait_for_element(self.user_table)
+
+        # Build row XPath using relative locator inside the table
+        row_xpath = f"(//table[@class='table table-striped']//tbody//tr)[{row_number}]"
+
+        row = self.driver.find_element(By.XPATH, row_xpath)
+        return row.text.strip()
+
+    def scroll_to_user_row(self, row_number):
+        row = self.driver.find_element(
+            By.XPATH, f"(//table//tbody/tr)[{row_number}]"
+        )
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView({block: 'center'});", row
+        )
+
+    def get_alr_exst_err_msg(self):
+        return self.find_element(self.already_existed_err_msg).text
+
+
 
 
 

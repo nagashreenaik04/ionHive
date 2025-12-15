@@ -52,6 +52,18 @@ class ResellerPage(BasePage):
     res_modifiedDate_dtls = (By.XPATH, "//div[text()='Modified Date: ']/span")
     res_status_dtls = (By.XPATH, "//div[text()='Status: ']/span")
 
+    #Edit button
+    view_btn = (By.XPATH, "//button[contains(text(),'View')]")
+    edit_btn = (By.XPATH, "//button[text()='Edit']")
+    reseller_name_inp = (By.XPATH, "(//label[text()='Reseller Name']/following::input)[1]")
+    email_inp = (By.XPATH, "(//label[text()='Email ID']/following::input)[1]")
+    phone_inp = (By.XPATH, "(//label[text()='Phone Number']/following::input)[1]")
+    wallet_inp =  (By.XPATH, "(//label[text()='Wallet']/following::input)[1]")
+    address_inp = (By.XPATH, "(//label[text()='Address']/following::input)[1]")
+    status_inp = (By.XPATH, "//label[text()='Status']/following::select")
+    update_btn = (By.XPATH, "//button[text()='Update']")
+    updt_suc_msg = (By.XPATH, "//h2[text()='Reseller updated successfully']")
+
 
 
     def __init__(self, driver):
@@ -197,6 +209,67 @@ class ResellerPage(BasePage):
 
     def get_reseller_status_details(self):
         return self.find_element(self.res_status_dtls).text
+
+    def click_edit_btn(self):
+        self.click(self.edit_btn)
+
+    def edit_phone_field(self,phone):
+        self.clear_element(self.phone_inp)
+        self.send_keys(self.phone_inp,phone)
+
+    def edit_password_field(self,password):
+        self.clear_element(self.phone_inp)
+        self.send_keys(self.phone_inp,password)
+
+    def edit_reseller_address(self, address):
+        self.clear_element(self.address_inp)
+        self.send_keys(self.address_inp,address)
+
+    def edit_wallet(self,wallet):
+        self.clear_element(self.wallet_inp)
+        self.send_keys(self.wallet_inp,wallet)
+
+    def select_status(self, status):
+        self.webelement_selectFromDropdown(self.status_inp, status)
+
+    def click_update_btn(self):
+        self.click(self.update_btn)
+
+    def get_updat_suc_msg(self):
+        return self.find_element(self.updt_suc_msg).text
+
+    def get_table_row_data(self, row_number):
+        """
+        Returns the FULL text of the given row number from the reseller table.
+        Example: row 4 → returns full text of that row.
+        """
+        # Wait for the table
+        self.wait_for_element(self.reseller_table)
+
+        # Build row XPath using relative locator inside the table
+        row_xpath = f"(//table[@class='table table-striped']//tbody//tr)[{row_number}]"
+
+        row = self.driver.find_element(By.XPATH, row_xpath)
+        return row.text.strip()
+
+    def click_view_btn_row_number(self, row_number):
+        """
+        Clicks the 'View' button of a specific row number in the reseller table.
+        Example: row_number = 4 → clicks the View button in 4th row.
+        """
+        # Wait for table to be visible
+        self.wait_for_element(self.reseller_table)
+
+        # XPath for the View button within the given row
+        view_xpath = f"(//table[@class='table table-striped']//tbody//tr[{row_number}]//button[contains(text(),'View')])[1]"
+
+        try:
+            view_btn = self.driver.find_element(By.XPATH, view_xpath)
+            view_btn.click()
+            return True
+        except Exception:
+            raise ValueError(f"View button not found for row number: {row_number}")
+
 
 
 
